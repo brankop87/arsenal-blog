@@ -42,9 +42,12 @@ src/
     tournament/
       TournamentShell.tsx
       TournamentSectionHeading.tsx
+      CountdownBanner.tsx
       MatchCard.tsx
       StandingsTable.tsx
       SponsorGrid.tsx
+      SponsorshipPackages.tsx
+      HistoryTimeline.tsx
       TeamGrid.tsx
       NewsPreviewGrid.tsx
 
@@ -61,6 +64,7 @@ src/
       teams.json
       sponsors.json
       news.json
+      history.json
 
 content/
   posts/
@@ -92,7 +96,7 @@ content/
   - vraca upcoming meceve
   - vraca gotove rezultate
   - sortira tabelu
-  - vraca timove, sponzore i vesti
+  - vraca timove, sponzore, vesti i istorijat
 
 ### UI logika
 
@@ -102,7 +106,7 @@ content/
 
 - `src/components/tournament/*`
   - reusable delovi za turnir modul
-  - kartice, tabela, sekcije, shell i pregledi
+  - kartice, tabela, countdown, istorijat, sponzorski paketi, sekcije, shell i pregledi
 
 ## 4. Gde se menja sadrzaj
 
@@ -126,6 +130,7 @@ Menjaju se ovde:
 - `src/data/turnir/teams.json`
 - `src/data/turnir/sponsors.json`
 - `src/data/turnir/news.json`
+- `src/data/turnir/history.json`
 
 To je trenutno najjednostavniji i najstabilniji sistem za start.
 

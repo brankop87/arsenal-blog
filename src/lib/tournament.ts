@@ -3,6 +3,7 @@ import standings from '@/data/turnir/standings.json'
 import teams from '@/data/turnir/teams.json'
 import sponsors from '@/data/turnir/sponsors.json'
 import news from '@/data/turnir/news.json'
+import history from '@/data/turnir/history.json'
 
 export type Match = {
   id: string
@@ -53,6 +54,14 @@ export type TournamentNews = {
   category: string
 }
 
+export type HistoryEntry = {
+  year: string
+  winner: string
+  runnerUp: string
+  score: string
+  note: string
+}
+
 export function getTournamentMatches(): Match[] {
   return [...(matches as Match[])].sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime())
 }
@@ -84,4 +93,8 @@ export function getSponsors(): Sponsor[] {
 
 export function getTournamentNews(): TournamentNews[] {
   return [...(news as TournamentNews[])].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+}
+
+export function getTournamentHistory(): HistoryEntry[] {
+  return history as HistoryEntry[]
 }

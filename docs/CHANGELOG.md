@@ -28,6 +28,11 @@
 - dodate reusable komponente za meceve, tabelu, timove, sponzore i vesti
 - turnir preimenovan i pozicioniran kao zaseban brend: `Turnir Cerovac`
 - turnir odvojen u navigaciji i footeru od Arsenal rubrika
+- dodat veliki countdown do poslednje subote u julu na naslovnoj turnira
+- dodat jaci uvodni blok o tradiciji i sponzorskoj vrednosti turnira
+- dodati brzi info blokovi za termin, identitet i cilj turnira
+- dodat istorijat pobednika na naslovnoj turnira
+- dodati sponzorski paketi i jaci CTA za saradnju
 
 ### Branding
 - dodat footer CTA:
