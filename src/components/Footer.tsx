@@ -1,35 +1,53 @@
 import Link from 'next/link'
 
+const links = [
+  { href: '/turnir', label: 'Turnir' },
+  { href: '/kategorije/utakmice', label: 'Utakmice' },
+  { href: '/kategorije/treninzi', label: 'Treninzi' },
+  { href: '/kategorije/takmicenja', label: 'Takmicenja' },
+  { href: '/kategorije/vesti', label: 'Vesti' },
+]
+
 export default function Footer() {
   return (
-    <footer style={{ borderTop: '1px solid #1C1C1C', background: '#0A0A0A', marginTop: '5rem' }}>
-      <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '3rem 1.5rem', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '2rem' }}>
+    <footer style={{ borderTop: '1px solid rgba(255,255,255,0.06)', background: '#090909', marginTop: '5rem', position: 'relative', overflow: 'hidden' }}>
+      <div style={{ position: 'absolute', inset: 0, background: 'radial-gradient(circle at 18% 0%, rgba(239,1,7,0.12) 0%, transparent 26%), radial-gradient(circle at 82% 18%, rgba(196,163,90,0.09) 0%, transparent 18%)' }} />
+      <div style={{ position: 'relative', maxWidth: '1240px', margin: '0 auto', padding: '4rem 1.5rem 3rem', display: 'grid', gridTemplateColumns: '1.2fr 0.8fr 0.9fr', gap: '2rem' }} className="footer-grid">
         <div>
-          <div style={{ fontFamily: "'Playfair Display', serif", fontWeight: 900, fontSize: '1.4rem', color: '#fff', marginBottom: '4px' }}>The Cannon</div>
-          <div style={{ fontFamily: "'Barlow Condensed', sans-serif", fontSize: '0.6rem', letterSpacing: '0.15em', textTransform: 'uppercase', color: '#9C824A', marginBottom: '1rem' }}>Arsenal Blog</div>
-          <p style={{ fontSize: '0.85rem', color: '#555', lineHeight: 1.7 }}>Neformalni blog posvećen Arsenalu. Utakmice, igrači i sve oko kluba.</p>
+          <div style={{ fontFamily: "'Playfair Display', serif", fontWeight: 900, fontSize: '2rem', color: '#fff', marginBottom: '0.35rem' }}>The Cannon</div>
+          <div style={{ fontFamily: "'Barlow Condensed', sans-serif", fontSize: '0.7rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: '#C4A35A', marginBottom: '1.1rem' }}>Arsenal editorial fan blog</div>
+          <p style={{ fontSize: '1rem', color: 'rgba(255,255,255,0.62)', lineHeight: 1.8, maxWidth: '36rem' }}>
+            Mesto za Arsenal price koje imaju ritam, stav i kontekst. Fokus je na utakmicama, treninzima, taktickim detaljima i vestima koje zasluzuju vise od dve recenice.
+          </p>
         </div>
 
         <div>
-          <div style={{ fontFamily: "'Barlow Condensed', sans-serif", fontWeight: 700, fontSize: '0.65rem', letterSpacing: '0.15em', textTransform: 'uppercase', color: '#EF0107', marginBottom: '1rem' }}>Kategorije</div>
-          {[
-            { href: '/kategorije/utakmice', label: 'Utakmice' },
-            { href: '/kategorije/treninzi', label: 'Treninzi' },
-            { href: '/kategorije/takmicenja', label: 'Takmičenja' },
-            { href: '/kategorije/vesti', label: 'Vesti' },
-          ].map(l => (
-            <Link key={l.href} href={l.href} style={{ display: 'block', fontSize: '0.9rem', color: '#666', textDecoration: 'none', marginBottom: '0.4rem' }}>{l.label}</Link>
+          <div style={{ fontFamily: "'Barlow Condensed', sans-serif", fontWeight: 700, fontSize: '0.72rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: '#EF0107', marginBottom: '1rem' }}>Rubrike</div>
+          {links.map((l) => (
+            <Link key={l.href} href={l.href} style={{ display: 'block', fontSize: '1rem', color: 'rgba(255,255,255,0.64)', textDecoration: 'none', marginBottom: '0.65rem' }}>
+              {l.label}
+            </Link>
           ))}
         </div>
 
         <div>
-          <div style={{ fontFamily: "'Barlow Condensed', sans-serif", fontWeight: 700, fontSize: '0.65rem', letterSpacing: '0.15em', textTransform: 'uppercase', color: '#EF0107', marginBottom: '1rem' }}>Info</div>
-          <p style={{ fontSize: '0.85rem', color: '#555', lineHeight: 1.7 }}>Neformalni fan blog. Nije povezan sa Arsenal Football Club Ltd.</p>
+          <div style={{ fontFamily: "'Barlow Condensed', sans-serif", fontWeight: 700, fontSize: '0.72rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: '#EF0107', marginBottom: '1rem' }}>Napomena</div>
+          <p style={{ fontSize: '0.98rem', color: 'rgba(255,255,255,0.6)', lineHeight: 1.8 }}>
+            Nezavisan fan projekat. Sajt nije povezan sa Arsenal Football Club Ltd. niti predstavlja zvanicni klupski kanal.
+          </p>
+          <a href="https://petkovicsolutions.com" target="_blank" rel="noreferrer" style={{ display: 'inline-block', marginTop: '1.2rem', textDecoration: 'none', fontFamily: "'Barlow Condensed', sans-serif", fontWeight: 700, fontSize: '0.74rem', letterSpacing: '0.18em', textTransform: 'uppercase', color: '#C4A35A' }}>
+            Website powered by Petkovic Solutions
+          </a>
         </div>
       </div>
-      <div style={{ borderTop: '1px solid #1C1C1C', textAlign: 'center', padding: '1.5rem', fontSize: '0.7rem', color: '#333', fontFamily: "'Barlow Condensed', sans-serif", letterSpacing: '0.05em' }}>
-        © {new Date().getFullYear()} The Cannon — Fan Blog
+      <div style={{ position: 'relative', borderTop: '1px solid rgba(255,255,255,0.06)', textAlign: 'center', padding: '1.25rem', fontSize: '0.72rem', color: 'rgba(255,255,255,0.3)', fontFamily: "'Barlow Condensed', sans-serif", letterSpacing: '0.08em' }}>
+        © {new Date().getFullYear()} The Cannon | Arsenal fan blog
       </div>
+      <style>{`
+        @media (max-width: 900px) {
+          .footer-grid { grid-template-columns: 1fr !important; }
+        }
+      `}</style>
     </footer>
   )
 }

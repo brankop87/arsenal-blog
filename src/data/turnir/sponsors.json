@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Petkovic Solutions",
+    "category": "Glavni partner",
+    "description": "Digitalna podrska turniru, sajt i online prisustvo.",
+    "website": "https://petkovicsolutions.com"
+  },
+  {
+    "name": "Market Kod Cire",
+    "category": "Lokalni partner",
+    "description": "Podrska organizaciji i osvezenju za igrace i goste.",
+    "website": ""
+  },
+  {
+    "name": "Auto Servis Jovic",
+    "category": "Sponzor ekipe",
+    "description": "Pomoc oko prevoza i logistike za domacina turnira.",
+    "website": ""
+  },
+  {
+    "name": "Kafana Stari Hrast",
+    "category": "Ugostiteljski partner",
+    "description": "Mesto za trece poluvreme i okupljanje publike nakon utakmica.",
+    "website": ""
+  }
+]

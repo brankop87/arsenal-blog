@@ -17,6 +17,7 @@
 
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
+body, h1, h2, h3, h4, p, ul, ol { margin: 0; }
 
 body {
   background: var(--dark);
@@ -24,7 +25,10 @@ body {
   font-family: 'Barlow', sans-serif;
   font-weight: 300;
   -webkit-font-smoothing: antialiased;
+  margin: 0;
 }
+
+a { color: inherit; }
 
 ::-webkit-scrollbar { width: 4px; }
 ::-webkit-scrollbar-track { background: var(--dark); }
@@ -33,6 +37,11 @@ body {
 
 .card-hover { transition: transform 0.3s ease; }
 .card-hover:hover { transform: translateY(-4px); }
+
+.story-list-card:hover {
+  border-color: rgba(255,255,255,0.1) !important;
+  background: rgba(255,255,255,0.035) !important;
+}
 
 /* Article content styles */
 .article-body h2 {
@@ -83,4 +92,12 @@ body {
   border: none;
   border-top: 1px solid var(--gray-2);
   margin: 2.5rem 0;
+}
+.article-body li { margin-bottom: 0.55rem; }
+
+@media (max-width: 768px) {
+  .article-body h2 { font-size: 1.5rem; }
+  .article-body p,
+  .article-body ul,
+  .article-body ol { font-size: 1rem; }
 }

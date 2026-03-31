@@ -1,6 +1,6 @@
 # The Cannon — Arsenal Blog
 
-Magazine-style blog za Arsenal. Next.js 15, TypeScript, Tailwind CSS.
+Magazine-style blog za Arsenal, sa dodatim modularnim `/turnir` microsite delom za lokalni fudbalski turnir. Next.js 15, TypeScript, Tailwind CSS.
 
 ---
 
@@ -12,6 +12,13 @@ npm run dev
 ```
 
 Otvori `http://localhost:3000`
+
+Napomena za Windows/PowerShell:
+
+```bash
+npm.cmd run dev
+npm.cmd run build
+```
 
 ---
 
@@ -53,6 +60,43 @@ Postavi `featured: true` da bi post bio glavni na homepage-u. Samo jedan post tr
 ### Cover slika
 URL slike sa interneta u `coverImage`. Preporučeno: 1200×675px (16:9 format).
 
+Ako `coverImage` ostane prazan, sajt sada automatski koristi branded fallback cover.
+
+---
+
+## Turnir modul
+
+Nova sekcija je dostupna na:
+
+- `/turnir`
+- `/turnir/rezultati`
+- `/turnir/tabela`
+- `/turnir/timovi`
+- `/turnir/sponzori`
+- `/turnir/vesti`
+
+### Gde se menjaju podaci za turnir
+
+Podaci su trenutno lokalni i nalaze se ovde:
+
+- `src/data/turnir/matches.json`
+- `src/data/turnir/standings.json`
+- `src/data/turnir/teams.json`
+- `src/data/turnir/sponsors.json`
+- `src/data/turnir/news.json`
+
+To znaci da za svaku promenu:
+- izmenis JSON
+- uradis push
+- Vercel odradi redeploy
+
+### Plan za kasnije
+
+Ako hocemo unos sa telefona bez ulaska u kod, sledeca faza je:
+- Supabase
+- mali admin panel
+- unos rezultata i vesti preko forme
+
 ---
 
 ## Deploy na Vercel
@@ -61,6 +105,19 @@ URL slike sa interneta u `coverImage`. Preporučeno: 1200×675px (16:9 format).
 2. Otvori [vercel.com](https://vercel.com) → New Project → Import sa GitHub
 3. Vercel prepoznaje Next.js automatski → klikni Deploy
 4. Svaki `git push` automatski rebuilda sajt
+
+Ako se lokalna promena ne vidi na sajtu, to znaci da jos nije otisla nova verzija na GitHub ili da Vercel nije zavrsio deploy.
+
+---
+
+## Projektna dokumentacija
+
+Za nastavak rada obavezno gledati i ove fajlove:
+
+- `MASTER_PLAN.md`
+- `docs/ARCHITECTURE.md`
+- `docs/CHANGELOG.md`
+- `docs/BUGLOG.md`
 
 ---
 

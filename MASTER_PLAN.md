@@ -174,6 +174,20 @@ Samo jedan post ima `featured: true` — prikazuje se kao glavni hero.
 - [x] Markdown sadržaj (gray-matter + remark)
 - [x] 404 stranica
 - [x] Deploy na Vercel
+- [x] Editorial redizajn bloga
+- [x] Fallback branded cover sistem za postove bez slike
+- [x] Footer branding: Powered by Petkovic Solutions
+
+### Faza 1.5 — Turnir microsite ✅
+- [x] `/turnir` glavni pregled
+- [x] `/turnir/rezultati`
+- [x] `/turnir/tabela`
+- [x] `/turnir/timovi`
+- [x] `/turnir/sponzori`
+- [x] `/turnir/vesti`
+- [x] Lokalni JSON data layer za turnir
+- [x] Reusable komponente za meceve, tabelu, timove, sponzore i vesti
+- [x] Integracija bez lomljenja postojeceg bloga
 
 ### Faza 2 — Admin panel (sam unosiš sadržaj)
 - [ ] Supabase projekat i baza
@@ -182,6 +196,7 @@ Samo jedan post ima `featured: true` — prikazuje se kao glavni hero.
 - [ ] Editor za postove (kreiranje, editovanje, brisanje)
 - [ ] Upload slika (Supabase Storage)
 - [ ] Postovi se čuvaju u Supabase DB, ne u .md fajlovima
+- [ ] Admin unos za turnir rezultate i tabelu sa telefona
 - Paket: `@supabase/ssr` (zvanični za Next.js App Router)
 
 ### Faza 3 — Komentari
@@ -340,6 +355,8 @@ Buduće faze dodaju:
 | `Event handlers cannot be passed` | Server komponenta ima onClick/onMouseEnter | Dodaj `'use client'` na vrh fajla |
 | `Module not found: @tailwindcss/typography` | Nije instaliran | `npm install @tailwindcss/typography` |
 | `Couldn't find app directory` | VS Code otvoren u pogrešnom folderu | File → Open Folder → izaberi folder sa `package.json` |
+| `spawn EPERM` tokom builda | Sandbox ograničenje pri buildu | Pokreni build van sandboxa kada lokalni kod deluje ispravno |
+| `npm.ps1 cannot be loaded` | PowerShell execution policy | Koristi `npm.cmd run dev` ili `npm.cmd run build` |
 
 ---
 

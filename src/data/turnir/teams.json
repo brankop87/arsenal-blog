@@ -1,0 +1,56 @@
+[
+  {
+    "name": "FK Tunit",
+    "village": "Tunit",
+    "coach": "Dragan Petrovic",
+    "captain": "Milos Jovanovic",
+    "founded": "1987",
+    "colors": "Crveno-bela",
+    "notes": "Domacin turnira i ekipa koja zeli da nametne visok ritam i agresivnu igru."
+  },
+  {
+    "name": "FK Donji Kraj",
+    "village": "Donji Kraj",
+    "coach": "Sasa Velickovic",
+    "captain": "Nikola Ristic",
+    "founded": "1991",
+    "colors": "Plavo-bela",
+    "notes": "Fizicki vrlo jaka ekipa sa dobrim prekidima i disciplinom u bloku."
+  },
+  {
+    "name": "FK Gornje Polje",
+    "village": "Gornje Polje",
+    "coach": "Branko Ilic",
+    "captain": "Stefan Nikolic",
+    "founded": "1994",
+    "colors": "Zeleno-crna",
+    "notes": "Mlad tim koji igra otvoreno i ne odustaje od presinga."
+  },
+  {
+    "name": "FK Lipovica",
+    "village": "Lipovica",
+    "coach": "Vladimir Simic",
+    "captain": "Aleksa Pavlovic",
+    "founded": "1989",
+    "colors": "Zuto-crna",
+    "notes": "Neprijatan rival koji dobro koristi tranziciju i igru po bokovima."
+  },
+  {
+    "name": "FK Morava",
+    "village": "Morava",
+    "coach": "Marko Djukic",
+    "captain": "Ivan Savic",
+    "founded": "1983",
+    "colors": "Bordo-bela",
+    "notes": "Iskusna turnirska ekipa sa nekoliko igraca koji prave razliku u sredini terena."
+  },
+  {
+    "name": "FK Selo Centar",
+    "village": "Selo Centar",
+    "coach": "Nenad Stankovic",
+    "captain": "Filip Radovanovic",
+    "founded": "1996",
+    "colors": "Narandzasto-crna",
+    "notes": "Organizovan tim koji ume da zatvori utakmicu i kazni greske iz kontre."
+  }
+]
