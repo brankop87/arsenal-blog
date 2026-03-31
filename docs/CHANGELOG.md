@@ -33,5 +33,9 @@
 - dodat footer CTA:
   - `Website powered by Petkovic Solutions`
 
+### Novi sadrzaj
+- dodat novi Arsenal preview post za Southampton u FA Cup cetvrtfinalu
+- dodat free cover image iz Pexels licence za novi post
+
 ### Verifikacija
 - production build uspesno prosao nakon izmena
