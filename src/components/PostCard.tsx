@@ -18,14 +18,21 @@ export default function PostCard({ post, size = 'medium' }: Props) {
   if (size === 'large') {
     return (
       <Link href={`/blog/${post.slug}`} style={{ textDecoration: 'none', display: 'block' }}>
-        <article className="card-hover" style={{ position: 'relative', overflow: 'hidden', borderRadius: '2px', aspectRatio: '16/9', background: '#111', cursor: 'pointer' }}>
+        <article className="card-hover" style={{
+          position: 'relative',
+          overflow: 'hidden',
+          borderRadius: '2px',
+          background: '#111',
+          cursor: 'pointer',
+          minHeight: '420px',
+        }}>
           <div style={{ position: 'absolute', inset: 0, background: post.coverImage ? `url(${post.coverImage}) center/cover no-repeat` : 'linear-gradient(135deg,#1C1C1C,#111)' }} />
           <div style={{ position: 'absolute', top: 0, left: 0, bottom: 0, width: '4px', background: '#EF0107' }} />
-          <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top,rgba(0,0,0,.92) 0%,rgba(0,0,0,.3) 50%,transparent 100%)' }} />
-          <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, padding: '2rem' }}>
-            <span style={{ fontFamily: "'Barlow Condensed',sans-serif", fontWeight: 700, fontSize: '0.65rem', letterSpacing: '0.15em', textTransform: 'uppercase', color: '#EF0107', display: 'block', marginBottom: '0.75rem' }}>{cat}</span>
-            <h2 style={{ fontFamily: "'Playfair Display',serif", fontWeight: 900, fontSize: 'clamp(1.4rem,3vw,2rem)', color: '#fff', lineHeight: 1.2, marginBottom: '0.75rem' }}>{post.title}</h2>
-            <p style={{ fontSize: '0.9rem', color: '#AAA', lineHeight: 1.6, marginBottom: '0.75rem', display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical' as const, overflow: 'hidden' }}>{post.excerpt}</p>
+          <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top,rgba(0,0,0,.95) 0%,rgba(0,0,0,.4) 60%,transparent 100%)' }} />
+          <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, padding: '1.5rem' }}>
+            <span style={{ fontFamily: "'Barlow Condensed',sans-serif", fontWeight: 700, fontSize: '0.65rem', letterSpacing: '0.15em', textTransform: 'uppercase', color: '#EF0107', display: 'block', marginBottom: '0.6rem' }}>{cat}</span>
+            <h2 style={{ fontFamily: "'Playfair Display',serif", fontWeight: 900, fontSize: 'clamp(1.3rem,3vw,2rem)', color: '#fff', lineHeight: 1.2, marginBottom: '0.6rem' }}>{post.title}</h2>
+            <p style={{ fontSize: '0.875rem', color: '#AAA', lineHeight: 1.6, marginBottom: '0.6rem', display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical' as const, overflow: 'hidden' }}>{post.excerpt}</p>
             <span style={{ fontFamily: "'Barlow Condensed',sans-serif", fontSize: '0.65rem', letterSpacing: '0.1em', color: '#555', textTransform: 'uppercase' }}>{date}</span>
           </div>
         </article>
@@ -48,7 +55,6 @@ export default function PostCard({ post, size = 'medium' }: Props) {
     )
   }
 
-  // Medium
   return (
     <Link href={`/blog/${post.slug}`} style={{ textDecoration: 'none', display: 'block' }}>
       <article className="card-hover"
