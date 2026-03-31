@@ -1,18 +1,18 @@
 [
   {
     "id": "m1",
-    "homeTeam": "FK Tunit",
+    "homeTeam": "FK Cerovac",
     "awayTeam": "FK Donji Kraj",
     "date": "2026-06-14",
     "time": "17:00",
-    "venue": "Igraliste Tunit",
+    "venue": "Igraliste Cerovac",
     "status": "scheduled",
     "competitionRound": "1. kolo"
   },
   {
     "id": "m2",
     "homeTeam": "FK Gornje Polje",
-    "awayTeam": "FK Tunit",
+    "awayTeam": "FK Cerovac",
     "date": "2026-06-21",
     "time": "18:30",
     "venue": "Stadion Gornje Polje",
@@ -21,11 +21,11 @@
   },
   {
     "id": "m3",
-    "homeTeam": "FK Tunit",
+    "homeTeam": "FK Cerovac",
     "awayTeam": "FK Lipovica",
     "date": "2026-06-07",
     "time": "16:30",
-    "venue": "Igraliste Tunit",
+    "venue": "Igraliste Cerovac",
     "status": "finished",
     "competitionRound": "Prijateljska utakmica",
     "homeScore": 3,
@@ -34,7 +34,7 @@
   {
     "id": "m4",
     "homeTeam": "FK Morava",
-    "awayTeam": "FK Tunit",
+    "awayTeam": "FK Cerovac",
     "date": "2026-05-31",
     "time": "17:30",
     "venue": "Teren Morava",
@@ -45,11 +45,11 @@
   },
   {
     "id": "m5",
-    "homeTeam": "FK Tunit",
+    "homeTeam": "FK Cerovac",
     "awayTeam": "FK Selo Centar",
     "date": "2026-06-28",
     "time": "19:00",
-    "venue": "Igraliste Tunit",
+    "venue": "Igraliste Cerovac",
     "status": "scheduled",
     "competitionRound": "3. kolo"
   }

@@ -5,8 +5,8 @@ import StandingsTable from '@/components/tournament/StandingsTable'
 import { getStandings } from '@/lib/tournament'
 
 export const metadata: Metadata = {
-  title: 'Turnir Tabela',
-  description: 'Aktuelna tabela turnira u Tunitu.',
+  title: 'Turnir Cerovac Tabela',
+  description: 'Aktuelna tabela turnira u Cerovcu.',
 }
 
 export default function TurnirTabelaPage() {

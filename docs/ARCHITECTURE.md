@@ -11,7 +11,7 @@ Ovaj dokument sluzi da u svakom trenutku znamo:
 Projekat je podeljen na 2 velike celine:
 
 1. Arsenal blog
-2. Turnir microsite
+2. Turnir Cerovac microsite
 
 Obe celine zive u istoj Next.js aplikaciji i dele isti vizuelni jezik, navigaciju i footer.
 
@@ -85,7 +85,7 @@ content/
   - vizuelna tema po kategoriji
   - fallback cover logika kada nema slike
 
-### Turnir logika
+### Turnir Cerovac logika
 
 - `src/lib/tournament.ts`
   - cita lokalne JSON podatke

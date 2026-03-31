@@ -3,7 +3,6 @@ import Link from 'next/link'
 import { useState } from 'react'
 
 const links = [
-  { href: '/turnir', label: 'Turnir' },
   { href: '/kategorije/utakmice', label: 'Utakmice' },
   { href: '/kategorije/treninzi', label: 'Treninzi' },
   { href: '/kategorije/takmicenja', label: 'Takmicenja' },
@@ -33,6 +32,24 @@ export default function Navbar() {
         </Link>
 
         <div style={{ display: 'flex', alignItems: 'center', gap: '1.75rem' }} className="nav-desktop">
+          <Link
+            href="/turnir"
+            style={{
+              textDecoration: 'none',
+              padding: '0.55rem 0.85rem',
+              borderRadius: '999px',
+              border: '1px solid rgba(196,163,90,0.28)',
+              background: 'rgba(196,163,90,0.08)',
+              color: '#f3dfb1',
+              fontFamily: "'Barlow Condensed', sans-serif",
+              fontWeight: 700,
+              fontSize: '0.84rem',
+              letterSpacing: '0.16em',
+              textTransform: 'uppercase',
+            }}
+          >
+            Turnir Cerovac
+          </Link>
           {links.map((l) => (
             <Link
               key={l.href}
@@ -87,6 +104,24 @@ export default function Navbar() {
               {l.label}
             </Link>
           ))}
+          <Link
+            href="/turnir"
+            onClick={() => setOpen(false)}
+            style={{
+              display: 'block',
+              fontFamily: "'Barlow Condensed', sans-serif",
+              fontWeight: 700,
+              fontSize: '1rem',
+              letterSpacing: '0.14em',
+              textTransform: 'uppercase',
+              color: '#f3dfb1',
+              textDecoration: 'none',
+              padding: '0.85rem 0',
+              borderBottom: '1px solid rgba(255,255,255,0.06)',
+            }}
+          >
+            Turnir Cerovac
+          </Link>
         </div>
       )}
 

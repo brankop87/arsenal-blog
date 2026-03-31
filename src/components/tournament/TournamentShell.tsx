@@ -25,6 +25,15 @@ export default function TournamentShell({
       <div style={{ position: 'relative', overflow: 'hidden', borderRadius: '30px', border: '1px solid rgba(255,255,255,0.06)', background: 'radial-gradient(circle at 85% 15%, rgba(196,163,90,0.12) 0%, transparent 22%), linear-gradient(135deg, #161313 0%, #0b0b0b 100%)', padding: '2.6rem 2rem' }}>
         <div style={{ position: 'absolute', inset: '1.5rem auto 1.5rem 0', width: '5px', background: '#C4A35A' }} />
         <div style={{ maxWidth: '800px' }}>
+          <div style={{ display: 'inline-flex', alignItems: 'center', gap: '0.7rem', marginBottom: '0.95rem', padding: '0.45rem 0.7rem', borderRadius: '999px', border: '1px solid rgba(196,163,90,0.25)', background: 'rgba(196,163,90,0.08)' }}>
+            <span style={{ fontFamily: "'Barlow Condensed',sans-serif", fontWeight: 700, fontSize: '0.68rem', letterSpacing: '0.18em', textTransform: 'uppercase', color: '#f3dfb1' }}>
+              Turnir Cerovac
+            </span>
+            <span style={{ width: '1px', height: '12px', background: 'rgba(255,255,255,0.16)' }} />
+            <span style={{ fontFamily: "'Barlow Condensed',sans-serif", fontSize: '0.68rem', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.6)' }}>
+              Lokalna fudbalska tradicija
+            </span>
+          </div>
           <div style={{ fontFamily: "'Barlow Condensed',sans-serif", fontWeight: 700, fontSize: '0.72rem', letterSpacing: '0.22em', textTransform: 'uppercase', color: '#C4A35A', marginBottom: '0.9rem' }}>
             {eyebrow}
           </div>

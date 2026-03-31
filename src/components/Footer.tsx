@@ -1,7 +1,6 @@
 import Link from 'next/link'
 
 const links = [
-  { href: '/turnir', label: 'Turnir' },
   { href: '/kategorije/utakmice', label: 'Utakmice' },
   { href: '/kategorije/treninzi', label: 'Treninzi' },
   { href: '/kategorije/takmicenja', label: 'Takmicenja' },
@@ -28,6 +27,16 @@ export default function Footer() {
               {l.label}
             </Link>
           ))}
+        </div>
+
+        <div>
+          <div style={{ fontFamily: "'Barlow Condensed', sans-serif", fontWeight: 700, fontSize: '0.72rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: '#C4A35A', marginBottom: '1rem' }}>Turnir Cerovac</div>
+          <Link href="/turnir" style={{ display: 'block', fontSize: '1rem', color: '#fff', textDecoration: 'none', marginBottom: '0.65rem' }}>
+            Lokalni turnir i posebna prica
+          </Link>
+          <p style={{ fontSize: '0.98rem', color: 'rgba(255,255,255,0.56)', lineHeight: 1.8 }}>
+            Zaseban microsite za dugovecni i poznati turnir iz Cerovca, odvojen od Arsenal rubrika i spreman da raste kao sopstveni digitalni projekat.
+          </p>
         </div>
 
         <div>

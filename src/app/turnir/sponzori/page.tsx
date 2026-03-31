@@ -5,8 +5,8 @@ import SponsorGrid from '@/components/tournament/SponsorGrid'
 import { getSponsors } from '@/lib/tournament'
 
 export const metadata: Metadata = {
-  title: 'Turnir Sponzori',
-  description: 'Partneri i sponzori turnira u Tunitu.',
+  title: 'Turnir Cerovac Sponzori',
+  description: 'Partneri i sponzori turnira u Cerovcu.',
 }
 
 export default function TurnirSponzoriPage() {

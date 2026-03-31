@@ -5,8 +5,8 @@ import NewsPreviewGrid from '@/components/tournament/NewsPreviewGrid'
 import { getTournamentNews } from '@/lib/tournament'
 
 export const metadata: Metadata = {
-  title: 'Turnir Vesti',
-  description: 'Najnovije vesti i objave sa turnira u Tunitu.',
+  title: 'Turnir Cerovac Vesti',
+  description: 'Najnovije vesti i objave sa turnira u Cerovcu.',
 }
 
 export default function TurnirVestiPage() {

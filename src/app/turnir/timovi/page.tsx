@@ -5,8 +5,8 @@ import TeamGrid from '@/components/tournament/TeamGrid'
 import { getTeams } from '@/lib/tournament'
 
 export const metadata: Metadata = {
-  title: 'Turnir Timovi',
-  description: 'Pregled svih timova koji ucestvuju na turniru u Tunitu.',
+  title: 'Turnir Cerovac Timovi',
+  description: 'Pregled svih timova koji ucestvuju na turniru u Cerovcu.',
 }
 
 export default function TurnirTimoviPage() {

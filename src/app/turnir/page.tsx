@@ -8,8 +8,8 @@ import NewsPreviewGrid from '@/components/tournament/NewsPreviewGrid'
 import { getFinishedMatches, getSponsors, getStandings, getTournamentNews, getUpcomingMatches } from '@/lib/tournament'
 
 export const metadata: Metadata = {
-  title: 'Turnir',
-  description: 'Lokalni fudbalski turnir u Tunitu: raspored, rezultati, tabela, timovi i partneri.',
+  title: 'Turnir Cerovac',
+  description: 'Dugovecni lokalni fudbalski turnir u Cerovcu: raspored, rezultati, tabela, timovi i partneri.',
 }
 
 export default function TurnirPage() {
@@ -21,9 +21,9 @@ export default function TurnirPage() {
 
   return (
     <TournamentShell
-      eyebrow="Lokalni fudbalski microsite"
-      title="Turnir Tunit 2026"
-      description="Poseban modul unutar bloga za selo, turnir i celu pricu oko domaceg fudbala. Brz, lak za odrzavanje i spreman da raste kroz rezultate, vesti, sponzore i timove."
+      eyebrow="Zaseban lokalni fudbalski microsite"
+      title="Turnir Cerovac 2026"
+      description="Poseban digitalni prostor za dugovecni i poznati turnir iz Cerovca. Odvojen od Arsenal blog rubrika, ali razvijen u istom kvalitetnom sistemu da ostane brz, stabilan i lak za sirenje."
     >
       <section style={{ padding: '2.5rem 0 0' }}>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, minmax(0, 1fr))', gap: '1.5rem' }} className="turnir-grid-two">

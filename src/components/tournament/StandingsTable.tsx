@@ -17,7 +17,7 @@ export default function StandingsTable({ rows }: { rows: Standing[] }) {
           {rows.map((row, index) => (
             <tr key={row.team}>
               <td style={{ padding: '0.95rem 0.85rem', textAlign: 'center', color: '#fff', borderBottom: '1px solid rgba(255,255,255,0.04)' }}>{index + 1}</td>
-              <td style={{ padding: '0.95rem 0.85rem', color: '#fff', borderBottom: '1px solid rgba(255,255,255,0.04)', fontWeight: row.team === 'FK Tunit' ? 700 : 400 }}>{row.team}</td>
+              <td style={{ padding: '0.95rem 0.85rem', color: '#fff', borderBottom: '1px solid rgba(255,255,255,0.04)', fontWeight: row.team === 'FK Cerovac' ? 700 : 400 }}>{row.team}</td>
               <td style={{ padding: '0.95rem 0.85rem', textAlign: 'center', color: 'rgba(255,255,255,0.7)', borderBottom: '1px solid rgba(255,255,255,0.04)' }}>{row.played}</td>
               <td style={{ padding: '0.95rem 0.85rem', textAlign: 'center', color: 'rgba(255,255,255,0.7)', borderBottom: '1px solid rgba(255,255,255,0.04)' }}>{row.won}</td>
               <td style={{ padding: '0.95rem 0.85rem', textAlign: 'center', color: 'rgba(255,255,255,0.7)', borderBottom: '1px solid rgba(255,255,255,0.04)' }}>{row.drawn}</td>

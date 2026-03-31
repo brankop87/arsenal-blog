@@ -5,8 +5,8 @@ import MatchCard from '@/components/tournament/MatchCard'
 import { getFinishedMatches } from '@/lib/tournament'
 
 export const metadata: Metadata = {
-  title: 'Turnir Rezultati',
-  description: 'Svi odigrani mecevi i rezultati turnira u Tunitu.',
+  title: 'Turnir Cerovac Rezultati',
+  description: 'Svi odigrani mecevi i rezultati turnira u Cerovcu.',
 }
 
 export default function TurnirRezultatiPage() {

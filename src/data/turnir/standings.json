@@ -1,5 +1,5 @@
 [
-  { "team": "FK Tunit", "played": 2, "won": 1, "drawn": 1, "lost": 0, "goalsFor": 5, "goalsAgainst": 3, "points": 4 },
+  { "team": "FK Cerovac", "played": 2, "won": 1, "drawn": 1, "lost": 0, "goalsFor": 5, "goalsAgainst": 3, "points": 4 },
   { "team": "FK Donji Kraj", "played": 2, "won": 1, "drawn": 1, "lost": 0, "goalsFor": 4, "goalsAgainst": 2, "points": 4 },
   { "team": "FK Morava", "played": 2, "won": 1, "drawn": 0, "lost": 1, "goalsFor": 3, "goalsAgainst": 3, "points": 3 },
   { "team": "FK Lipovica", "played": 2, "won": 0, "drawn": 1, "lost": 1, "goalsFor": 2, "goalsAgainst": 4, "points": 1 },

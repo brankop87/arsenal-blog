@@ -26,6 +26,8 @@
   - `/turnir/vesti`
 - dodati lokalni JSON podaci za turnir
 - dodate reusable komponente za meceve, tabelu, timove, sponzore i vesti
+- turnir preimenovan i pozicioniran kao zaseban brend: `Turnir Cerovac`
+- turnir odvojen u navigaciji i footeru od Arsenal rubrika
 
 ### Branding
 - dodat footer CTA:
