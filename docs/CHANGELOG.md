@@ -35,6 +35,7 @@
 - dodati sponzorski paketi i jaci CTA za saradnju
 - dodata zasebna stranica `/turnir/istorijat`
 - Markov blok na naslovnoj turnira smanjen na diskretniji teaser
+- `Turnir Cerovac` naslovna ponovo slozena kao jedna puna, konsolidovana stranica sa svim glavnim sekcijama
 
 ### Branding
 - dodat footer CTA:
