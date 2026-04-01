@@ -2,6 +2,7 @@ import Link from 'next/link'
 
 const subnav = [
   { href: '/turnir', label: 'Pregled' },
+  { href: '/turnir/istorijat', label: 'Istorijat' },
   { href: '/turnir/rezultati', label: 'Rezultati' },
   { href: '/turnir/tabela', label: 'Tabela' },
   { href: '/turnir/timovi', label: 'Timovi' },

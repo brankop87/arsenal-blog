@@ -28,6 +28,7 @@ src/
     turnir/
       layout.tsx                     -> layout za turnir sekciju
       page.tsx                       -> glavni pregled turnira
+      istorijat/page.tsx             -> istorijat i legende turnira
       rezultati/page.tsx             -> svi rezultati
       tabela/page.tsx                -> tabela
       timovi/page.tsx                -> timovi

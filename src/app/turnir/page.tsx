@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import type { Metadata } from 'next'
 import TournamentShell from '@/components/tournament/TournamentShell'
 import TournamentSectionHeading from '@/components/tournament/TournamentSectionHeading'
@@ -110,6 +111,47 @@ export default function TurnirPage() {
         </div>
       </section>
 
+      <section style={{ padding: '4rem 0 0' }}>
+        <div style={{ borderRadius: '28px', border: '1px solid rgba(255,255,255,0.06)', background: 'linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.015))', padding: '1.5rem' }}>
+          <TournamentSectionHeading label="Ljudi turnira" title="Turnir pamti i ljude, ne samo rezultate" description="Vremenom ovde mogu da stoje kratke price o igracima i licima koja su godinama obelezavala Cerovac. Za sada je izdvojena samo jedna rodjendanska, vise simbolicna prica." />
+          <div style={{ display: 'grid', gridTemplateColumns: '1.1fr 0.9fr', gap: '1.2rem' }} className="turnir-people-teaser">
+            <div style={{ display: 'grid', gap: '1rem' }}>
+              <div style={{ position: 'relative', overflow: 'hidden', borderRadius: '22px', minHeight: '340px', border: '1px solid rgba(255,255,255,0.06)' }}>
+                <Image src="/media/marko/marko-portret-site.jpg" alt="Marko Petkovic" fill sizes="(max-width: 900px) 100vw, 40vw" style={{ objectFit: 'cover' }} />
+              </div>
+              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0.8rem' }} className="turnir-marko-gallery">
+                <div style={{ position: 'relative', overflow: 'hidden', borderRadius: '18px', minHeight: '210px', border: '1px solid rgba(255,255,255,0.06)' }}>
+                  <Image src="/media/marko/marko-jasenica-arad-site.jpg" alt="Marko Petkovic sa generacijom Jasenice" fill sizes="(max-width: 900px) 100vw, 20vw" style={{ objectFit: 'cover' }} />
+                </div>
+                <div style={{ position: 'relative', overflow: 'hidden', borderRadius: '18px', minHeight: '210px', border: '1px solid rgba(255,255,255,0.06)' }}>
+                  <Image src="/media/marko/marko-sampioni-teren-site.jpg" alt="Marko Petkovic sa sampionskom generacijom" fill sizes="(max-width: 900px) 100vw, 20vw" style={{ objectFit: 'cover' }} />
+                </div>
+              </div>
+            </div>
+            <div style={{ display: 'grid', gap: '0.85rem', alignContent: 'start' }}>
+              <p style={{ fontSize: '1rem', lineHeight: 1.85, color: 'rgba(255,255,255,0.64)', margin: 0 }}>
+                Medju ljudima koji su godinama bili deo ove turnirske price nalazi se i <strong style={{ color: '#fff' }}>Marko Petkovic</strong>, igrac sa ozbiljnom fudbalskom osnovom, iskustvom na brojnim turnirima i proslogodisnjim osvajanjem Turnira Cerovac.
+              </p>
+              <p style={{ fontSize: '1rem', lineHeight: 1.85, color: 'rgba(255,255,255,0.64)', margin: 0 }}>
+                Iz materijala koji si poslao vidi se i siri trag: rad sa mladjim kategorijama, medjunarodni turnir u Aradu sa generacijom 2008, kao i sezona u kojoj je ta generacija postala prvak `Lige buducih sampiona` sa impresivnim bilansom.
+              </p>
+              <div style={{ padding: '0.95rem 1rem', borderRadius: '18px', background: 'rgba(196,163,90,0.08)', border: '1px solid rgba(196,163,90,0.18)', color: '#fff', fontSize: '0.96rem', lineHeight: 1.6 }}>
+                rodjen 1. aprila 1991.
+              </div>
+              <div style={{ padding: '0.95rem 1rem', borderRadius: '18px', background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.05)', color: '#fff', fontSize: '0.96rem', lineHeight: 1.6 }}>
+                mladje kategorije Smedereva i Crvene zvezde
+              </div>
+              <div style={{ padding: '0.95rem 1rem', borderRadius: '18px', background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.05)', color: '#fff', fontSize: '0.96rem', lineHeight: 1.6 }}>
+                rad sa mladjima i zapazeni rezultati sa Jasenicom
+              </div>
+              <div style={{ padding: '0.95rem 1rem', borderRadius: '18px', background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.05)', color: '#fff', fontSize: '0.96rem', lineHeight: 1.6 }}>
+                proslogodisnji osvajac turnira sa ekipom Cerovca
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section style={{ padding: '2.5rem 0 0' }}>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, minmax(0, 1fr))', gap: '1.5rem' }} className="turnir-grid-two">
           <div>
@@ -183,6 +225,8 @@ export default function TurnirPage() {
           .turnir-grid-two { grid-template-columns: 1fr !important; }
           .turnir-story-grid { grid-template-columns: 1fr !important; }
           .turnir-identity-grid { grid-template-columns: 1fr !important; }
+          .turnir-people-teaser { grid-template-columns: 1fr !important; }
+          .turnir-marko-gallery { grid-template-columns: 1fr !important; }
           .turnir-cta-grid { grid-template-columns: 1fr !important; }
           .turnir-stats-grid { grid-template-columns: 1fr !important; }
           .turnir-quick-grid { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }

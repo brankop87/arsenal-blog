@@ -33,6 +33,8 @@
 - dodati brzi info blokovi za termin, identitet i cilj turnira
 - dodat istorijat pobednika na naslovnoj turnira
 - dodati sponzorski paketi i jaci CTA za saradnju
+- dodata zasebna stranica `/turnir/istorijat`
+- Markov blok na naslovnoj turnira smanjen na diskretniji teaser
 
 ### Branding
 - dodat footer CTA:
@@ -41,6 +43,8 @@
 ### Novi sadrzaj
 - dodat novi Arsenal preview post za Southampton u FA Cup cetvrtfinalu
 - dodat free cover image iz Pexels licence za novi post
+- dodat rodjendanski mini profil / reportaza za Marka Petkovica
+- Marko Petkovic dodat i u `Turnir Cerovac` sekciju kao jedna od lokalnih prica / ljudi turnira
 
 ### Verifikacija
 - production build uspesno prosao nakon izmena
