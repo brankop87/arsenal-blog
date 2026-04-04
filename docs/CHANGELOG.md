@@ -46,6 +46,7 @@
 - dodat free cover image iz Pexels licence za novi post
 - dodat rodjendanski mini profil / reportaza za Marka Petkovica
 - Marko Petkovic dodat i u `Turnir Cerovac` sekciju kao jedna od lokalnih prica / ljudi turnira
+- dodat Arsenal matchday post za Southampton u FA kupu
 
 ### Verifikacija
 - production build uspesno prosao nakon izmena
