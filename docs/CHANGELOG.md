@@ -50,6 +50,7 @@
 - dodat novi blog tekst posle FA kup poraza, uoci meca sa Sportingom
 - doteran tekst pred Sporting: dodat potpis autora, ispravljena formulacija i ubacene dodatne free slike
 - uveden standardni potpis `_Autor: B._` kao urednicki zavrsetak za nove i doterane postove
+- homepage osvezen tako da udarna prica prati najsveziji tekst, a interni demo blok zamenjen korisnijim urednickim sidebarom
 
 ### Verifikacija
 - production build uspesno prosao nakon izmena
