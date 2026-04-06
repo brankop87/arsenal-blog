@@ -23,14 +23,8 @@ export default function HomePage() {
       <main style={{ background: '#0A0A0A', minHeight: '100vh' }}>
         <section style={{ maxWidth: '1240px', margin: '0 auto', padding: '2.5rem 1.5rem 0' }}>
           <div style={{ display: 'grid', gridTemplateColumns: '1.35fr 0.65fr', gap: '1.5rem', alignItems: 'stretch' }} className="hero-grid">
-            <div style={{ display: 'grid', gap: '1.5rem' }}>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-                <span style={{ display: 'block', width: '38px', height: '3px', background: '#EF0107', flexShrink: 0 }} />
-                <span style={{ fontFamily: "'Barlow Condensed',sans-serif", fontWeight: 700, fontSize: '0.7rem', letterSpacing: '0.24em', textTransform: 'uppercase', color: '#EF0107' }}>Istaknuta prica</span>
-              </div>
-              <div>
-                {featured && <PostCard post={featured} size="large" />}
-              </div>
+            <div>
+              {featured && <PostCard post={featured} size="large" />}
             </div>
 
             <aside style={{ display: 'grid', gap: '1rem' }}>
