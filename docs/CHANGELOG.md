@@ -47,6 +47,7 @@
 - dodat rodjendanski mini profil / reportaza za Marka Petkovica
 - Marko Petkovic dodat i u `Turnir Cerovac` sekciju kao jedna od lokalnih prica / ljudi turnira
 - dodat Arsenal matchday post za Southampton u FA kupu
+- dodat novi blog tekst posle FA kup poraza, uoci meca sa Sportingom
 
 ### Verifikacija
 - production build uspesno prosao nakon izmena
