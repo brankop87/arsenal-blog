@@ -20,3 +20,5 @@ Za lokalnu sredinu posebnu tezinu ima i cinjenica da je Marko bio deo ekipe koja
 U vremenu kada mnogo stvari brzo prodje i zaboravi se, lepo je zapisati pricu koja ima kontinuitet. Pricu igraca koji je prosao ozbiljnu fudbalsku skolu, ostao uz igru i kasnije svoje iskustvo prenosio i na mladje. U tome i jeste sustina ove price o Marku Petkovicu: ne u jednoj tituli, jednoj slici ili jednom tekstu, nego u putu koji traje.
 
 Srecan rodjendan, uz jos mnogo zdravlja, dobrih utakmica i razloga da ova fudbalska prica traje jos dugo.
+
+_Autor: B._

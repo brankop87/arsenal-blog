@@ -62,6 +62,15 @@ URL slike sa interneta u `coverImage`. Preporučeno: 1200×675px (16:9 format).
 
 Ako `coverImage` ostane prazan, sajt sada automatski koristi branded fallback cover.
 
+### Potpis autora
+Na kraju svakog teksta standardno dodaj:
+
+```markdown
+_Autor: B._
+```
+
+To ostaje kao diskretan i dosledan urednicki potpis kroz ceo blog.
+
 ---
 
 ## Turnir modul

@@ -121,6 +121,7 @@ Ako hoces novi blog post:
 - dodas novi `.md` fajl
 - popunis frontmatter
 - napises tekst
+- na kraju teksta dodas standardni potpis: `_Autor: B._`
 
 ### Turnir podaci
 

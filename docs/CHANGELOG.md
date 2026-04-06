@@ -48,6 +48,8 @@
 - Marko Petkovic dodat i u `Turnir Cerovac` sekciju kao jedna od lokalnih prica / ljudi turnira
 - dodat Arsenal matchday post za Southampton u FA kupu
 - dodat novi blog tekst posle FA kup poraza, uoci meca sa Sportingom
+- doteran tekst pred Sporting: dodat potpis autora, ispravljena formulacija i ubacene dodatne free slike
+- uveden standardni potpis `_Autor: B._` kao urednicki zavrsetak za nove i doterane postove
 
 ### Verifikacija
 - production build uspesno prosao nakon izmena

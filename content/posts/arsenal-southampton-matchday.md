@@ -22,3 +22,5 @@ Zato se veceras od Arsenala ne trazi savrsenstvo. Trazi se karakter. Trazi se da
 Ako Arsenal to donese, prolaz dalje ce doci kao prirodna posledica. Ako ne donese, onda ce ostati gorak utisak da je jos jedno veliko vece proslo bez pravog odgovora.
 
 Veceras je jedno od onih veceri kada ekipa mora da pokaze ko je i koliko je spremna za ono sto dolazi.
+
+_Autor: B._

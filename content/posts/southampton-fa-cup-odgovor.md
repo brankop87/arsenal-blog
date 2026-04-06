@@ -18,3 +18,5 @@ U prethodnim sezonama upravo je taj zavrsni korak delovao kao najveci problem. B
 Zato duel sa Southamptonom nije samo jos jedna utakmica u rasporedu. To je sansa da Arsenal odmah odgovori, da vrati ritam i da u zavrsnicu sezone udje sa obnovljenom verom. Ako ovaj tim zaista zeli da podigne pehar namenjen sampionu Premijer lige, onda su ovakvi mecevi trenutak u kojem to mora da potvrdi.
 
 Narednih nekoliko nedelja odredice ton cele sezone. Arsenal sada nema luksuz da dugo gleda unazad. Vreme je da ponovo krene napred.
+
+_Autor: B._
