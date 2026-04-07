@@ -1,34 +1,34 @@
 ---
-title: "Posle kup soka, Arsenal mora da odgovori u Lisabonu"
-excerpt: "Poraz od Southamptona ugasio je pricu o cetiri trofeja, ali pred Arsenalom je sada jos veci test: da li ova ekipa ima mir i snagu da odgovori kada je najteze?"
+title: "Posle kup šoka, Arsenal mora da odgovori u Lisabonu"
+excerpt: "Poraz od Southamptona ugasio je priču o četiri trofeja, ali pred Arsenalom je sada još veći test: da li ova ekipa ima mir i snagu da odgovori kada je najteže?"
 date: "2026-04-06"
 category: utakmice
 featured: false
 coverImage: "https://images.pexels.com/photos/9561462/pexels-photo-9561462.jpeg?cs=srgb&dl=pexels-chickenbunny-102941452-9561462.jpg&fm=jpg"
 ---
 
-Nije lako biti miran posle ovakvog vikenda. Arsenal je ispao iz FA kupa porazom od Southamptona 2:1 i time je prica o mogucem napadu na cetiri trofeja zavrsena. Ostala su dva fronta, Liga sampiona i Premijer liga, ali ono sto je poraz jos vise otvorio nije samo pitanje rezultata, vec pitanje nerava, dubine i vere u ekipu kada sezona ulazi u najtvrdji deo.
+Nije lako biti miran posle ovakvog vikenda. Arsenal je ispao iz FA kupa porazom od Southamptona 2:1 i time je priča o mogućem napadu na četiri trofeja završena. Ostala su dva fronta, Liga šampiona i Premijer liga, ali ono što je poraz još više otvorio nije samo pitanje rezultata, već pitanje nerava, dubine i vere u ekipu kada sezona ulazi u najtvrđi deo.
 
-Navijaci Arsenala i bez toga vec neko vreme zive u onom poznatom stanju izmedju nade i opreza. Posle reprezentativne pauze lista povredjenih je ponovo unela nemir, a takve stvari u severnom Londonu nikada ne prolaze tiho. Ljudi odmah pocnu da se pitaju da li se scenario ponavlja, da li tim ponovo ulazi u onu fazu kada sve pocne da klizi bas kad je najvaznije, ili Arteta zaista sprema nesto vece i zeli da sve zadrzi za trofej koji svaki pravi Arsenalov covek zeli vise od svega.
+Navijači Arsenala i bez toga već neko vreme žive u onom poznatom stanju između nade i opreza. Posle reprezentativne pauze lista povređenih je ponovo unela nemir, a takve stvari u severnom Londonu nikada ne prolaze tiho. Ljudi odmah počnu da se pitaju da li se scenario ponavlja, da li tim ponovo ulazi u onu fazu kada sve počne da klizi baš kad je najvažnije, ili Arteta zaista sprema nešto veće i želi da sve zadrži za trofej koji svaki pravi Arsenalov čovek želi više od svega.
 
-Naravno, mnogo toga je nagadjanje. Ali upravo takve veceri i radjaju najvise pitanja. Posebno kod kluba koji i dalje zivi u senci jedne od najvecih sezona koje je engleski fudbal video. Nepobedivi nisu bili samo sampioni. Bili su generacija koja je ostavila trag kakav niko pre njih nije ostavio, a niko posle nije uspeo da ponovi. Od tada Arsenal pokusava da se vrati do te tacke velicine, a sto je put duzi, to su i secanja teza.
+Naravno, mnogo toga je nagađanje. Ali upravo takve večeri i rađaju najviše pitanja. Posebno kod kluba koji i dalje živi u senci jedne od najvećih sezona koje je engleski fudbal video. Nepobedivi nisu bili samo šampioni. Bili su generacija koja je ostavila trag kakav niko pre njih nije ostavio, a niko posle nije uspeo da ponovi. Od tada Arsenal pokušava da se vrati do te tačke veličine, a što je put duži, to su i sećanja teža.
 
-![Atmosfera na stadionu pred veliko evropsko vece](https://images.pexels.com/photos/8470980/pexels-photo-8470980.jpeg?cs=srgb&dl=pexels-viselaba-8470980.jpg&fm=jpg)
+![Atmosfera na stadionu pred veliko evropsko veče](https://images.pexels.com/photos/8470980/pexels-photo-8470980.jpeg?cs=srgb&dl=pexels-viselaba-8470980.jpg&fm=jpg)
 
-Otuda i taj osecaj da se svaka danasnja Arsenalova ekipa meri protiv necega gotovo mitskog. A kada se secanje vrati na sezonu posle Nepobedivih i na ono brutalno vece kada je Manchester United jedva docekao da prekine taj niz, kada se tuklo, lomilo i prolazilo nekaznjeno, onda je jasno zasto deo navijaca i danas ima gorak ukus kada slusa price o tome kako Arsenal navodno igra previse tvrdo ili previse pragmaticno. Tada je za mnoge vazilo da cilj opravdava sredstvo. Danas, kada Arsenal igra cvrsce i ozbiljnije, kritike padaju sa svih strana.
+Otuda i taj osećaj da se svaka današnja Arsenalova ekipa meri protiv nečega gotovo mitskog. A kada se sećanje vrati na sezonu posle Nepobedivih i na ono brutalno veče kada je Manchester United jedva dočekao da prekine taj niz, kada se tuklo, lomilo i prolazilo nekažnjeno, onda je jasno zašto deo navijača i danas ima gorak ukus kada sluša priče o tome kako Arsenal navodno igra previše tvrdo ili previše pragmatično. Tada je za mnoge važilo da cilj opravdava sredstvo. Danas, kada Arsenal igra čvršće i ozbiljnije, kritike padaju sa svih strana.
 
-I zato deo price oko ove ekipe cesto nema mnogo logike. Ovo mozda nije najleprsaviji Arsenal iz Vengerovih najboljih dana, ali prica da bi ovo bio nekakav "najgori moguci osvajac lige" zaista nema mnogo veze sa realnoscu. Ovakve recenice vise govore o nervozi oko Arsenala nego o samom Arsenalu. A kao sto to cesto biva, za dobrim konjem uvek ide velika prasina.
+I zato deo priče oko ove ekipe često nema mnogo logike. Ovo možda nije najlepršaviji Arsenal iz Vengerovih najboljih dana, ali priča da bi ovo bio nekakav "najgori mogući osvajač lige" zaista nema mnogo veze sa realnošću. Ovakve rečenice više govore o nervozi oko Arsenala nego o samom Arsenalu. A kao što to često biva, za dobrim konjem uvek ide velika prašina.
 
-Bas zato je duel sa Sportingom u utorak, **7. aprila 2026.**, mnogo veci od jos jedne evropske utakmice. Ovo je prvi mec cetvrtfinala Lige sampiona, u Lisabonu, protiv tima koji i Arteta sam vidi kao ozbiljnu prepreku. U UEFA najavi meca rekao je kratko i jasno da je Sporting "vrhunska ekipa" i da ce biti "veoma tesko". To nije diplomatska fraza, nego realna procena trenutka. Arsenal ulazi u mec ranjen, pod pritiskom i sa osetljivim kadrovskim pitanjima, ali i dalje ziv tamo gde klub najvise zeli da bude.
+Baš zato je duel sa Sportingom u utorak, **7. aprila 2026.**, mnogo veći od još jedne evropske utakmice. Ovo je prvi meč četvrtfinala Lige šampiona, u Lisabonu, protiv tima koji i Arteta sam vidi kao ozbiljnu prepreku. U UEFA najavi meča rekao je kratko i jasno da je Sporting "vrhunska ekipa" i da će biti "veoma teško". To nije diplomatska fraza, nego realna procena trenutka. Arsenal ulazi u meč ranjen, pod pritiskom i sa osetljivim kadrovskim pitanjima, ali i dalje živ tamo gde klub najviše želi da bude.
 
-Mozda je jos vaznija jedna ranija Artetina poruka, ona da tim mora da pronalazi "drugacija resenja" kada ga sezona udari problemima. E upravo tu sada dolazi prava provera. Nije poenta da Arsenal izgleda savrseno. Poenta je da izgleda stabilno kad nije savrsen. Nije poenta da svi budu zdravi i raspolozeni. Poenta je da oni koji jesu spremni iznesu noc koja menja ton cele sezone.
+Možda je još važnija jedna ranija Artetina poruka, ona da tim mora da pronalazi "drugačija rešenja" kada ga sezona udari problemima. E upravo tu sada dolazi prava provera. Nije poenta da Arsenal izgleda savršeno. Poenta je da izgleda stabilno kad nije savršen. Nije poenta da svi budu zdravi i raspoloženi. Poenta je da oni koji jesu spremni iznesu noć koja menja ton cele sezone.
 
-![Emirates kao podsetnik sta je ulog u ovakvim nocima](https://images.pexels.com/photos/17160683/pexels-photo-17160683.jpeg?cs=srgb&dl=pexels-huy-phan-316220-17160683.jpg&fm=jpg)
+![Emirates kao podsetnik šta je ulog u ovakvim noćima](https://images.pexels.com/photos/17160683/pexels-photo-17160683.jpeg?cs=srgb&dl=pexels-huy-phan-316220-17160683.jpg&fm=jpg)
 
-I zato ce ovaj mec protiv Sportinga vise reci o Arsenalu nego mnoge pobede u periodima kada je sve mirno. Ako tim uspe da se sabere, da odigra pametno i iz Lisabona izvuce rezultat koji ostavlja otvorena vrata za revans, onda ce se poraz od Southamptona posmatrati kao bolan, ali ne i presudan udarac. Ako ne uspe, onda ce nervoza postati jos glasnija i pitanja jos teza.
+I zato će ovaj meč protiv Sportinga više reći o Arsenalu nego mnoge pobede u periodima kada je sve mirno. Ako tim uspe da se sabere, da odigra pametno i iz Lisabona izvuče rezultat koji ostavlja otvorena vrata za revanš, onda će se poraz od Southamptona posmatrati kao bolan, ali ne i presudan udarac. Ako ne uspe, onda će nervoza postati još glasnija i pitanja još teža.
 
-Za sada navijacima ostaje ono sto im je uvek i ostajalo u ovakvim danima: da veruju da Arteta vidi put tamo gde ga drugi jos ne vide. Put nije lak, a ni kadar ne deluje idealno, posebno ako se ispostavi da neka bitna imena nisu ni otputovala iz Engleske. Ali ako ova ekipa zeli da utisa sve koji sumnjaju, onda je sada vreme da to uradi na terenu.
+Za sada navijačima ostaje ono što im je uvek i ostajalo u ovakvim danima: da veruju da Arteta vidi put tamo gde ga drugi još ne vide. Put nije lak, a ni kadar ne deluje idealno, posebno ako se ispostavi da neka bitna imena nisu ni otputovala iz Engleske. Ali ako ova ekipa želi da utiša sve koji sumnjaju, onda je sada vreme da to uradi na terenu.
 
-Posle kup soka, Arsenal vise nema luksuz da dugo gleda unazad. U Lisabonu mora da pokaze da jos stoji uspravno.
+Posle kup šoka, Arsenal više nema luksuz da dugo gleda unazad. U Lisabonu mora da pokaže da još stoji uspravno.
 
 _Autor: B._

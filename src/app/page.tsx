@@ -48,7 +48,7 @@ export default function HomePage() {
                     <Link key={post.slug} href={`/blog/${post.slug}`} style={{ textDecoration: 'none' }}>
                       <div style={{ padding: '0.95rem 1rem', borderRadius: '16px', background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.05)' }}>
                         <div style={{ fontFamily: "'Barlow Condensed',sans-serif", fontSize: '0.66rem', letterSpacing: '0.18em', textTransform: 'uppercase', color: index === 0 ? '#EF0107' : '#C4A35A', marginBottom: '0.35rem' }}>
-                          {index === 0 ? 'Drugi ugao' : 'Sveze sa bloga'}
+                          {index === 0 ? 'Drugi ugao' : 'Sveže sa bloga'}
                         </div>
                         <div style={{ color: '#fff', fontSize: '0.98rem', lineHeight: 1.45 }}>{post.title}</div>
                       </div>
@@ -78,7 +78,7 @@ export default function HomePage() {
                 <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginBottom: '1rem' }}>
                   <span style={{ display: 'block', width: '32px', height: '3px', background: index === 0 ? '#EF0107' : '#C4A35A', flexShrink: 0 }} />
                   <span style={{ fontFamily: "'Barlow Condensed',sans-serif", fontWeight: 700, fontSize: '0.68rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: index === 0 ? '#EF0107' : '#C4A35A' }}>
-                    {index === 0 ? 'Druga prica' : 'U fokusu'}
+                    {index === 0 ? 'Druga priča' : 'U fokusu'}
                   </span>
                 </div>
                 <PostCard post={post} size="medium" />
@@ -93,7 +93,7 @@ export default function HomePage() {
             <span style={{ fontFamily: "'Barlow Condensed',sans-serif", fontWeight: 700, fontSize: '0.7rem', letterSpacing: '0.24em', textTransform: 'uppercase', color: '#EF0107' }}>Svi tekstovi</span>
           </div>
           <p style={{ fontSize: '1rem', lineHeight: 1.8, color: 'rgba(255,255,255,0.56)', maxWidth: '42rem', marginBottom: '2rem' }}>
-            Svezi tekstovi ostaju u prvom planu, a naslovna sada vise radi kao pravi blog ritam nego kao statican showcase.
+            Sveži tekstovi ostaju u prvom planu, a naslovna sada više radi kao pravi blog ritam nego kao statičan showcase.
           </p>
 
           {feed.length > 0 ? (
@@ -102,7 +102,7 @@ export default function HomePage() {
             </div>
           ) : (
             <div style={{ textAlign: 'center', padding: '4rem 0', border: '1px solid rgba(255,255,255,0.06)', borderRadius: '24px', background: 'rgba(255,255,255,0.02)' }}>
-              <p style={{ fontFamily: "'Playfair Display',serif", fontSize: '1.7rem', color: '#fff', marginBottom: '0.5rem' }}>Jos nema tekstova</p>
+              <p style={{ fontFamily: "'Playfair Display',serif", fontSize: '1.7rem', color: '#fff', marginBottom: '0.5rem' }}>Još nema tekstova</p>
               <p style={{ fontSize: '0.95rem', color: 'rgba(255,255,255,0.5)' }}>
                 Dodaj prvi post u <code style={{ color: '#C4A35A' }}>content/posts/</code>
               </p>
@@ -117,7 +117,7 @@ export default function HomePage() {
               <span style={{ fontFamily: "'Barlow Condensed',sans-serif", fontWeight: 700, fontSize: '0.7rem', letterSpacing: '0.24em', textTransform: 'uppercase', color: '#9C824A' }}>Kategorije</span>
             </div>
             <p style={{ fontSize: '1rem', lineHeight: 1.8, color: 'rgba(255,255,255,0.56)', maxWidth: '44rem', marginBottom: '2rem' }}>
-              Rubrike ostaju jasne i pregledne, ali bez demo utiska. Svaka sada sluzi da citaoca odvede ka svezim pricama i jacem Arsenal ritmu.
+              Rubrike ostaju jasne i pregledne, ali bez demo utiska. Svaka sada služi da čitaoca odvede ka svežim pričama i jačem Arsenal ritmu.
             </p>
             <CategoryGrid categories={categories} counts={counts} />
           </div>

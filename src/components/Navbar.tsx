@@ -5,7 +5,7 @@ import { useState } from 'react'
 const links = [
   { href: '/kategorije/utakmice', label: 'Utakmice' },
   { href: '/kategorije/treninzi', label: 'Treninzi' },
-  { href: '/kategorije/takmicenja', label: 'Takmicenja' },
+  { href: '/kategorije/takmicenja', label: 'Takmičenja' },
   { href: '/kategorije/vesti', label: 'Vesti' },
 ]
 

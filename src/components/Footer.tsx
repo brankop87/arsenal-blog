@@ -3,7 +3,7 @@ import Link from 'next/link'
 const links = [
   { href: '/kategorije/utakmice', label: 'Utakmice' },
   { href: '/kategorije/treninzi', label: 'Treninzi' },
-  { href: '/kategorije/takmicenja', label: 'Takmicenja' },
+  { href: '/kategorije/takmicenja', label: 'Takmičenja' },
   { href: '/kategorije/vesti', label: 'Vesti' },
 ]
 
@@ -16,7 +16,7 @@ export default function Footer() {
           <div style={{ fontFamily: "'Playfair Display', serif", fontWeight: 900, fontSize: '2rem', color: '#fff', marginBottom: '0.35rem' }}>The Cannon</div>
           <div style={{ fontFamily: "'Barlow Condensed', sans-serif", fontSize: '0.7rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: '#C4A35A', marginBottom: '1.1rem' }}>Arsenal editorial fan blog</div>
           <p style={{ fontSize: '1rem', color: 'rgba(255,255,255,0.62)', lineHeight: 1.8, maxWidth: '36rem' }}>
-            Mesto za Arsenal price koje imaju ritam, stav i kontekst. Fokus je na utakmicama, treninzima, taktickim detaljima i vestima koje zasluzuju vise od dve recenice.
+            Mesto za Arsenal priče koje imaju ritam, stav i kontekst. Fokus je na utakmicama, treninzima, taktičkim detaljima i vestima koje zaslužuju više od dve rečenice.
           </p>
         </div>
 
@@ -32,17 +32,17 @@ export default function Footer() {
         <div>
           <div style={{ fontFamily: "'Barlow Condensed', sans-serif", fontWeight: 700, fontSize: '0.72rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: '#C4A35A', marginBottom: '1rem' }}>Turnir Cerovac</div>
           <Link href="/turnir" style={{ display: 'block', fontSize: '1rem', color: '#fff', textDecoration: 'none', marginBottom: '0.65rem' }}>
-            Lokalni turnir i posebna prica
+            Lokalni turnir i posebna priča
           </Link>
           <p style={{ fontSize: '0.98rem', color: 'rgba(255,255,255,0.56)', lineHeight: 1.8 }}>
-            Zaseban microsite za dugovecni i poznati turnir iz Cerovca, odvojen od Arsenal rubrika i spreman da raste kao sopstveni digitalni projekat.
+            Zaseban microsite za dugovečni i poznati turnir iz Cerovca, odvojen od Arsenal rubrika i spreman da raste kao sopstveni digitalni projekat.
           </p>
         </div>
 
         <div>
           <div style={{ fontFamily: "'Barlow Condensed', sans-serif", fontWeight: 700, fontSize: '0.72rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: '#EF0107', marginBottom: '1rem' }}>Napomena</div>
           <p style={{ fontSize: '0.98rem', color: 'rgba(255,255,255,0.6)', lineHeight: 1.8 }}>
-            Nezavisan fan projekat. Sajt nije povezan sa Arsenal Football Club Ltd. niti predstavlja zvanicni klupski kanal.
+            Nezavisan fan projekat. Sajt nije povezan sa Arsenal Football Club Ltd. niti predstavlja zvanični klupski kanal.
           </p>
           <a href="https://petkovicsolutions.com" target="_blank" rel="noreferrer" style={{ display: 'inline-block', marginTop: '1.2rem', textDecoration: 'none', fontFamily: "'Barlow Condensed', sans-serif", fontWeight: 700, fontSize: '0.74rem', letterSpacing: '0.18em', textTransform: 'uppercase', color: '#C4A35A' }}>
             Website powered by Petkovic Solutions
