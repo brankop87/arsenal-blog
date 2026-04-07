@@ -51,6 +51,7 @@
 - doteran tekst pred Sporting: dodat potpis autora, ispravljena formulacija i ubacene dodatne free slike
 - uveden standardni potpis `_Autor: B._` kao urednicki zavrsetak za nove i doterane postove
 - homepage osvezen tako da udarna prica prati najsveziji tekst, a interni demo blok zamenjen korisnijim urednickim sidebarom
+- dodat prvi krug srpskih slova na najvidljivijim delovima sajta i na istaknutim postovima sa naslovne
 
 ### Verifikacija
 - production build uspesno prosao nakon izmena
