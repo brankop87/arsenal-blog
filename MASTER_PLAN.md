@@ -362,3 +362,20 @@ Buduće faze dodaju:
 
 *Poslednje ažuriranje: Mart 2026*
 *Stack: Next.js 15 + React 19 + TypeScript + Tailwind v3 + Supabase + Vercel*
+
+---
+
+## 12. MODULARNI SMER PROJEKTA
+
+Od aprila 2026 projekat se vodi kao dugorocna modularna platforma.
+
+To znaci:
+- blog, turnir i buduce sekcije ne razvijaju se kao gomila nepovezanih stranica
+- sve novo mora da moze da raste bez prepisivanja postojece osnove
+- subscribe, analytics, admin i publika vode se kao zajednicki platform slojevi
+
+Prakticno:
+- Arsenal blog ostaje editorial modul
+- Turnir Cerovac ostaje lokalni sportski modul
+- buduce sekcije dobijaju svoj route, svoj data layer i svoje komponente
+- dokumentovanje je obavezno pri svakoj vecoj promeni

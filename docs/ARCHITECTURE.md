@@ -167,3 +167,41 @@ Ovaj projekat je trenutno postavljen tako da bude:
 - lako prosiriv
 
 Turnir nije napravljen kao hack, nego kao zaseban modul u okviru istog projekta.
+
+## 8. Dugorocni modularni smer
+
+Od ove tacke projekat se vodi kao platforma, ne samo kao jedan blog.
+
+To znaci:
+- Arsenal blog je jedan sadrzajni modul
+- Turnir Cerovac je drugi sadrzajni modul
+- svaka buduca celina mora da bude dodata kao novi modul, ne kao zakrpa preko postojeceg koda
+
+Pravila rasta:
+- shared layout, navigacija, footer i analytics ostaju zajednicki sloj
+- svaki modul ima svoj route segment, svoje podatke i svoje komponente kad god to ima smisla
+- reusable logika ide u `src/lib/*` i `src/components/*`
+- cesto menjani podaci vremenom prelaze iz fajlova u bazu, ali bez lomljenja postojece strukture
+
+## 9. Publika i subscribe kao poseban sloj
+
+Rast publike nije dodatak, nego deo arhitekture projekta.
+
+Plan:
+- analytics sloj za pracenje poseta i najjacih stranica
+- subscribe/newsletter sloj za skupljanje publike
+- kasnije odvajanje publike po interesovanju:
+  - Arsenal blog publika
+  - Turnir Cerovac publika
+
+To znaci da ce `subscribe` biti uveden kao poseban platform feature, ne kao jednokratni widget.
+
+## 10. Pravilo dokumentovanja
+
+Svaka veca izmena mora da ostavi trag u dokumentaciji:
+- `docs/CHANGELOG.md` -> sta je promenjeno
+- `docs/BUGLOG.md` -> sta je puklo i kako je ispravljeno
+- `docs/ARCHITECTURE.md` -> ako se menja struktura ili logika
+- `MASTER_PLAN.md` -> ako se menja dugorocni smer ili sledece faze
+
+Projekat ne sme da zavisi od pamcenja iz razgovora, nego od zapisane strukture.
