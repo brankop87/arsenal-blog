@@ -4,6 +4,8 @@ excerpt: "Southampton je veceras prepreka do polufinala FA kupa, ali za Arsenal 
 date: "2026-04-04"
 category: utakmice
 featured: false
+titleEn: "Arsenal must show character tonight"
+excerptEn: "Southampton stand between Arsenal and the FA Cup semi-finals, but this match carries far more than just a place in the next round."
 coverImage: ""
 ---
 

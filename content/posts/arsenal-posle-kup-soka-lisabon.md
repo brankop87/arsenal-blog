@@ -4,6 +4,8 @@ excerpt: "Poraz od Southamptona ugasio je priču o četiri trofeja, ali pred Ars
 date: "2026-04-06"
 category: utakmice
 featured: false
+titleEn: "After the cup shock, Arsenal have to answer in Lisbon"
+excerptEn: "The Southampton defeat ended the talk of four trophies, but Arsenal now face a bigger question: do they have the calm and strength to respond when the pressure is highest?"
 coverImage: "https://images.pexels.com/photos/9561462/pexels-photo-9561462.jpeg?cs=srgb&dl=pexels-chickenbunny-102941452-9561462.jpg&fm=jpg"
 ---
 

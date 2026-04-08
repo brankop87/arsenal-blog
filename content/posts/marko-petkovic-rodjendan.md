@@ -4,6 +4,8 @@ excerpt: "Od mlađih kategorija Smedereva i Crvene zvezde, preko rada sa mladima
 date: "2026-04-01"
 category: vesti
 featured: false
+titleEn: "Marko Petkovic: a football journey that keeps going"
+excerptEn: "From the youth systems of Smederevo and Red Star to work with young players and tournament success across the region, Marko Petkovic's story is built on continuity, work and love for the game."
 coverImage: "/media/marko/marko-portret-site.jpg"
 ---
 

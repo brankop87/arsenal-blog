@@ -13,6 +13,11 @@ Projekat je podeljen na 2 velike celine:
 1. Arsenal blog
 2. Turnir Cerovac microsite
 
+Pored toga, blog sada ima i poseban `en` portfolio layer:
+- `/en`
+- `/en/blog/[slug]`
+- `/en/categories/[category]`
+
 Obe celine zive u istoj Next.js aplikaciji i dele isti vizuelni jezik, navigaciju i footer.
 
 ## 2. Folder mapa
@@ -21,6 +26,11 @@ Obe celine zive u istoj Next.js aplikaciji i dele isti vizuelni jezik, navigacij
 src/
   app/
     page.tsx                         -> homepage bloga
+    en/
+      layout.tsx                     -> metadata za engleski portfolio layer
+      page.tsx                       -> engleski homepage
+      blog/[slug]/page.tsx           -> engleski blog prikaz
+      categories/[category]/page.tsx -> engleski listing po kategoriji
     layout.tsx                       -> root layout
     not-found.tsx                    -> 404
     blog/[slug]/page.tsx             -> pojedinacni blog post
@@ -40,6 +50,7 @@ src/
     Footer.tsx
     PostCard.tsx
     CategoryGrid.tsx
+    HomePageView.tsx
     tournament/
       TournamentShell.tsx
       TournamentSectionHeading.tsx
@@ -54,6 +65,7 @@ src/
 
   lib/
     categories.ts
+    i18n.ts
     posts.ts
     postTheme.ts
     tournament.ts
@@ -89,6 +101,11 @@ content/
 - `src/lib/postTheme.ts`
   - vizuelna tema po kategoriji
   - fallback cover logika kada nema slike
+
+- `src/lib/i18n.ts`
+  - osnovni UI copy po jeziku
+  - locale helper za `sr` i `en`
+  - bazni sloj za dalje sirenje visejezicnosti
 
 ### Turnir Cerovac logika
 

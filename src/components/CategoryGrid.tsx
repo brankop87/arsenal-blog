@@ -1,18 +1,24 @@
 'use client'
 import Link from 'next/link'
-import { categoryLabels, Category } from '@/lib/categories'
+import { Category, getCategoryLabel, getCategorySegment } from '@/lib/categories'
 import { getCategoryTheme } from '@/lib/postTheme'
+import { Locale, getUi, localePrefix } from '@/lib/i18n'
 
-type Props = { categories: Category[]; counts: Record<string, number> }
+type Props = { categories: Category[]; counts: Record<string, number>; locale?: Locale }
 
-export default function CategoryGrid({ categories, counts }: Props) {
+export default function CategoryGrid({ categories, counts, locale = 'sr' }: Props) {
+  const ui = getUi(locale)
+  const prefix = localePrefix(locale)
+
   return (
     <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4,1fr)', gap: '1rem' }} className="cat-grid">
-      {categories.map(cat => {
+      {categories.map((cat) => {
         const theme = getCategoryTheme(cat)
+        const href = `${prefix}/${locale === 'en' ? 'categories' : 'kategorije'}/${getCategorySegment(cat, locale)}`
+        const count = counts[cat] ?? 0
 
         return (
-          <Link key={cat} href={`/kategorije/${cat}`} style={{ textDecoration: 'none' }}>
+          <Link key={cat} href={href} style={{ textDecoration: 'none' }}>
             <div
               className="category-card"
               style={{
@@ -35,21 +41,26 @@ export default function CategoryGrid({ categories, counts }: Props) {
                     {theme.label}
                   </div>
                   <div style={{ fontFamily: "'Playfair Display',serif", fontWeight: 700, fontSize: '2rem', color: '#fff', marginBottom: '0.5rem', lineHeight: 1.05 }}>
-                    {categoryLabels[cat].sr}
+                    {getCategoryLabel(cat, locale)}
                   </div>
                   <div style={{ fontSize: '0.95rem', color: 'rgba(255,255,255,0.58)', lineHeight: 1.7 }}>
-                    {cat === 'utakmice' && 'Analize, reakcije i ključni momenti svakog važnog meča.'}
-                    {cat === 'treninzi' && 'Forma, taktički detalji i sve što stiže sa trening terena.'}
-                    {cat === 'takmicenja' && 'Šira slika sezone, borba za trofeje i kontekst tabele.'}
-                    {cat === 'vesti' && 'Transferi, izjave i najvažnije klupske priče na jednom mestu.'}
+                    {locale === 'sr' && cat === 'utakmice' && 'Analize, reakcije i ključni momenti svakog važnog meča.'}
+                    {locale === 'sr' && cat === 'treninzi' && 'Forma, taktički detalji i sve što stiže sa trening terena.'}
+                    {locale === 'sr' && cat === 'takmicenja' && 'Šira slika sezone, borba za trofeje i kontekst tabele.'}
+                    {locale === 'sr' && cat === 'vesti' && 'Transferi, izjave i najvažnije klupske priče na jednom mestu.'}
+
+                    {locale === 'en' && cat === 'utakmice' && 'Match analysis, turning points and the bigger reading of Arsenal performances.'}
+                    {locale === 'en' && cat === 'treninzi' && 'Form, training ground details and the tactical clues that shape the next game.'}
+                    {locale === 'en' && cat === 'takmicenja' && 'The wider picture of the season, the trophy race and the context around each campaign.'}
+                    {locale === 'en' && cat === 'vesti' && 'Transfers, club decisions, quotes and the key stories moving the Arsenal narrative.'}
                   </div>
                 </div>
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingTop: '1rem', borderTop: '1px solid rgba(255,255,255,0.05)' }}>
                   <div style={{ fontFamily: "'Barlow Condensed',sans-serif", fontSize: '0.72rem', letterSpacing: '0.12em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.36)' }}>
-                    {counts[cat] ?? 0} {(counts[cat] ?? 0) === 1 ? 'tekst' : 'tekstova'}
+                    {count} {count === 1 ? ui.categoryPage.oneStory : ui.categoryPage.manyStories}
                   </div>
                   <div style={{ fontFamily: "'Barlow Condensed',sans-serif", fontSize: '0.72rem', letterSpacing: '0.18em', textTransform: 'uppercase', color: '#fff' }}>
-                    Otvori rubriku
+                    {ui.categoryPage.openSection}
                   </div>
                 </div>
               </div>

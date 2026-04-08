@@ -1,16 +1,19 @@
 'use client'
 import Link from 'next/link'
-import { PostMeta } from '@/lib/posts'
-import { categoryLabels } from '@/lib/categories'
-import { getCategoryTheme, getFallbackCoverBackground } from '@/lib/postTheme'
 import { format } from 'date-fns'
-import { sr } from 'date-fns/locale'
+import { enUS, sr } from 'date-fns/locale'
+import { PostMeta } from '@/lib/posts'
+import { getCategoryLabel } from '@/lib/categories'
+import { getCategoryTheme, getFallbackCoverBackground } from '@/lib/postTheme'
+import { Locale, localePrefix } from '@/lib/i18n'
 
-type Props = { post: PostMeta; size?: 'large' | 'medium' | 'small' }
+type Props = { post: PostMeta; size?: 'large' | 'medium' | 'small'; locale?: Locale }
 
-function formatDate(date: string) {
+function formatDate(date: string, locale: Locale) {
   try {
-    return format(new Date(date), 'd. MMMM yyyy.', { locale: sr })
+    return format(new Date(date), locale === 'en' ? 'MMMM d, yyyy' : 'd. MMMM yyyy.', {
+      locale: locale === 'en' ? enUS : sr,
+    })
   } catch {
     return date
   }
@@ -85,14 +88,15 @@ function CoverArt({ post, compact = false }: { post: PostMeta; compact?: boolean
   )
 }
 
-export default function PostCard({ post, size = 'medium' }: Props) {
-  const cat = categoryLabels[post.category]?.sr ?? post.category
-  const date = formatDate(post.date)
+export default function PostCard({ post, size = 'medium', locale = 'sr' }: Props) {
+  const cat = getCategoryLabel(post.category, locale)
+  const date = formatDate(post.date, locale)
   const theme = getCategoryTheme(post.category)
+  const href = `${localePrefix(locale)}/blog/${post.slug}`
 
   if (size === 'large') {
     return (
-      <Link href={`/blog/${post.slug}`} style={{ textDecoration: 'none', display: 'block' }}>
+      <Link href={href} style={{ textDecoration: 'none', display: 'block' }}>
         <article
           className="card-hover"
           style={{
@@ -154,7 +158,7 @@ export default function PostCard({ post, size = 'medium' }: Props) {
 
   if (size === 'small') {
     return (
-      <Link href={`/blog/${post.slug}`} style={{ textDecoration: 'none', display: 'block' }}>
+      <Link href={href} style={{ textDecoration: 'none', display: 'block' }}>
         <article className="story-list-card card-hover" style={{ display: 'grid', gridTemplateColumns: '96px 1fr', gap: '1rem', padding: '1rem', border: '1px solid rgba(255,255,255,0.05)', borderRadius: '18px', background: 'rgba(255,255,255,0.02)', cursor: 'pointer' }}>
           <div style={{ position: 'relative', minHeight: '88px', overflow: 'hidden', borderRadius: '14px', background: '#1C1C1C' }}>
             <CoverArt post={post} compact />
@@ -171,7 +175,7 @@ export default function PostCard({ post, size = 'medium' }: Props) {
   }
 
   return (
-    <Link href={`/blog/${post.slug}`} style={{ textDecoration: 'none', display: 'block' }}>
+    <Link href={href} style={{ textDecoration: 'none', display: 'block' }}>
       <article
         className="card-hover"
         style={{

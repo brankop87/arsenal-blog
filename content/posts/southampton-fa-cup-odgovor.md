@@ -4,6 +4,8 @@ excerpt: "Posle poraza od Manchester Cityja u finalu Liga kupa, Arsenal ulazi u 
 date: "2026-04-01"
 category: utakmice
 featured: false
+titleEn: "Southampton are the next test: Arsenal need a response"
+excerptEn: "After losing to Manchester City in the League Cup final, Arsenal entered the FA Cup quarter-final with a clear task: reset quickly and protect belief before the season run-in."
 coverImage: "https://images.pexels.com/photos/12469622/pexels-photo-12469622.jpeg?cs=srgb&dl=pexels-joaquin-carfagna-3131171-12469622.jpg&fm=jpg"
 ---
 

@@ -6,6 +6,7 @@ import remarkGfm from 'remark-gfm'
 import remarkRehype from 'remark-rehype'
 import rehypeStringify from 'rehype-stringify'
 import { Category, categoryLabels } from './categories'
+import { Locale } from './i18n'
 
 export type { Category }
 export { categoryLabels }
@@ -16,6 +17,8 @@ export type PostMeta = {
   slug: string
   title: string
   excerpt: string
+  titleEn?: string
+  excerptEn?: string
   date: string
   category: Category
   coverImage: string
@@ -28,26 +31,28 @@ export type Post = PostMeta & {
 
 export function getAllPosts(): PostMeta[] {
   if (!fs.existsSync(postsDir)) return []
-  const files = fs.readdirSync(postsDir).filter(f => f.endsWith('.md'))
+  const files = fs.readdirSync(postsDir).filter((f) => f.endsWith('.md'))
   const posts = files.map((filename): PostMeta => {
     const slug = filename.replace(/\.md$/, '')
     const raw = fs.readFileSync(path.join(postsDir, filename), 'utf-8')
     const { data } = matter(raw)
     return {
       slug,
-      title:      data.title      ?? '',
-      excerpt:    data.excerpt     ?? '',
-      date:       data.date        ?? '',
-      category:   data.category    ?? 'vesti',
-      coverImage: data.coverImage  ?? '',
-      featured:   data.featured    ?? false,
+      title: data.title ?? '',
+      excerpt: data.excerpt ?? '',
+      titleEn: data.titleEn ?? '',
+      excerptEn: data.excerptEn ?? '',
+      date: data.date ?? '',
+      category: data.category ?? 'vesti',
+      coverImage: data.coverImage ?? '',
+      featured: data.featured ?? false,
     }
   })
   return posts.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
 }
 
 export function getPostsByCategory(cat: string): PostMeta[] {
-  return getAllPosts().filter(p => p.category === cat)
+  return getAllPosts().filter((p) => p.category === cat)
 }
 
 export async function getPostBySlug(slug: string): Promise<Post | null> {
@@ -63,12 +68,34 @@ export async function getPostBySlug(slug: string): Promise<Post | null> {
   const contentHtml = processed.toString()
   return {
     slug,
-    title:      data.title      ?? '',
-    excerpt:    data.excerpt     ?? '',
-    date:       data.date        ?? '',
-    category:   data.category    ?? 'vesti',
-    coverImage: data.coverImage  ?? '',
-    featured:   data.featured    ?? false,
+    title: data.title ?? '',
+    excerpt: data.excerpt ?? '',
+    titleEn: data.titleEn ?? '',
+    excerptEn: data.excerptEn ?? '',
+    date: data.date ?? '',
+    category: data.category ?? 'vesti',
+    coverImage: data.coverImage ?? '',
+    featured: data.featured ?? false,
     contentHtml,
+  }
+}
+
+export function localizePostMeta(post: PostMeta, locale: Locale): PostMeta {
+  if (locale !== 'en') return post
+
+  return {
+    ...post,
+    title: post.titleEn || post.title,
+    excerpt: post.excerptEn || post.excerpt,
+  }
+}
+
+export function localizePost(post: Post, locale: Locale): Post {
+  if (locale !== 'en') return post
+
+  return {
+    ...post,
+    title: post.titleEn || post.title,
+    excerpt: post.excerptEn || post.excerpt,
   }
 }
