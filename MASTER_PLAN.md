@@ -379,3 +379,33 @@ Prakticno:
 - Turnir Cerovac ostaje lokalni sportski modul
 - buduce sekcije dobijaju svoj route, svoj data layer i svoje komponente
 - dokumentovanje je obavezno pri svakoj vecoj promeni
+
+---
+
+## 13. AKTUELNO STANJE PLATFORME
+
+Trenutno je potvrdeno i uvedeno:
+- srpski glavni sajt kao primarni proizvod
+- `Turnir Cerovac` kao zaseban modul
+- Vercel Analytics kao osnovni analytics sloj
+- prvi engleski portfolio layer za blog:
+  - `/en`
+  - `/en/blog/[slug]`
+  - `/en/categories/[category]`
+
+Engleski layer trenutno nije pun dvojezicni CMS sistem.
+Za sada sluzi da portfolio i prvi utisak prema stranim klijentima imaju smisla bez lomljenja srpskog dela sajta.
+
+To znaci:
+- UI moze biti na engleskom
+- najvazniji postovi mogu imati `titleEn` i `excerptEn`
+- puni engleski tekstovi se uvode postepeno, samo tamo gde imaju portfolio vrednost
+
+---
+
+## 14. SLEDECI PRAKTICNI PRIORITETI
+
+- uvesti `SR / EN` switch kada engleski layer bude dovoljno cist za javni prikaz
+- odrediti koje 3-5 price moraju imati pune engleske verzije
+- osmisliti subscribe/public layer za rast publike
+- kasnije prebaciti cesto menjane podatke na admin-friendly sloj bez lomljenja projekta

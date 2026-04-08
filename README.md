@@ -1,6 +1,11 @@
-# The Cannon — Arsenal Blog
+# The Cannon - Arsenal Blog
 
-Magazine-style blog za Arsenal, sa dodatim modularnim `/turnir` microsite delom za lokalni fudbalski turnir. Next.js 15, TypeScript, Tailwind CSS.
+Magazine-style blog za Arsenal, sa dodatim modularnim `/turnir` microsite delom za lokalni fudbalski turnir. Next.js 15, TypeScript, file-based content i Vercel deploy.
+
+Pored srpskog glavnog sajta, projekat sada ima i prvi engleski portfolio layer za blog:
+- `/en`
+- `/en/blog/[slug]`
+- `/en/categories/[category]`
 
 ---
 
@@ -22,6 +27,17 @@ npm.cmd run build
 
 ---
 
+## Sta je trenutno aktivno
+
+- Arsenal blog sa markdown postovima
+- `Turnir Cerovac` kao zaseban modul unutar istog projekta
+- branded fallback cover sistem kada post nema sliku
+- urednicki potpis na postovima: `_Autor: B._`
+- Vercel Analytics za pracenje osnovne posecenosti
+- prvi engleski portfolio layer za blog deo sajta
+
+---
+
 ## Kako dodati novi post
 
 1. Napravi novi `.md` fajl u `content/posts/`
@@ -30,7 +46,9 @@ npm.cmd run build
 ```markdown
 ---
 title: "Naslov posta"
-excerpt: "Kratak opis koji se prikazuje na kartici (1-2 rečenice)"
+excerpt: "Kratak opis koji se prikazuje na kartici (1-2 recenice)"
+titleEn: "Optional English title"
+excerptEn: "Optional English excerpt"
 date: "2025-03-20"
 category: utakmice
 featured: false
@@ -43,24 +61,26 @@ Tekst posta ide ovde...
 
 Paragraf teksta.
 
-> Citat nekoga važnog
+> Citat nekoga vaznog
 
 **Podebljano** i *kurziv* rade normalno.
+
+_Autor: B._
 ```
 
 ### Kategorije
-- `utakmice` — izveštaji sa utakmica
-- `treninzi` — sa treninga, povrede, forma
-- `takmicenja` — tabele, runde, CL
-- `vesti` — transferi, najave, ostalo
+- `utakmice` - izvestaji sa utakmica
+- `treninzi` - sa treninga, povrede, forma
+- `takmicenja` - tabele, runde, CL
+- `vesti` - transferi, najave, ostalo
 
 ### Featured post
-Postavi `featured: true` da bi post bio glavni na homepage-u. Samo jedan post treba da ima `featured: true`.
+Homepage sada po difoltu uzima najsveziji post kao glavni hero. `featured` polje je zadrzano u frontmatter-u, ali glavni ritam naslovne vise ne zavisi od njega.
 
 ### Cover slika
-URL slike sa interneta u `coverImage`. Preporučeno: 1200×675px (16:9 format).
+URL slike sa interneta u `coverImage`. Preporuceno: 1200x675px (16:9 format).
 
-Ako `coverImage` ostane prazan, sajt sada automatski koristi branded fallback cover.
+Ako `coverImage` ostane prazan, sajt automatski koristi branded fallback cover.
 
 ### Potpis autora
 Na kraju svakog teksta standardno dodaj:
@@ -70,6 +90,16 @@ _Autor: B._
 ```
 
 To ostaje kao diskretan i dosledan urednicki potpis kroz ceo blog.
+
+### Engleski portfolio layer
+Ako hoces da se isti post smisleno prikaze i na `/en`, dodaj i:
+
+```markdown
+titleEn: "English title"
+excerptEn: "English excerpt"
+```
+
+Za sada je to dovoljno da engleski homepage, listing i hero deluju portfolio-friendly, bez pune duplirane engleske verzije clanka.
 
 ---
 
@@ -83,6 +113,7 @@ Nova sekcija je dostupna na:
 - `/turnir/timovi`
 - `/turnir/sponzori`
 - `/turnir/vesti`
+- `/turnir/istorijat`
 
 ### Gde se menjaju podaci za turnir
 
@@ -93,6 +124,7 @@ Podaci su trenutno lokalni i nalaze se ovde:
 - `src/data/turnir/teams.json`
 - `src/data/turnir/sponsors.json`
 - `src/data/turnir/news.json`
+- `src/data/turnir/history.json`
 
 To znaci da za svaku promenu:
 - izmenis JSON
@@ -108,14 +140,25 @@ Ako hocemo unos sa telefona bez ulaska u kod, sledeca faza je:
 
 ---
 
+## Analytics
+
+Web analytics je uveden preko `@vercel/analytics`.
+
+Trenutno stanje:
+- osnovni visitors/page views rade kroz Vercel dashboard
+- dovoljno za rani pregled sta ljudi citaju
+- sledeci korak kasnije moze biti subscribe/newsletter sloj
+
+---
+
 ## Deploy na Vercel
 
 1. Push projekat na GitHub
-2. Otvori [vercel.com](https://vercel.com) → New Project → Import sa GitHub
-3. Vercel prepoznaje Next.js automatski → klikni Deploy
-4. Svaki `git push` automatski rebuilda sajt
-
-Ako se lokalna promena ne vidi na sajtu, to znaci da jos nije otisla nova verzija na GitHub ili da Vercel nije zavrsio deploy.
+2. Vercel automatski rebuilda sajt na svaki `git push`
+3. Ako se lokalna promena ne vidi na sajtu, proveri:
+   - da li je commit otisao na GitHub
+   - da li je Vercel deployment `Ready`
+   - da li gledas pravu rutu
 
 ---
 
@@ -130,11 +173,11 @@ Za nastavak rada obavezno gledati i ove fajlove:
 
 ---
 
-## Kako mi šalješ materijal za novi post
+## Kako mi saljes materijal za novi post
 
-Okači mi u chat:
-- Screenshots ili slike
-- Tekst, beleške, detalji
-- Kaži kategoriju i ton
+Okaci mi u chat:
+- screenshots ili slike
+- tekst, beleske, detalji
+- kategoriju i ton
 
-Ja napišem gotov `.md` fajl koji samo copy-paste-uješ u `content/posts/`.
+Ja vracam gotov `.md` fajl spreman za projekat, sa naslovom, excerptom i po potrebi i engleskim `titleEn/excerptEn` slojem za portfolio prikaz.

@@ -93,6 +93,7 @@ content/
   - parsira frontmatter
   - sortira postove po datumu
   - pretvara markdown u HTML za pojedinacni post
+  - drzi i optional `titleEn` / `excerptEn` layer za portfolio-friendly engleski prikaz
 
 - `src/lib/categories.ts`
   - nazivi kategorija
@@ -121,6 +122,11 @@ content/
 - `src/components/PostCard.tsx`
   - sve varijante blog kartica
   - fallback branded cover kada `coverImage` ne postoji
+  - prima `locale` i prilagodjava kategoriju, datum i link za `sr` / `en`
+
+- `src/components/HomePageView.tsx`
+  - shared homepage prikaz za srpski i engleski layer
+  - koristi isti editorial raspored sa razlicitim UI copy-jem
 
 - `src/components/tournament/*`
   - reusable delovi za turnir modul
@@ -152,6 +158,12 @@ Menjaju se ovde:
 - `src/data/turnir/history.json`
 
 To je trenutno najjednostavniji i najstabilniji sistem za start.
+
+Za engleski portfolio layer trenutno vazi:
+- UI je preveden kroz `src/lib/i18n.ts`
+- postovi nisu jos puni dvojezicni CMS sistem
+- za portfolio prikaz trenutno se koriste `titleEn` i `excerptEn`
+- originalni sadrzaj clanka moze ostati na srpskom dok se ne uvedu pune engleske verzije
 
 ## 5. Kako radi update na Vercel
 
@@ -210,6 +222,10 @@ Plan:
 - kasnije odvajanje publike po interesovanju:
   - Arsenal blog publika
   - Turnir Cerovac publika
+
+Trenutno:
+- osnovni analytics radi kroz Vercel Analytics
+- subscribe jos nije uveden u UI ni backend
 
 To znaci da ce `subscribe` biti uveden kao poseban platform feature, ne kao jednokratni widget.
 
