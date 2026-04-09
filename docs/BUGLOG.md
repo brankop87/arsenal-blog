@@ -45,3 +45,26 @@ Ovaj fajl vodi evidenciju o bitnim greskama i kako su resene.
   - build proveravati eskalirano kada sandbox blokira proces
 - Status:
   - workaround poznat i potvrdjen
+
+### Problem: terminal i pojedini fajlovi prikazuju polomljena srpska slova
+- Simptom:
+  - tekst u PowerShell prikazu ume da izgleda kao `Ä`, `Å¡`, `Å¾`
+- Uzrok:
+  - razlika izmedju UTF-8 sadrzaja u fajlu i lokalnog terminal/code page prikaza
+- Resenje:
+  - najvidljivije tekstove uvoditi oprezno i proveravati live sajt, ne samo terminal output
+  - dokumentovati da terminal prikaz nije uvek merodavan za finalni web prikaz
+- Status:
+  - poznato ogranicenje, radni proces prilagodjen
+
+### Problem: engleski portfolio layer ne treba da polomi srpski glavni sajt
+- Simptom:
+  - potreba za engleskim prikazom za portfolio, bez uvodjenja punog dvojezicnog sistema odjednom
+- Uzrok:
+  - UI i sadrzaj su prvobitno bili vodjeni samo za srpski glavni tok
+- Resenje:
+  - uveden poseban `en` layer za blog deo sajta
+  - turnir ostavljen na srpskom dok ne dodje pravi trenutak za njegov prevod
+  - engleski prikaz trenutno koristi preveden UI plus `titleEn` / `excerptEn` za kljucne postove
+- Status:
+  - ispravljeno kroz prvu fazu, dalje sirenje planirano
