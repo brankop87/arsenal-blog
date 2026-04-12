@@ -54,6 +54,7 @@
 - dodat prvi krug srpskih slova na najvidljivijim delovima sajta i na istaknutim postovima sa naslovne
 - dokumentovan dugorocni modularni smer projekta: blog, turnir, publika, subscribe i admin se vode kao jedna platforma
 - dodat prvi engleski portfolio layer za blog: `/en`, engleske kategorije i engleski blog prikaz bez diranja turnir sekcije
+- dodat novi Arsenal tekst posle poraza od Bournemoutha, sa kontekstom pobede nad Sportingom i Artetinim preuzimanjem odgovornosti
 
 ### Verifikacija
 - production build uspesno prosao nakon izmena
