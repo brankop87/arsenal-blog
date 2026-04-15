@@ -38,6 +38,7 @@ npm.cmd run build
 - urednicki potpis na postovima: `_Autor: B._`
 - Vercel Analytics za pracenje osnovne posecenosti
 - engleski i nemacki portfolio layer za blog deo sajta
+- language switch u navbaru za blog rute: `SR / EN / DE`
 
 ---
 
@@ -108,6 +109,13 @@ excerptDe: "German excerpt"
 
 Za sada je to dovoljno da homepage, listing, kategorije i hero deluju portfolio-friendly, bez pune duplirane verzije clanka.
 Srpski tekst ostaje glavni izvor istine, dok `/en` i `/de` jasno prikazuju da je originalni clanak na srpskom dok ne uvedemo kompletne prevode tela teksta.
+
+Navbar ima `SR / EN / DE` switch na blog delu sajta. Switch prevodi:
+- homepage rute
+- blog post rute preko istog `slug`
+- kategorije preko centralne mape segmenata
+
+Turnir Cerovac za sada ne prikazuje language switch jer nije preveden i ne treba posetioca voditi na lazno lokalizovane turnirske rute.
 
 ---
 

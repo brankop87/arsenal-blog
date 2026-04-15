@@ -178,7 +178,9 @@ Za engleski portfolio layer trenutno vazi:
 Za nemacki layer vazi isti princip kao za engleski:
 - `/de` je paralelan portfolio/locale layer
 - nema agresivnog automatskog preusmeravanja po lokaciji
-- korisnik treba da dobije jasan jezik kroz URL ili kasniji `SR / EN / DE` switch
+- korisnik dobija jasan jezik kroz URL i `SR / EN / DE` switch u navbaru
+- switch mapira homepage, blog postove i kategorije kroz centralizovane locale helper-e
+- Turnir Cerovac za sada ne prikazuje switch jer nije preveden i ne treba praviti lazne lokalizovane turnirske rute
 
 ## 5. Kako radi update na Vercel
 

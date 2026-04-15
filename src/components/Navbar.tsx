@@ -1,10 +1,12 @@
 'use client'
 import Link from 'next/link'
+import { usePathname } from 'next/navigation'
 import { useState } from 'react'
-import { Category, getCategoryLabel, getCategorySegment } from '@/lib/categories'
-import { Locale, getUi, localePrefix, localizedCategoryRoot } from '@/lib/i18n'
+import { Category, getCategoryLabel, getCategorySegment, localizedCategorySegments } from '@/lib/categories'
+import { Locale, getUi, localePrefix, localizedCategoryRoot, supportedLocales } from '@/lib/i18n'
 
 const categories: Category[] = ['utakmice', 'treninzi', 'takmicenja', 'vesti']
+const localeLabels: Record<Locale, string> = { sr: 'SR', en: 'EN', de: 'DE' }
 
 type Props = {
   locale?: Locale
@@ -12,8 +14,65 @@ type Props = {
 
 export default function Navbar({ locale = 'sr' }: Props) {
   const [open, setOpen] = useState(false)
+  const pathname = usePathname()
   const ui = getUi(locale)
   const prefix = localePrefix(locale)
+  const isTournamentPath = pathname.startsWith('/turnir')
+
+  const getLanguageHref = (targetLocale: Locale) => {
+    if (isTournamentPath) return '/turnir'
+
+    const parts = pathname.split('/').filter(Boolean)
+    const hasLocalePrefix = parts[0] === 'en' || parts[0] === 'de'
+    const routeParts = hasLocalePrefix ? parts.slice(1) : parts
+    const targetPrefix = localePrefix(targetLocale)
+
+    if (routeParts.length === 0) return targetPrefix || '/'
+
+    if (routeParts[0] === 'blog' && routeParts[1]) {
+      return `${targetPrefix}/blog/${routeParts[1]}`
+    }
+
+    const isCategoryRoute = routeParts[0] === 'kategorije' || routeParts[0] === 'categories'
+    if (isCategoryRoute && routeParts[1]) {
+      const category = localizedCategorySegments[routeParts[1]] || (categories.includes(routeParts[1] as Category) ? (routeParts[1] as Category) : undefined)
+      if (category) {
+        return `${targetPrefix}/${localizedCategoryRoot(targetLocale)}/${getCategorySegment(category, targetLocale)}`
+      }
+    }
+
+    return targetPrefix || '/'
+  }
+
+  const languageSwitch = (
+    <div className="language-switch" style={{ display: 'flex', alignItems: 'center', gap: '0.25rem', padding: '0.25rem', borderRadius: '999px', border: '1px solid rgba(255,255,255,0.08)', background: 'rgba(255,255,255,0.025)' }}>
+      {supportedLocales.map((targetLocale) => {
+        const active = targetLocale === locale
+        return (
+          <Link
+            key={targetLocale}
+            href={getLanguageHref(targetLocale)}
+            aria-current={active ? 'page' : undefined}
+            style={{
+              minWidth: '2rem',
+              padding: '0.38rem 0.48rem',
+              borderRadius: '999px',
+              textAlign: 'center',
+              textDecoration: 'none',
+              fontFamily: "'Barlow Condensed', sans-serif",
+              fontWeight: 700,
+              fontSize: '0.68rem',
+              letterSpacing: '0.12em',
+              color: active ? '#111' : 'rgba(255,255,255,0.58)',
+              background: active ? '#C4A35A' : 'transparent',
+            }}
+          >
+            {localeLabels[targetLocale]}
+          </Link>
+        )
+      })}
+    </div>
+  )
 
   return (
     <header style={{ position: 'sticky', top: 0, zIndex: 50, backdropFilter: 'blur(14px)', background: 'rgba(10,10,10,0.82)', borderBottom: '1px solid rgba(255,255,255,0.06)' }}>
@@ -78,6 +137,7 @@ export default function Navbar({ locale = 'sr' }: Props) {
           <div style={{ padding: '0.5rem 0.8rem', borderRadius: '999px', border: '1px solid rgba(255,255,255,0.08)', fontFamily: "'Barlow Condensed', sans-serif", fontSize: '0.7rem', letterSpacing: '0.18em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.46)' }}>
             {ui.northLondon}
           </div>
+          {!isTournamentPath && languageSwitch}
         </div>
 
         <button onClick={() => setOpen(!open)} style={{ display: 'none', background: 'none', border: '1px solid rgba(255,255,255,0.08)', borderRadius: '12px', cursor: 'pointer', padding: '10px 11px' }} className="nav-mobile" aria-label="Menu">
@@ -131,6 +191,7 @@ export default function Navbar({ locale = 'sr' }: Props) {
           >
             {ui.turnirLabel}
           </Link>
+          {!isTournamentPath && <div style={{ paddingTop: '0.9rem' }}>{languageSwitch}</div>}
         </div>
       )}
 

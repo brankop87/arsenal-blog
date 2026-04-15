@@ -56,6 +56,7 @@
 - dodat prvi engleski portfolio layer za blog: `/en`, engleske kategorije i engleski blog prikaz bez diranja turnir sekcije
 - dodat novi Arsenal tekst posle poraza od Bournemoutha, sa kontekstom pobede nad Sportingom i Artetinim preuzimanjem odgovornosti
 - dodat nemacki portfolio layer za blog: `/de`, nemacke kategorije i nemacki blog prikaz bez diranja srpskog sajta i turnira
+- dodat `SR / EN / DE` language switch u navbaru za blog deo sajta, sa mapiranjem homepage-a, postova i kategorija
 
 ### Verifikacija
 - production build uspesno prosao nakon izmena

@@ -78,6 +78,7 @@ Ovaj fajl vodi evidenciju o bitnim greskama i kako su resene.
   - `Locale` je prosiren na `sr | en | de`
   - centralizovani su `localePrefix`, `localizedCategoryRoot`, labeli kategorija i segmenti ruta
   - uvedene su `/de`, `/de/blog/[slug]` i `/de/categories/[category]` rute
+  - dodat je `SR / EN / DE` language switch na blog rutama, bez prikazivanja na neprevedenom Turniru Cerovac
   - postovi mogu da koriste `titleDe` / `excerptDe`, uz fallback na engleski pa srpski ako nemacki tekst ne postoji
 - Status:
   - ispravljeno kroz modularni locale sloj
