@@ -174,6 +174,7 @@ Za engleski portfolio layer trenutno vazi:
 - postovi nisu jos puni dvojezicni CMS sistem
 - za portfolio prikaz trenutno se koriste `titleEn` / `excerptEn` i `titleDe` / `excerptDe`
 - originalni sadrzaj clanka moze ostati na srpskom dok se ne uvedu pune engleske verzije
+- ako postoji `content/posts/{locale}/{slug}.md`, lokalizovana blog stranica prikazuje taj prevedeni body umesto srpskog originala
 
 Za nemacki layer vazi isti princip kao za engleski:
 - `/de` je paralelan portfolio/locale layer
@@ -181,6 +182,7 @@ Za nemacki layer vazi isti princip kao za engleski:
 - korisnik dobija jasan jezik kroz URL i `SR / EN / DE` switch u navbaru
 - switch mapira homepage, blog postove i kategorije kroz centralizovane locale helper-e
 - Turnir Cerovac za sada ne prikazuje switch jer nije preveden i ne treba praviti lazne lokalizovane turnirske rute
+- puni nemacki prevod poslednjeg clanka dodat je kroz `content/posts/de/arsenal-pritisak-bournemouth-sporting.md`
 
 ## 5. Kako radi update na Vercel
 

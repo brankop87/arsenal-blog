@@ -57,6 +57,8 @@
 - dodat novi Arsenal tekst posle poraza od Bournemoutha, sa kontekstom pobede nad Sportingom i Artetinim preuzimanjem odgovornosti
 - dodat nemacki portfolio layer za blog: `/de`, nemacke kategorije i nemacki blog prikaz bez diranja srpskog sajta i turnira
 - dodat `SR / EN / DE` language switch u navbaru za blog deo sajta, sa mapiranjem homepage-a, postova i kategorija
+- dodat sistem za opcioni puni prevod tela posta preko `content/posts/{locale}/{slug}.md`
+- dodat pun nemacki prevod za poslednji Arsenal tekst `arsenal-pritisak-bournemouth-sporting`
 
 ### Verifikacija
 - production build uspesno prosao nakon izmena

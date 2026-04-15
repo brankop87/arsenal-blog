@@ -6,7 +6,7 @@ import Footer from '@/components/Footer'
 import PostCard from '@/components/PostCard'
 import { getCategoryLabel } from '@/lib/categories'
 import { getCategoryTheme, getFallbackCoverBackground } from '@/lib/postTheme'
-import { getAllPosts, getPostBySlug, localizePost, localizePostMeta } from '@/lib/posts'
+import { getAllPosts, getLocalizedPostContent, getPostBySlug, localizePost, localizePostMeta } from '@/lib/posts'
 import { getUi, Locale } from '@/lib/i18n'
 
 type Props = {
@@ -19,6 +19,8 @@ export default async function LocalizedBlogPostPage({ slug, locale }: Props) {
   if (!rawPost) notFound()
 
   const post = localizePost(rawPost, locale)
+  const localizedContentHtml = await getLocalizedPostContent(slug, locale)
+  const articleContentHtml = localizedContentHtml ?? rawPost.contentHtml
   const ui = getUi(locale)
   const all = getAllPosts().map((item) => localizePostMeta(item, locale))
   const related = all.filter((p) => p.slug !== post.slug && p.category === post.category).slice(0, 3)
@@ -83,11 +85,13 @@ export default async function LocalizedBlogPostPage({ slug, locale }: Props) {
                 </p>
               </div>
 
-              <div style={{ padding: '1rem 1.1rem', borderRadius: '18px', background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.06)', color: 'rgba(255,255,255,0.72)', lineHeight: 1.75, marginBottom: '1.5rem' }}>
-                {ui.blog.originalNotice}
-              </div>
+              {!localizedContentHtml && (
+                <div style={{ padding: '1rem 1.1rem', borderRadius: '18px', background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.06)', color: 'rgba(255,255,255,0.72)', lineHeight: 1.75, marginBottom: '1.5rem' }}>
+                  {ui.blog.originalNotice}
+                </div>
+              )}
 
-              <div className="article-body" dangerouslySetInnerHTML={{ __html: rawPost.contentHtml }} />
+              <div className="article-body" dangerouslySetInnerHTML={{ __html: articleContentHtml }} />
             </article>
 
             <aside style={{ display: 'grid', alignContent: 'start', gap: '1rem' }}>

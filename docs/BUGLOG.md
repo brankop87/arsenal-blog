@@ -80,6 +80,7 @@ Ovaj fajl vodi evidenciju o bitnim greskama i kako su resene.
   - uvedene su `/de`, `/de/blog/[slug]` i `/de/categories/[category]` rute
   - dodat je `SR / EN / DE` language switch na blog rutama, bez prikazivanja na neprevedenom Turniru Cerovac
   - postovi mogu da koriste `titleDe` / `excerptDe`, uz fallback na engleski pa srpski ako nemacki tekst ne postoji
+  - lokalizovane blog stranice sada mogu da povuku puni body iz `content/posts/{locale}/{slug}.md`
 - Status:
   - ispravljeno kroz modularni locale sloj
 

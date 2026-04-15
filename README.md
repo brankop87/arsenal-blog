@@ -117,6 +117,28 @@ Navbar ima `SR / EN / DE` switch na blog delu sajta. Switch prevodi:
 
 Turnir Cerovac za sada ne prikazuje language switch jer nije preveden i ne treba posetioca voditi na lazno lokalizovane turnirske rute.
 
+### Puni prevod tela clanka
+Za nove postove od 2026-04 nadalje, ako hoces pun tekst na nemackom, dodaj fajl:
+
+```text
+content/posts/de/isti-slug-kao-srpski-post.md
+```
+
+Primer:
+
+```text
+content/posts/arsenal-pritisak-bournemouth-sporting.md
+content/posts/de/arsenal-pritisak-bournemouth-sporting.md
+```
+
+Ako prevod postoji, `/de/blog/slug` prikazuje prevedeno telo i ne prikazuje fallback napomenu. Ako prevod ne postoji, stranica prikazuje preveden naslov/excerpt i srpski original uz jasnu napomenu.
+
+Isti princip mozemo prosiriti i na engleski:
+
+```text
+content/posts/en/isti-slug-kao-srpski-post.md
+```
+
 ---
 
 ## Turnir modul

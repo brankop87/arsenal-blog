@@ -13,6 +13,20 @@ export { categoryLabels }
 
 const postsDir = path.join(process.cwd(), 'content/posts')
 
+function getLocalizedPostsDir(locale: Exclude<Locale, 'sr'>) {
+  return path.join(postsDir, locale)
+}
+
+async function markdownToHtml(markdown: string) {
+  const processed = await remark()
+    .use(remarkGfm)
+    .use(remarkRehype)
+    .use(rehypeStringify)
+    .process(markdown)
+
+  return processed.toString()
+}
+
 export type PostMeta = {
   slug: string
   title: string
@@ -64,12 +78,7 @@ export async function getPostBySlug(slug: string): Promise<Post | null> {
   if (!fs.existsSync(filepath)) return null
   const raw = fs.readFileSync(filepath, 'utf-8')
   const { data, content } = matter(raw)
-  const processed = await remark()
-    .use(remarkGfm)
-    .use(remarkRehype)
-    .use(rehypeStringify)
-    .process(content)
-  const contentHtml = processed.toString()
+  const contentHtml = await markdownToHtml(content)
   return {
     slug,
     title: data.title ?? '',
@@ -84,6 +93,15 @@ export async function getPostBySlug(slug: string): Promise<Post | null> {
     featured: data.featured ?? false,
     contentHtml,
   }
+}
+
+export async function getLocalizedPostContent(slug: string, locale: Exclude<Locale, 'sr'>): Promise<string | null> {
+  const filepath = path.join(getLocalizedPostsDir(locale), `${slug}.md`)
+  if (!fs.existsSync(filepath)) return null
+
+  const raw = fs.readFileSync(filepath, 'utf-8')
+  const { content } = matter(raw)
+  return markdownToHtml(content)
 }
 
 export function localizePostMeta(post: PostMeta, locale: Locale): PostMeta {
