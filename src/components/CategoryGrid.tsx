@@ -2,19 +2,20 @@
 import Link from 'next/link'
 import { Category, getCategoryLabel, getCategorySegment } from '@/lib/categories'
 import { getCategoryTheme } from '@/lib/postTheme'
-import { Locale, getUi, localePrefix } from '@/lib/i18n'
+import { Locale, getUi, localizedCategoryRoot, localePrefix } from '@/lib/i18n'
 
 type Props = { categories: Category[]; counts: Record<string, number>; locale?: Locale }
 
 export default function CategoryGrid({ categories, counts, locale = 'sr' }: Props) {
   const ui = getUi(locale)
   const prefix = localePrefix(locale)
+  const categoryRoot = localizedCategoryRoot(locale)
 
   return (
     <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4,1fr)', gap: '1rem' }} className="cat-grid">
       {categories.map((cat) => {
         const theme = getCategoryTheme(cat)
-        const href = `${prefix}/${locale === 'en' ? 'categories' : 'kategorije'}/${getCategorySegment(cat, locale)}`
+        const href = `${prefix}/${categoryRoot}/${getCategorySegment(cat, locale)}`
         const count = counts[cat] ?? 0
 
         return (
@@ -53,6 +54,11 @@ export default function CategoryGrid({ categories, counts, locale = 'sr' }: Prop
                     {locale === 'en' && cat === 'treninzi' && 'Form, training ground details and the tactical clues that shape the next game.'}
                     {locale === 'en' && cat === 'takmicenja' && 'The wider picture of the season, the trophy race and the context around each campaign.'}
                     {locale === 'en' && cat === 'vesti' && 'Transfers, club decisions, quotes and the key stories moving the Arsenal narrative.'}
+
+                    {locale === 'de' && cat === 'utakmice' && 'Spielanalysen, Wendepunkte und ein groesserer Blick auf Arsenals Auftritte.'}
+                    {locale === 'de' && cat === 'treninzi' && 'Form, Trainingsdetails und taktische Hinweise fuer das naechste Spiel.'}
+                    {locale === 'de' && cat === 'takmicenja' && 'Der groessere Rahmen der Saison, der Titelkampf und der Kontext jedes Wettbewerbs.'}
+                    {locale === 'de' && cat === 'vesti' && 'Transfers, Vereinsentscheidungen, Zitate und die wichtigsten Arsenal-Geschichten.'}
                   </div>
                 </div>
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingTop: '1rem', borderTop: '1px solid rgba(255,255,255,0.05)' }}>

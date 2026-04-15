@@ -392,20 +392,29 @@ Trenutno je potvrdeno i uvedeno:
   - `/en`
   - `/en/blog/[slug]`
   - `/en/categories/[category]`
+- prvi nemacki portfolio layer za blog:
+  - `/de`
+  - `/de/blog/[slug]`
+  - `/de/categories/[category]`
 
 Engleski layer trenutno nije pun dvojezicni CMS sistem.
 Za sada sluzi da portfolio i prvi utisak prema stranim klijentima imaju smisla bez lomljenja srpskog dela sajta.
 
 To znaci:
 - UI moze biti na engleskom
+- UI moze biti na nemackom
 - najvazniji postovi mogu imati `titleEn` i `excerptEn`
+- najvazniji postovi mogu imati `titleDe` i `excerptDe`
 - puni engleski tekstovi se uvode postepeno, samo tamo gde imaju portfolio vrednost
+- puni nemacki tekstovi se uvode postepeno, samo tamo gde imaju portfolio vrednost
 
 ---
 
 ## 14. SLEDECI PRAKTICNI PRIORITETI
 
 - uvesti `SR / EN` switch kada engleski layer bude dovoljno cist za javni prikaz
+- prosiriti switch na `SR / EN / DE`
 - odrediti koje 3-5 price moraju imati pune engleske verzije
+- odrediti da li su potrebne pune nemacke verzije ili je dovoljno portfolio UI + naslov/excerpt
 - osmisliti subscribe/public layer za rast publike
 - kasnije prebaciti cesto menjane podatke na admin-friendly sloj bez lomljenja projekta

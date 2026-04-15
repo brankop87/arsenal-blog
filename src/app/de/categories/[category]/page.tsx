@@ -7,17 +7,17 @@ const validCategories: Category[] = ['utakmice', 'treninzi', 'takmicenja', 'vest
 type Props = { params: Promise<{ category: string }> }
 
 export async function generateStaticParams() {
-  return validCategories.map((category) => ({ category: getCategorySegment(category, 'en') }))
+  return validCategories.map((category) => ({ category: getCategorySegment(category, 'de') }))
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { category } = await params
   const resolved = localizedCategorySegments[category] as Category | undefined
   if (!resolved) return {}
-  return { title: getCategoryLabel(resolved, 'en') }
+  return { title: getCategoryLabel(resolved, 'de') }
 }
 
-export default async function EnglishCategoryPage({ params }: Props) {
+export default async function GermanCategoryPage({ params }: Props) {
   const { category } = await params
-  return <LocalizedCategoryPage segment={category} locale="en" />
+  return <LocalizedCategoryPage segment={category} locale="de" />
 }

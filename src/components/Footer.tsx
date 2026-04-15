@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { Category, getCategoryLabel, getCategorySegment } from '@/lib/categories'
-import { Locale, getUi, localePrefix } from '@/lib/i18n'
+import { Locale, getUi, localePrefix, localizedCategoryRoot } from '@/lib/i18n'
 
 const categories: Category[] = ['utakmice', 'treninzi', 'takmicenja', 'vesti']
 
@@ -29,7 +29,7 @@ export default function Footer({ locale = 'sr' }: Props) {
           {categories.map((category) => (
             <Link
               key={category}
-              href={`${prefix}/${locale === 'en' ? 'categories' : 'kategorije'}/${getCategorySegment(category, locale)}`}
+              href={`${prefix}/${localizedCategoryRoot(locale)}/${getCategorySegment(category, locale)}`}
               style={{ display: 'block', fontSize: '1rem', color: 'rgba(255,255,255,0.64)', textDecoration: 'none', marginBottom: '0.65rem' }}
             >
               {getCategoryLabel(category, locale)}

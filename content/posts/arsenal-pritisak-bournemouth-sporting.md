@@ -3,6 +3,8 @@ title: "Pritisak je stigao po svoje"
 excerpt: "Posle kasne pobede nad Sportingom delovalo je da Arsenal možda ponovo hvata dah. Onda je stigao Bournemouth, Emirates je utihnuo, a stara pitanja su se vratila još glasnije."
 titleEn: "The pressure has caught up with Arsenal"
 excerptEn: "After a late win over Sporting, it felt as if Arsenal might be finding air again. Then Bournemouth came to the Emirates, and the old questions returned even louder."
+titleDe: "Der Druck hat Arsenal eingeholt"
+excerptDe: "Nach dem späten Sieg gegen Sporting wirkte es kurz so, als würde Arsenal wieder Luft bekommen. Dann kam Bournemouth ins Emirates, und die alten Fragen wurden noch lauter."
 date: "2026-04-12"
 category: utakmice
 featured: false

@@ -6,6 +6,8 @@ category: utakmice
 featured: false
 titleEn: "Southampton are the next test: Arsenal need a response"
 excerptEn: "After losing to Manchester City in the League Cup final, Arsenal entered the FA Cup quarter-final with a clear task: reset quickly and protect belief before the season run-in."
+titleDe: "Southampton ist der nächste Test: Arsenal braucht eine Antwort"
+excerptDe: "Nach der Niederlage gegen Manchester City im League-Cup-Finale ging Arsenal mit einer klaren Aufgabe ins FA-Cup-Viertelfinale: schnell reagieren und den Glauben vor dem Saisonfinale schützen."
 coverImage: "https://images.pexels.com/photos/12469622/pexels-photo-12469622.jpeg?cs=srgb&dl=pexels-joaquin-carfagna-3131171-12469622.jpg&fm=jpg"
 ---
 

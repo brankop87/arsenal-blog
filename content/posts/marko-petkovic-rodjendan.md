@@ -6,6 +6,8 @@ category: vesti
 featured: false
 titleEn: "Marko Petkovic: a football journey that keeps going"
 excerptEn: "From the youth systems of Smederevo and Red Star to work with young players and tournament success across the region, Marko Petkovic's story is built on continuity, work and love for the game."
+titleDe: "Marko Petkovic: ein Fußballweg, der weitergeht"
+excerptDe: "Von den Jugendabteilungen in Smederevo und bei Roter Stern bis zur Arbeit mit jungen Spielern und Turniererfolgen in der Region: Marko Petkovics Geschichte steht für Kontinuität, Arbeit und Liebe zum Spiel."
 coverImage: "/media/marko/marko-portret-site.jpg"
 ---
 

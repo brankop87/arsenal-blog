@@ -2,7 +2,7 @@
 import Link from 'next/link'
 import { useState } from 'react'
 import { Category, getCategoryLabel, getCategorySegment } from '@/lib/categories'
-import { Locale, getUi, localePrefix } from '@/lib/i18n'
+import { Locale, getUi, localePrefix, localizedCategoryRoot } from '@/lib/i18n'
 
 const categories: Category[] = ['utakmice', 'treninzi', 'takmicenja', 'vesti']
 
@@ -54,7 +54,7 @@ export default function Navbar({ locale = 'sr' }: Props) {
             {ui.turnirLabel}
           </Link>
           {categories.map((category) => {
-            const href = `${prefix}/${locale === 'en' ? 'categories' : 'kategorije'}/${getCategorySegment(category, locale)}`
+            const href = `${prefix}/${localizedCategoryRoot(locale)}/${getCategorySegment(category, locale)}`
             return (
               <Link
                 key={category}
@@ -90,7 +90,7 @@ export default function Navbar({ locale = 'sr' }: Props) {
       {open && (
         <div style={{ background: 'rgba(12,12,12,0.98)', borderTop: '1px solid rgba(255,255,255,0.06)', padding: '0.75rem 1.5rem 1.25rem' }}>
           {categories.map((category) => {
-            const href = `${prefix}/${locale === 'en' ? 'categories' : 'kategorije'}/${getCategorySegment(category, locale)}`
+            const href = `${prefix}/${localizedCategoryRoot(locale)}/${getCategorySegment(category, locale)}`
             return (
               <Link
                 key={category}

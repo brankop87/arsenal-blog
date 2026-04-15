@@ -6,6 +6,8 @@ category: utakmice
 featured: false
 titleEn: "Arsenal must show character tonight"
 excerptEn: "Southampton stand between Arsenal and the FA Cup semi-finals, but this match carries far more than just a place in the next round."
+titleDe: "Arsenal muss heute Abend Charakter zeigen"
+excerptDe: "Southampton steht zwischen Arsenal und dem FA-Cup-Halbfinale, doch dieses Spiel bedeutet mehr als nur den Einzug in die nächste Runde."
 coverImage: ""
 ---
 

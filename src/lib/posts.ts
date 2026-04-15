@@ -19,6 +19,8 @@ export type PostMeta = {
   excerpt: string
   titleEn?: string
   excerptEn?: string
+  titleDe?: string
+  excerptDe?: string
   date: string
   category: Category
   coverImage: string
@@ -42,6 +44,8 @@ export function getAllPosts(): PostMeta[] {
       excerpt: data.excerpt ?? '',
       titleEn: data.titleEn ?? '',
       excerptEn: data.excerptEn ?? '',
+      titleDe: data.titleDe ?? '',
+      excerptDe: data.excerptDe ?? '',
       date: data.date ?? '',
       category: data.category ?? 'vesti',
       coverImage: data.coverImage ?? '',
@@ -72,6 +76,8 @@ export async function getPostBySlug(slug: string): Promise<Post | null> {
     excerpt: data.excerpt ?? '',
     titleEn: data.titleEn ?? '',
     excerptEn: data.excerptEn ?? '',
+    titleDe: data.titleDe ?? '',
+    excerptDe: data.excerptDe ?? '',
     date: data.date ?? '',
     category: data.category ?? 'vesti',
     coverImage: data.coverImage ?? '',
@@ -81,21 +87,41 @@ export async function getPostBySlug(slug: string): Promise<Post | null> {
 }
 
 export function localizePostMeta(post: PostMeta, locale: Locale): PostMeta {
-  if (locale !== 'en') return post
-
-  return {
-    ...post,
-    title: post.titleEn || post.title,
-    excerpt: post.excerptEn || post.excerpt,
+  if (locale === 'en') {
+    return {
+      ...post,
+      title: post.titleEn || post.title,
+      excerpt: post.excerptEn || post.excerpt,
+    }
   }
+
+  if (locale === 'de') {
+    return {
+      ...post,
+      title: post.titleDe || post.titleEn || post.title,
+      excerpt: post.excerptDe || post.excerptEn || post.excerpt,
+    }
+  }
+
+  return post
 }
 
 export function localizePost(post: Post, locale: Locale): Post {
-  if (locale !== 'en') return post
-
-  return {
-    ...post,
-    title: post.titleEn || post.title,
-    excerpt: post.excerptEn || post.excerpt,
+  if (locale === 'en') {
+    return {
+      ...post,
+      title: post.titleEn || post.title,
+      excerpt: post.excerptEn || post.excerpt,
+    }
   }
+
+  if (locale === 'de') {
+    return {
+      ...post,
+      title: post.titleDe || post.titleEn || post.title,
+      excerpt: post.excerptDe || post.excerptEn || post.excerpt,
+    }
+  }
+
+  return post
 }

@@ -55,6 +55,7 @@
 - dokumentovan dugorocni modularni smer projekta: blog, turnir, publika, subscribe i admin se vode kao jedna platforma
 - dodat prvi engleski portfolio layer za blog: `/en`, engleske kategorije i engleski blog prikaz bez diranja turnir sekcije
 - dodat novi Arsenal tekst posle poraza od Bournemoutha, sa kontekstom pobede nad Sportingom i Artetinim preuzimanjem odgovornosti
+- dodat nemacki portfolio layer za blog: `/de`, nemacke kategorije i nemacki blog prikaz bez diranja srpskog sajta i turnira
 
 ### Verifikacija
 - production build uspesno prosao nakon izmena

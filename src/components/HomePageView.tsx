@@ -1,5 +1,5 @@
 import { Category, getCategoryLabel } from '@/lib/categories'
-import { Locale, getUi } from '@/lib/i18n'
+import { Locale, getUi, localePrefix } from '@/lib/i18n'
 import { PostMeta } from '@/lib/posts'
 import PostCard from '@/components/PostCard'
 import CategoryGrid from '@/components/CategoryGrid'
@@ -51,7 +51,7 @@ export default function HomePageView({ locale, all }: Props) {
                 )}
                 <div style={{ display: 'grid', gap: '0.75rem' }}>
                   {sidebarNotes.map((post, index) => (
-                    <a key={post.slug} href={`${locale === 'en' ? '/en' : ''}/blog/${post.slug}`} style={{ textDecoration: 'none' }}>
+                    <a key={post.slug} href={`${localePrefix(locale)}/blog/${post.slug}`} style={{ textDecoration: 'none' }}>
                       <div style={{ padding: '0.95rem 1rem', borderRadius: '16px', background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.05)' }}>
                         <div style={{ fontFamily: "'Barlow Condensed',sans-serif", fontSize: '0.66rem', letterSpacing: '0.18em', textTransform: 'uppercase', color: index === 0 ? '#EF0107' : '#C4A35A', marginBottom: '0.35rem' }}>
                           {index === 0 ? ui.home.secondAngle : ui.home.freshFromBlog}

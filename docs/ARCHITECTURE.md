@@ -13,10 +13,13 @@ Projekat je podeljen na 2 velike celine:
 1. Arsenal blog
 2. Turnir Cerovac microsite
 
-Pored toga, blog sada ima i poseban `en` portfolio layer:
+Pored toga, blog sada ima posebne portfolio/locale layere:
 - `/en`
 - `/en/blog/[slug]`
 - `/en/categories/[category]`
+- `/de`
+- `/de/blog/[slug]`
+- `/de/categories/[category]`
 
 Obe celine zive u istoj Next.js aplikaciji i dele isti vizuelni jezik, navigaciju i footer.
 
@@ -31,6 +34,11 @@ src/
       page.tsx                       -> engleski homepage
       blog/[slug]/page.tsx           -> engleski blog prikaz
       categories/[category]/page.tsx -> engleski listing po kategoriji
+    de/
+      layout.tsx                     -> metadata za nemacki portfolio layer
+      page.tsx                       -> nemacki homepage
+      blog/[slug]/page.tsx           -> nemacki blog prikaz
+      categories/[category]/page.tsx -> nemacki listing po kategoriji
     layout.tsx                       -> root layout
     not-found.tsx                    -> 404
     blog/[slug]/page.tsx             -> pojedinacni blog post
@@ -51,6 +59,8 @@ src/
     PostCard.tsx
     CategoryGrid.tsx
     HomePageView.tsx
+    LocalizedBlogPostPage.tsx
+    LocalizedCategoryPage.tsx
     tournament/
       TournamentShell.tsx
       TournamentSectionHeading.tsx
@@ -105,7 +115,7 @@ content/
 
 - `src/lib/i18n.ts`
   - osnovni UI copy po jeziku
-  - locale helper za `sr` i `en`
+  - locale helper za `sr`, `en` i `de`
   - bazni sloj za dalje sirenje visejezicnosti
 
 ### Turnir Cerovac logika
@@ -162,8 +172,13 @@ To je trenutno najjednostavniji i najstabilniji sistem za start.
 Za engleski portfolio layer trenutno vazi:
 - UI je preveden kroz `src/lib/i18n.ts`
 - postovi nisu jos puni dvojezicni CMS sistem
-- za portfolio prikaz trenutno se koriste `titleEn` i `excerptEn`
+- za portfolio prikaz trenutno se koriste `titleEn` / `excerptEn` i `titleDe` / `excerptDe`
 - originalni sadrzaj clanka moze ostati na srpskom dok se ne uvedu pune engleske verzije
+
+Za nemacki layer vazi isti princip kao za engleski:
+- `/de` je paralelan portfolio/locale layer
+- nema agresivnog automatskog preusmeravanja po lokaciji
+- korisnik treba da dobije jasan jezik kroz URL ili kasniji `SR / EN / DE` switch
 
 ## 5. Kako radi update na Vercel
 

@@ -6,6 +6,8 @@ category: utakmice
 featured: false
 titleEn: "After the cup shock, Arsenal have to answer in Lisbon"
 excerptEn: "The Southampton defeat ended the talk of four trophies, but Arsenal now face a bigger question: do they have the calm and strength to respond when the pressure is highest?"
+titleDe: "Nach dem Pokal-Schock muss Arsenal in Lissabon antworten"
+excerptDe: "Die Niederlage gegen Southampton beendete den Traum von vier Titeln. Jetzt steht Arsenal vor einer größeren Frage: Hat dieses Team die Ruhe und Kraft, unter höchstem Druck zu reagieren?"
 coverImage: "https://images.pexels.com/photos/9561462/pexels-photo-9561462.jpeg?cs=srgb&dl=pexels-chickenbunny-102941452-9561462.jpg&fm=jpg"
 ---
 

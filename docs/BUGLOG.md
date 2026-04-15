@@ -68,3 +68,26 @@ Ovaj fajl vodi evidenciju o bitnim greskama i kako su resene.
   - engleski prikaz trenutno koristi preveden UI plus `titleEn` / `excerptEn` za kljucne postove
 - Status:
   - ispravljeno kroz prvu fazu, dalje sirenje planirano
+
+### Problem: sirenje jezika ne sme da napravi poseban, lomljiv paralelni kod
+- Simptom:
+  - posle engleskog portfolio sloja pojavila se potreba i za nemackim prikazom, ali bez rizika da se razbije glavni srpski blog ili Turnir Cerovac
+- Uzrok:
+  - ako bi se svaki jezik lepio zasebno po komponentama, dugorocno bi nastao haos sa rutama, kategorijama i linkovima
+- Resenje:
+  - `Locale` je prosiren na `sr | en | de`
+  - centralizovani su `localePrefix`, `localizedCategoryRoot`, labeli kategorija i segmenti ruta
+  - uvedene su `/de`, `/de/blog/[slug]` i `/de/categories/[category]` rute
+  - postovi mogu da koriste `titleDe` / `excerptDe`, uz fallback na engleski pa srpski ako nemacki tekst ne postoji
+- Status:
+  - ispravljeno kroz modularni locale sloj
+
+### Napomena: `metadataBase` warning na produkcionom buildu
+- Simptom:
+  - `npm.cmd run build` prolazi, ali Next javlja upozorenje da `metadataBase` nije setovan za OpenGraph/Twitter slike
+- Uzrok:
+  - globalni metadata objekat nema produkcioni base URL
+- Resenje:
+  - nije blokirajuce za deploy; zabelezeno kao naredni SEO polish zadatak
+- Status:
+  - poznato upozorenje, nije runtime bug

@@ -2,10 +2,13 @@
 
 Magazine-style blog za Arsenal, sa dodatim modularnim `/turnir` microsite delom za lokalni fudbalski turnir. Next.js 15, TypeScript, file-based content i Vercel deploy.
 
-Pored srpskog glavnog sajta, projekat sada ima i prvi engleski portfolio layer za blog:
+Pored srpskog glavnog sajta, projekat sada ima i portfolio layer za blog na engleskom i nemackom:
 - `/en`
 - `/en/blog/[slug]`
 - `/en/categories/[category]`
+- `/de`
+- `/de/blog/[slug]`
+- `/de/categories/[category]`
 
 ---
 
@@ -34,7 +37,7 @@ npm.cmd run build
 - branded fallback cover sistem kada post nema sliku
 - urednicki potpis na postovima: `_Autor: B._`
 - Vercel Analytics za pracenje osnovne posecenosti
-- prvi engleski portfolio layer za blog deo sajta
+- engleski i nemacki portfolio layer za blog deo sajta
 
 ---
 
@@ -49,6 +52,8 @@ title: "Naslov posta"
 excerpt: "Kratak opis koji se prikazuje na kartici (1-2 recenice)"
 titleEn: "Optional English title"
 excerptEn: "Optional English excerpt"
+titleDe: "Optional German title"
+excerptDe: "Optional German excerpt"
 date: "2025-03-20"
 category: utakmice
 featured: false
@@ -91,15 +96,18 @@ _Autor: B._
 
 To ostaje kao diskretan i dosledan urednicki potpis kroz ceo blog.
 
-### Engleski portfolio layer
-Ako hoces da se isti post smisleno prikaze i na `/en`, dodaj i:
+### Portfolio prevodi
+Ako hoces da se isti post smisleno prikaze i na `/en` i `/de`, dodaj:
 
 ```markdown
 titleEn: "English title"
 excerptEn: "English excerpt"
+titleDe: "German title"
+excerptDe: "German excerpt"
 ```
 
-Za sada je to dovoljno da engleski homepage, listing i hero deluju portfolio-friendly, bez pune duplirane engleske verzije clanka.
+Za sada je to dovoljno da homepage, listing, kategorije i hero deluju portfolio-friendly, bez pune duplirane verzije clanka.
+Srpski tekst ostaje glavni izvor istine, dok `/en` i `/de` jasno prikazuju da je originalni clanak na srpskom dok ne uvedemo kompletne prevode tela teksta.
 
 ---
 
@@ -181,3 +189,4 @@ Okaci mi u chat:
 - kategoriju i ton
 
 Ja vracam gotov `.md` fajl spreman za projekat, sa naslovom, excerptom i po potrebi i engleskim `titleEn/excerptEn` slojem za portfolio prikaz.
+Po potrebi mogu odmah dodati i nemacki `titleDe/excerptDe` sloj.

@@ -1,8 +1,16 @@
-export type Locale = 'sr' | 'en'
+export type Locale = 'sr' | 'en' | 'de'
 
 export const defaultLocale: Locale = 'sr'
 
-export const localePrefix = (locale: Locale) => (locale === 'en' ? '/en' : '')
+export const supportedLocales: Locale[] = ['sr', 'en', 'de']
+
+export const localePrefix = (locale: Locale) => {
+  if (locale === 'en') return '/en'
+  if (locale === 'de') return '/de'
+  return ''
+}
+
+export const localizedCategoryRoot = (locale: Locale) => (locale === 'sr' ? 'kategorije' : 'categories')
 
 export const uiCopy = {
   sr: {
@@ -44,7 +52,7 @@ export const uiCopy = {
       fallback: 'Branded cover fallback',
       related: 'Slični tekstovi',
       relatedText: 'Povezane priče iz iste rubrike koje pomažu da blog deluje kao prava kolekcija tema, a ne kao niz usamljenih postova.',
-      originalNotice: 'Originalni tekst ispod ostavljen je na srpskom dok se engleske verzije ne uvedu u punom obimu.',
+      originalNotice: 'Originalni tekst ispod ostavljen je na srpskom dok se prevedene verzije ne uvedu u punom obimu.',
     },
     categoryPage: {
       noStories: 'Još nema tekstova',
@@ -101,6 +109,55 @@ export const uiCopy = {
       oneStory: 'story',
       manyStories: 'stories',
       openSection: 'Open section',
+    },
+  },
+  de: {
+    brandTagline: 'Arsenal Blog | Matchday Stories',
+    topBar: 'Arsenal Football Club | The Cannon Blog',
+    turnirLabel: 'Turnir Cerovac',
+    northLondon: 'North London Red',
+    home: {
+      focus: 'Im Fokus',
+      secondAngle: 'Zweiter Blickwinkel',
+      freshFromBlog: 'Neu im Blog',
+      latest: 'Neueste Beiträge',
+      secondStory: 'Zweite Story',
+      allStories: 'Alle Beiträge',
+      allStoriesText: 'Aktuelle Texte stehen im Vordergrund, damit die Startseite wie ein lebendiger Arsenal-Blog wirkt und nicht wie eine statische Demo.',
+      noStories: 'Noch keine Beiträge',
+      addFirstPost: 'Ersten Beitrag hinzufügen in',
+      categories: 'Rubriken',
+      categoriesText: 'Die Rubriken bleiben klar und führen Besucher schnell zu den wichtigsten Arsenal-Geschichten.',
+    },
+    footer: {
+      editorialTag: 'Arsenal Editorial Fan Blog',
+      description: 'Ein Ort für Arsenal-Geschichten mit Haltung, Rhythmus und Kontext. Im Fokus stehen Spiele, Training, taktische Details und Vereinsnews, die mehr als zwei Zeilen verdienen.',
+      sections: 'Rubriken',
+      turnirTitle: 'Turnir Cerovac',
+      turnirLead: 'Lokales Turnier und eigene Geschichte',
+      turnirText: 'Ein eigenständiger Microsite-Bereich für ein traditionsreiches lokales Fußballturnier in Cerovac, getrennt vom Arsenal-Blog und bereit für weiteres Wachstum.',
+      note: 'Hinweis',
+      noteText: 'Unabhängiges Fan-Projekt. Diese Seite ist nicht mit Arsenal Football Club Ltd. verbunden und ist kein offizieller Vereinskanal.',
+    },
+    blog: {
+      feature: 'The Cannon Feature',
+      intro: 'Einstieg',
+      about: 'Über diesen Beitrag',
+      category: 'Rubrik',
+      published: 'Veröffentlicht',
+      visual: 'Bild',
+      photo: 'Foto',
+      fallback: 'Branded fallback cover',
+      related: 'Ähnliche Beiträge',
+      relatedText: 'Weitere Beiträge aus derselben Rubrik, damit der Blog wie eine echte redaktionelle Sammlung wirkt.',
+      originalNotice: 'Der Originalbeitrag bleibt unten auf Serbisch, bis vollständige deutsche Versionen ergänzt werden.',
+    },
+    categoryPage: {
+      noStories: 'Noch keine Beiträge',
+      addPost: 'Beitrag hinzufügen mit',
+      oneStory: 'Beitrag',
+      manyStories: 'Beiträge',
+      openSection: 'Rubrik öffnen',
     },
   },
 } as const

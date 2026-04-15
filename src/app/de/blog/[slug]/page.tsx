@@ -12,7 +12,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params
   const post = await getPostBySlug(slug)
   if (!post) return {}
-  const localized = localizePost(post, 'en')
+  const localized = localizePost(post, 'de')
 
   return {
     title: localized.title,
@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 }
 
-export default async function EnglishBlogPostPage({ params }: Props) {
+export default async function GermanBlogPostPage({ params }: Props) {
   const { slug } = await params
-  return <LocalizedBlogPostPage slug={slug} locale="en" />
+  return <LocalizedBlogPostPage slug={slug} locale="de" />
 }

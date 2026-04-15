@@ -1,7 +1,7 @@
 'use client'
 import Link from 'next/link'
 import { format } from 'date-fns'
-import { enUS, sr } from 'date-fns/locale'
+import { de, enUS, sr } from 'date-fns/locale'
 import { PostMeta } from '@/lib/posts'
 import { getCategoryLabel } from '@/lib/categories'
 import { getCategoryTheme, getFallbackCoverBackground } from '@/lib/postTheme'
@@ -11,8 +11,11 @@ type Props = { post: PostMeta; size?: 'large' | 'medium' | 'small'; locale?: Loc
 
 function formatDate(date: string, locale: Locale) {
   try {
-    return format(new Date(date), locale === 'en' ? 'MMMM d, yyyy' : 'd. MMMM yyyy.', {
-      locale: locale === 'en' ? enUS : sr,
+    const dateLocale = locale === 'de' ? de : locale === 'en' ? enUS : sr
+    const pattern = locale === 'en' ? 'MMMM d, yyyy' : 'd. MMMM yyyy.'
+
+    return format(new Date(date), pattern, {
+      locale: dateLocale,
     })
   } catch {
     return date
