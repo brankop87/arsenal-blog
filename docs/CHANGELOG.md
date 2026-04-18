@@ -59,6 +59,7 @@
 - dodat `SR / EN / DE` language switch u navbaru za blog deo sajta, sa mapiranjem homepage-a, postova i kategorija
 - dodat sistem za opcioni puni prevod tela posta preko `content/posts/{locale}/{slug}.md`
 - dodat pun nemacki prevod za poslednji Arsenal tekst `arsenal-pritisak-bournemouth-sporting`
+- dodat novi Arsenal tekst `arsenal-sporting-etihad-vikend-odluke` kao kompletan SR/EN/DE paket pred utakmicu sezone na Etihadu
 
 ### Verifikacija
 - production build uspesno prosao nakon izmena
