@@ -60,6 +60,7 @@
 - dodat sistem za opcioni puni prevod tela posta preko `content/posts/{locale}/{slug}.md`
 - dodat pun nemacki prevod za poslednji Arsenal tekst `arsenal-pritisak-bournemouth-sporting`
 - dodat novi Arsenal tekst `arsenal-sporting-etihad-vikend-odluke` kao kompletan SR/EN/DE paket pred utakmicu sezone na Etihadu
+- dodat novi Arsenal tekst `arsenal-city-poraz-trka-do-kraja` kao kompletan SR/EN/DE paket posle poraza na Etihadu
 
 ### Verifikacija
 - production build uspesno prosao nakon izmena
