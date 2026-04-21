@@ -98,9 +98,6 @@ export default function HomePageView({ locale, all }: Props) {
             <span style={{ display: 'block', width: '38px', height: '3px', background: '#EF0107', flexShrink: 0 }} />
             <span style={{ fontFamily: "'Barlow Condensed',sans-serif", fontWeight: 700, fontSize: '0.7rem', letterSpacing: '0.24em', textTransform: 'uppercase', color: '#EF0107' }}>{ui.home.allStories}</span>
           </div>
-          <p style={{ fontSize: '1rem', lineHeight: 1.8, color: 'rgba(255,255,255,0.56)', maxWidth: '42rem', marginBottom: '2rem' }}>
-            {ui.home.allStoriesText}
-          </p>
 
           {feed.length > 0 ? (
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill,minmax(300px,1fr))', gap: '1.5rem' }}>
@@ -122,9 +119,6 @@ export default function HomePageView({ locale, all }: Props) {
               <span style={{ display: 'block', width: '38px', height: '3px', background: '#9C824A', flexShrink: 0 }} />
               <span style={{ fontFamily: "'Barlow Condensed',sans-serif", fontWeight: 700, fontSize: '0.7rem', letterSpacing: '0.24em', textTransform: 'uppercase', color: '#9C824A' }}>{ui.home.categories}</span>
             </div>
-            <p style={{ fontSize: '1rem', lineHeight: 1.8, color: 'rgba(255,255,255,0.56)', maxWidth: '44rem', marginBottom: '2rem' }}>
-              {ui.home.categoriesText}
-            </p>
             <CategoryGrid categories={categories} counts={counts} locale={locale} />
           </div>
         </section>

@@ -125,9 +125,6 @@ export default async function LocalizedBlogPostPage({ slug, locale }: Props) {
                 <span style={{ display: 'block', width: '36px', height: '3px', background: theme.accent, flexShrink: 0 }} />
                 <span style={{ fontFamily: "'Barlow Condensed',sans-serif", fontWeight: 700, fontSize: '0.7rem', letterSpacing: '0.22em', textTransform: 'uppercase', color: theme.accent }}>{ui.blog.related}</span>
               </div>
-              <p style={{ fontSize: '1rem', lineHeight: 1.8, color: 'rgba(255,255,255,0.56)', maxWidth: '42rem', marginBottom: '2rem' }}>
-                {ui.blog.relatedText}
-              </p>
               <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill,minmax(280px,1fr))', gap: '1.5rem' }}>
                 {related.map((p) => <PostCard key={p.slug} post={p} size="medium" locale={locale} />)}
               </div>
