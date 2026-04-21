@@ -129,9 +129,6 @@ export default async function BlogPostPage({ params }: Props) {
                 <span style={{ display: 'block', width: '36px', height: '3px', background: theme.accent, flexShrink: 0 }} />
                 <span style={{ fontFamily: "'Barlow Condensed',sans-serif", fontWeight: 700, fontSize: '0.7rem', letterSpacing: '0.22em', textTransform: 'uppercase', color: theme.accent }}>Slicni tekstovi</span>
               </div>
-              <p style={{ fontSize: '1rem', lineHeight: 1.8, color: 'rgba(255,255,255,0.56)', maxWidth: '42rem', marginBottom: '2rem' }}>
-                Povezane price iz iste rubrike koje pomazu da blog deluje kao prava kolekcija tema, a ne kao niz usamljenih postova.
-              </p>
               <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill,minmax(280px,1fr))', gap: '1.5rem' }}>
                 {related.map((p) => <PostCard key={p.slug} post={p} size="medium" />)}
               </div>
