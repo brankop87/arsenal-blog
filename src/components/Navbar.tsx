@@ -94,24 +94,6 @@ export default function Navbar({ locale = 'sr' }: Props) {
         </Link>
 
         <div style={{ display: 'flex', alignItems: 'center', gap: '1.75rem' }} className="nav-desktop">
-          <Link
-            href="/turnir"
-            style={{
-              textDecoration: 'none',
-              padding: '0.55rem 0.85rem',
-              borderRadius: '999px',
-              border: '1px solid rgba(196,163,90,0.28)',
-              background: 'rgba(196,163,90,0.08)',
-              color: '#f3dfb1',
-              fontFamily: "'Barlow Condensed', sans-serif",
-              fontWeight: 700,
-              fontSize: '0.84rem',
-              letterSpacing: '0.16em',
-              textTransform: 'uppercase',
-            }}
-          >
-            {ui.turnirLabel}
-          </Link>
           {categories.map((category) => {
             const href = `${prefix}/${localizedCategoryRoot(locale)}/${getCategorySegment(category, locale)}`
             return (
@@ -134,6 +116,24 @@ export default function Navbar({ locale = 'sr' }: Props) {
               </Link>
             )
           })}
+          <Link
+            href="/turnir"
+            style={{
+              textDecoration: 'none',
+              padding: '0.55rem 0.85rem',
+              borderRadius: '999px',
+              border: '1px solid rgba(196,163,90,0.28)',
+              background: 'rgba(196,163,90,0.08)',
+              color: '#f3dfb1',
+              fontFamily: "'Barlow Condensed', sans-serif",
+              fontWeight: 700,
+              fontSize: '0.84rem',
+              letterSpacing: '0.16em',
+              textTransform: 'uppercase',
+            }}
+          >
+            {ui.turnirLabel}
+          </Link>
           <div style={{ padding: '0.5rem 0.8rem', borderRadius: '999px', border: '1px solid rgba(255,255,255,0.08)', fontFamily: "'Barlow Condensed', sans-serif", fontSize: '0.7rem', letterSpacing: '0.18em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.46)' }}>
             {ui.northLondon}
           </div>
