@@ -2,7 +2,7 @@ import type { MetadataRoute } from 'next'
 import { getAllPosts } from '@/lib/posts'
 import { categoryLabels } from '@/lib/categories'
 
-const BASE = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://thecannon.rs'
+const BASE = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://cannonculture.com'
 
 const TURNIR_PATHS = [
   '/turnir',
