@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import PostCard from '@/components/PostCard'
+import SubscribeForm from '@/components/SubscribeForm'
 import { format } from 'date-fns'
 import { sr } from 'date-fns/locale'
 import type { Metadata } from 'next'
@@ -96,6 +97,7 @@ export default async function BlogPostPage({ params }: Props) {
                 </p>
               </div>
               <div className="article-body" dangerouslySetInnerHTML={{ __html: post.contentHtml }} />
+              <SubscribeForm locale="sr" />
             </article>
 
             <aside style={{ display: 'grid', alignContent: 'start', gap: '1rem' }}>

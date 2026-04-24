@@ -4,6 +4,7 @@ import { de, enUS } from 'date-fns/locale'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import PostCard from '@/components/PostCard'
+import SubscribeForm from '@/components/SubscribeForm'
 import { getCategoryLabel } from '@/lib/categories'
 import { getCategoryTheme, getFallbackCoverBackground } from '@/lib/postTheme'
 import { getAllPosts, getLocalizedPostContent, getPostBySlug, localizePost, localizePostMeta } from '@/lib/posts'
@@ -92,6 +93,7 @@ export default async function LocalizedBlogPostPage({ slug, locale }: Props) {
               )}
 
               <div className="article-body" dangerouslySetInnerHTML={{ __html: articleContentHtml }} />
+              <SubscribeForm locale={locale} />
             </article>
 
             <aside style={{ display: 'grid', alignContent: 'start', gap: '1rem' }}>

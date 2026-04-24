@@ -5,6 +5,7 @@ import PostCard from '@/components/PostCard'
 import CategoryGrid from '@/components/CategoryGrid'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
+import SubscribeForm from '@/components/SubscribeForm'
 
 type Props = {
   locale: Locale
@@ -121,6 +122,10 @@ export default function HomePageView({ locale, all }: Props) {
             </div>
             <CategoryGrid categories={categories} counts={counts} locale={locale} />
           </div>
+        </section>
+
+        <section style={{ maxWidth: '760px', margin: '0 auto', padding: '0 1.5rem 4rem' }}>
+          <SubscribeForm locale={locale} />
         </section>
       </main>
       <Footer locale={locale} />

@@ -61,6 +61,13 @@ export const uiCopy = {
       manyStories: 'tekstova',
       openSection: 'Otvori rubriku',
     },
+    subscribe: {
+      headline: 'Prati The Cannon — analize i vesti direktno u inbox.',
+      placeholder: 'Tvoja e-mail adresa',
+      button: 'Prijavi se',
+      success: 'Uspešno! Vidimo se u inboxu.',
+      error: 'Nešto je pošlo po zlu. Pokušaj ponovo.',
+    },
   },
   en: {
     brandTagline: 'Arsenal blog | matchday stories',
@@ -110,6 +117,13 @@ export const uiCopy = {
       manyStories: 'stories',
       openSection: 'Open section',
     },
+    subscribe: {
+      headline: 'Follow The Cannon — Arsenal analysis delivered to your inbox.',
+      placeholder: 'Your email address',
+      button: 'Subscribe',
+      success: 'Done! See you in the inbox.',
+      error: 'Something went wrong. Please try again.',
+    },
   },
   de: {
     brandTagline: 'Arsenal Blog | Matchday Stories',
@@ -158,6 +172,13 @@ export const uiCopy = {
       oneStory: 'Beitrag',
       manyStories: 'Beiträge',
       openSection: 'Rubrik öffnen',
+    },
+    subscribe: {
+      headline: 'Folge The Cannon — Arsenal-Analysen direkt in dein Postfach.',
+      placeholder: 'Deine E-Mail-Adresse',
+      button: 'Anmelden',
+      success: 'Erledigt! Bis bald im Postfach.',
+      error: 'Etwas ist schiefgelaufen. Bitte versuch es erneut.',
     },
   },
 } as const
