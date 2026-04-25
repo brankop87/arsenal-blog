@@ -32,6 +32,7 @@ Now is the time for an Arsenal that bite, see the gap before anyone else and str
 
 If fate wants this title race to come down to goal difference, then let it look at an Arsenal side that refuse to blink first.
 
-With you until the end.
+Tomorrow no explanation is needed anymore. An answer is.
 
 _Author: B._
+

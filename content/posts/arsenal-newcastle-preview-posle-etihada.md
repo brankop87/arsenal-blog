@@ -45,6 +45,7 @@ Sada je vreme za Arsenal koji grize, vidi prostor pre drugih i udara dok rival j
 
 Ako već sudbina hoće završnicu na gol-razliku, onda neka gleda Arsenal koji neće da trepne prvi.
 
-Sa vama do kraja.
+Sutra se više ne traži objašnjenje. Traži se odgovor.
 
 _Autor: B._
+

@@ -32,6 +32,7 @@ Jetzt ist die Zeit für ein Arsenal, das zubeißt, die Lücke vor allen anderen 
 
 Wenn das Schicksal dieses Titelrennen wirklich auf die Tordifferenz zuspitzen will, dann soll es auf eine Arsenal-Mannschaft schauen, die sich weigert, zuerst zu blinzeln.
 
-Mit euch bis zum Ende.
+Morgen braucht es keine Erklärung mehr. Es braucht eine Antwort.
 
 _Autor: B._
+
