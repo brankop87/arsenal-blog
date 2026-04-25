@@ -21,7 +21,7 @@ To je ono što sada najviše menja ton cele priče. Više nije važno kako izgle
 
 Ono što navijačima Arsenala ipak vraća makar mali osmeh jeste energija koju je tim pokazao protiv Cityja. Nisu delovali tako letargično kao u nekim prethodnim utakmicama kada su bodovi cureli na sve strane. Bilo je više žara, više otpora i više one nervoze koja, kad je usmerena kako treba, može da postane gorivo. Arsenal je pogađao stativu, bilo je momenata kada je delovalo da jedan pravi napad menja ceo tok dana, ali najvažnije je bilo to što ekipa nije odustala ni kada se meč lomio.
 
-I upravo to sada mora da se prenese na Newcastle.
+I upravo to sada mora da se prenese na Newcastle-a.
 
 Arsenal mora na gol više. Arsenal, kada se zaigra, ume da potopi sve ispred sebe. Problem je što u poslednjih nekoliko okršaja nije bilo lako doći ni do čistog vazduha, a kamoli do komforne prednosti. A sada ne jurimo samo pobedu. Jurimo i clean sheet. Jurimo i gol-razliku. Jurimo osećaj da svaki napad ima težinu.
 
@@ -31,7 +31,7 @@ Još zanimljivije deluje ideja saradnje Odegaarda i Ezea, tandema koji nije dugo
 
 U tom tonu treba čitati i poslednje Artetine reči. Nije to bilo nikakvo filmsko ratno stanje, ali jeste bio govor ekipe koja zna koliko je teren sada uzak. On priča o energiji, verovanju i tome da je sve i dalje otvoreno. Sa druge strane, Saliba je otišao još direktnije i rekao da ekipa mora da ostane mirna, ali i da u preostalim utakmicama mora da „umre na terenu“. U prevodu: nema više čekanja da se nešto namesti samo od sebe.
 
-I tu leži suština svega pred Newcastle.
+I tu leži suština svega pred Newcastle-a.
 
 Ne treba Arsenalu sutra samo pobeda. Treba mu utakmica u kojoj neće delovati kao tim koji čeka da mu se nešto lepo desi. Treba mu meč u kojem će sam uzeti inicijativu, sam ubrzati ritam i sam naterati protivnika da diše kraće.
 
@@ -48,4 +48,5 @@ Ako već sudbina hoće završnicu na gol-razliku, onda neka gleda Arsenal koji n
 Sutra se više ne traži objašnjenje. Traži se odgovor.
 
 _Autor: B._
+
 
