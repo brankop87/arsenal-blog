@@ -93,3 +93,16 @@ Ovaj fajl vodi evidenciju o bitnim greskama i kako su resene.
   - nije blokirajuce za deploy; zabelezeno kao naredni SEO polish zadatak
 - Status:
   - poznato upozorenje, nije runtime bug
+
+### Problem: subscribe API vracao je 502 zbog Brevo autorizacije
+- Simptom:
+  - `POST /api/subscribe` nije upisivao korisnike i frontend je vracao gresku
+- Uzrok:
+  - stari Brevo API kljuc je vracao `401 unauthorized`, pa je API route padao
+- Resenje:
+  - obrisan je stari Brevo API kljuc u Brevo
+  - generisan je novi kljuc
+  - novi kljuc je dodat u Vercel Production environment kao `BREVO_API_KEY`
+  - potvrdena je lista `Cannon Culture Subscribers` sa `BREVO_LIST_ID = 3`
+- Status:
+  - ispravljeno i produkciono potvrdeno

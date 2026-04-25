@@ -207,11 +207,14 @@ Samo jedan post ima `featured: true` — prikazuje se kao glavni hero.
 - Pattern: Server Action → Supabase INSERT → revalidatePath
 
 ### Faza 4 — Newsletter / Subscription
-- [ ] Supabase tabela `subscribers`
-- [ ] Route Handler `POST /api/subscribe`
-- [ ] Opcija A: ručni slanje kroz admin panel
-- [ ] Opcija B: Resend.com API za automatski email
-- Paket: `resend` (potvrđen da radi sa Next.js 15)
+- [x] UI subscribe forma za homepage i blog postove
+- [x] Route Handler `POST /api/subscribe`
+- [x] Brevo lista za skupljanje publike
+- [x] produkcioni API kljuc dodat kroz Vercel Environment Variables
+- [ ] double opt-in flow ako bude potreban
+- [ ] segmentacija publike po jeziku / interesovanju
+- [ ] email cadence i slanje prvog newsletter-a
+- Napomena: umesto Resend-only plana, trenutno je aktivan Brevo kao newsletter backend
 
 ### Faza 5 — Monetizacija (reklame)
 - [ ] Opcija A: Google AdSense (script tag kroz next/script)
@@ -285,6 +288,10 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJ...
 
 # Resend za email (Faza 4)
 RESEND_API_KEY=re_...
+
+# Brevo newsletter (aktivno stanje)
+BREVO_API_KEY=xkeysib-...
+BREVO_LIST_ID=3
 ```
 
 ---
@@ -388,6 +395,9 @@ Trenutno je potvrdeno i uvedeno:
 - srpski glavni sajt kao primarni proizvod
 - `Turnir Cerovac` kao zaseban modul
 - Vercel Analytics kao osnovni analytics sloj
+- aktivan subscribe/newsletter sloj preko Brevo
+- Google Search Console za `cannonculture.com`
+- aktivan sitemap submit kroz Search Console
 - prvi engleski portfolio layer za blog:
   - `/en`
   - `/en/blog/[slug]`
@@ -407,6 +417,8 @@ To znaci:
 - najvazniji postovi mogu imati `titleDe` i `excerptDe`
 - puni engleski tekstovi se uvode postepeno, samo tamo gde imaju portfolio vrednost
 - puni nemacki tekstovi se uvode postepeno, samo tamo gde imaju portfolio vrednost
+- subscribe forma vec radi na `sr` / `en` / `de`
+- Brevo lista koja prima prijave je `Cannon Culture Subscribers` (#3)
 
 ---
 
@@ -416,5 +428,11 @@ To znaci:
 - prosiriti switch na `SR / EN / DE`
 - odrediti koje 3-5 price moraju imati pune engleske verzije
 - odrediti da li su potrebne pune nemacke verzije ili je dovoljno portfolio UI + naslov/excerpt
-- osmisliti subscribe/public layer za rast publike
+- definisati kako ce subscribe publika dalje biti koristena (welcome mail, newsletter ritam, segmentacija)
+- napisati preview clanak: Arsenal vs Newcastle
+- napisati preview clanak: Arsenal vs Atletico Madrid
+- author bio komponenta
+- LinkedIn profil update
+- Wise Business nalog
+- 22 CRM follow-up za `petkovicsolutions.com` leadove
 - kasnije prebaciti cesto menjane podatke na admin-friendly sloj bez lomljenja projekta

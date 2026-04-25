@@ -84,7 +84,10 @@
 - dodat novi Arsenal tekst `arsenal-sporting-etihad-vikend-odluke` kao kompletan SR/EN/DE paket pred utakmicu sezone na Etihadu
 - dodat novi Arsenal tekst `arsenal-city-poraz-trka-do-kraja` kao kompletan SR/EN/DE paket posle poraza na Etihadu
 - dodat novi Arsenal preview tekst rsenal-newcastle-preview-posle-etihada kao kompletan SR/EN/DE paket pred domaci mec sa Newcastleom
+- dodat novi Arsenal report tekst `arsenal-newcastle-eze-bomba-prva-prepreka` kao kompletan SR/EN/DE paket posle pobede nad Newcastleom
 
 ### Verifikacija
 - production build uspesno prosao nakon izmena
 
+
+- ispravljen footer disclaimer: londonski Arsenal precizno oznacen kao Arsenal FC iz Londona, Engleska, uz tacno pravno ime The Arsenal Football Club Limited

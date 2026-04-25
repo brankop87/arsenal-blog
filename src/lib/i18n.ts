@@ -39,7 +39,7 @@ export const uiCopy = {
       turnirLead: 'Lokalni turnir i posebna priča',
       turnirText: 'Zaseban microsite za dugovečni i poznati turnir iz Cerovca, odvojen od Arsenal rubrika i spreman da raste kao sopstveni digitalni projekat.',
       note: 'Napomena',
-      noteText: 'Nezavisan fan projekat. Sajt nije povezan sa Arsenal Football Club Ltd. niti predstavlja zvanični klupski kanal.',
+      noteText: 'Nezavisan fan projekat posvećen Arsenal FC iz Londona, Engleska. Sajt nije povezan sa The Arsenal Football Club Limited i ne predstavlja zvanični klupski kanal.',
     },
     blog: {
       feature: 'The Cannon Feature',
@@ -95,7 +95,7 @@ export const uiCopy = {
       turnirLead: 'Local tournament and a separate story',
       turnirText: 'A standalone microsite for a long-running local football tournament in Cerovac, kept separate from the Arsenal side of the project and ready to grow on its own.',
       note: 'Note',
-      noteText: 'Independent fan project. This site is not affiliated with Arsenal Football Club Ltd. and does not represent an official club channel.',
+      noteText: 'Independent fan project focused on Arsenal FC from London, England. This site is not affiliated with The Arsenal Football Club Limited and does not represent an official club channel.',
     },
     blog: {
       feature: 'The Cannon Feature',
@@ -151,7 +151,7 @@ export const uiCopy = {
       turnirLead: 'Lokales Turnier und eigene Geschichte',
       turnirText: 'Ein eigenständiger Microsite-Bereich für ein traditionsreiches lokales Fußballturnier in Cerovac, getrennt vom Arsenal-Blog und bereit für weiteres Wachstum.',
       note: 'Hinweis',
-      noteText: 'Unabhängiges Fan-Projekt. Diese Seite ist nicht mit Arsenal Football Club Ltd. verbunden und ist kein offizieller Vereinskanal.',
+      noteText: 'Unabhängiges Fan-Projekt über Arsenal FC aus London, England. Diese Seite ist nicht mit The Arsenal Football Club Limited verbunden und ist kein offizieller Vereinskanal.',
     },
     blog: {
       feature: 'The Cannon Feature',

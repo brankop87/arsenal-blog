@@ -29,6 +29,8 @@ Obe celine zive u istoj Next.js aplikaciji i dele isti vizuelni jezik, navigacij
 src/
   app/
     page.tsx                         -> homepage bloga
+    api/
+      subscribe/route.ts            -> newsletter subscribe endpoint (Brevo)
     en/
       layout.tsx                     -> metadata za engleski portfolio layer
       page.tsx                       -> engleski homepage
@@ -59,6 +61,7 @@ src/
     PostCard.tsx
     CategoryGrid.tsx
     HomePageView.tsx
+    SubscribeForm.tsx
     LocalizedBlogPostPage.tsx
     LocalizedCategoryPage.tsx
     tournament/
@@ -117,6 +120,7 @@ content/
   - osnovni UI copy po jeziku
   - locale helper za `sr`, `en` i `de`
   - bazni sloj za dalje sirenje visejezicnosti
+  - sadrzi i subscribe UI copy za visejezicni prikaz forme
 
 ### Turnir Cerovac logika
 
@@ -244,11 +248,27 @@ Plan:
 
 Trenutno:
 - osnovni analytics radi kroz Vercel Analytics
-- subscribe jos nije uveden u UI ni backend
+- subscribe radi u UI i backend-u
+- forma je vidljiva na homepage i blog postovima
+- backend ide kroz `src/app/api/subscribe/route.ts`
+- prijave trenutno idu u Brevo listu `Cannon Culture Subscribers` (#3)
+- API kljuc se drzi u Vercel environment varijabli `BREVO_API_KEY`
+- `BREVO_LIST_ID = 3`
 
-To znaci da ce `subscribe` biti uveden kao poseban platform feature, ne kao jednokratni widget.
+To znaci da `subscribe` vise nije plan, nego aktivan platform feature koji sada treba uredno dalje razvijati.
 
-## 10. Pravilo dokumentovanja
+## 10. Search Console i sitemap sloj
+
+SEO infrastruktura sada ima i spoljasnju potvrdu:
+- Google Search Console domain property za `cannonculture.com` je aktivan
+- verifikacija je uradjena preko DNS TXT record-a
+- sitemap se generise iz `src/app/sitemap.ts`
+- produkcioni sitemap URL je:
+  - `https://cannonculture.com/sitemap.xml`
+
+Ovo je bitno jer projekat vise nije samo "objavljen", nego je poceo i da uredno salje strukturu Google-u.
+
+## 11. Pravilo dokumentovanja
 
 Svaka veca izmena mora da ostavi trag u dokumentaciji:
 - `docs/CHANGELOG.md` -> sta je promenjeno
