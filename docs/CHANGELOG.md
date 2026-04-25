@@ -1,4 +1,26 @@
-# Changelog
+﻿# Changelog
+
+## 2026-04-25
+
+### Subscribe / Newsletter
+- subscribe forma je aktivna na homepage i blog postovima za `sr` / `en` / `de`
+- dodat `src/components/SubscribeForm.tsx`
+- aktivan API route `src/app/api/subscribe/route.ts`
+- Brevo integracija proradila sa novim API kljucem
+- produkciono potvrden `BREVO_LIST_ID = 3` za listu `Cannon Culture Subscribers`
+- test prijava prosla uspesno i kontakt je upisan u Brevo listu
+
+### SEO / Search Console
+- Google Search Console aktiviran za domain property `cannonculture.com`
+- uradjena DNS TXT verifikacija preko Namecheap-a
+- `src/app/sitemap.ts` ispravljen da koristi `https://cannonculture.com`
+- sitemap submitovan kroz Search Console:
+  - `https://cannonculture.com/sitemap.xml`
+
+### Operativno stanje
+- subscribe vise nije planirana funkcija nego aktivan platform feature
+- newsletter backend je povezan sa Brevo listom i spreman za dalje sirenje publike
+- Search Console i sitemap sada daju osnovu da Google urednije prati sajt i nove objave
 
 ## 2026-03-31
 
@@ -61,6 +83,8 @@
 - dodat pun nemacki prevod za poslednji Arsenal tekst `arsenal-pritisak-bournemouth-sporting`
 - dodat novi Arsenal tekst `arsenal-sporting-etihad-vikend-odluke` kao kompletan SR/EN/DE paket pred utakmicu sezone na Etihadu
 - dodat novi Arsenal tekst `arsenal-city-poraz-trka-do-kraja` kao kompletan SR/EN/DE paket posle poraza na Etihadu
+- dodat novi Arsenal preview tekst rsenal-newcastle-preview-posle-etihada kao kompletan SR/EN/DE paket pred domaci mec sa Newcastleom
 
 ### Verifikacija
 - production build uspesno prosao nakon izmena
+
