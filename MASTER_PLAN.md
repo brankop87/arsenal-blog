@@ -436,3 +436,10 @@ To znaci:
 - Wise Business nalog
 - 22 CRM follow-up za `petkovicsolutions.com` leadove
 - kasnije prebaciti cesto menjane podatke na admin-friendly sloj bez lomljenja projekta
+
+## 2026-04-27 - Canonical domen i Search Console stabilizacija
+
+- glavni produkcioni domen standardizovan na https://www.cannonculture.com`r
+- SEO signal ne sme da ostane rasut izmedju www i apex domena
+- canonical, sitemap i redirect sloj tretiraju se kao deo osnovne infrastrukture
+- posle svakog veceg SEO update-a proveriti Search Console indexing report, sitemap status i apex-to-www redirect

@@ -1,4 +1,4 @@
-import { getPostsByCategory, categoryLabels } from '@/lib/posts'
+﻿import { getPostsByCategory, categoryLabels } from '@/lib/posts'
 import { getCategoryTheme } from '@/lib/postTheme'
 import PostCard from '@/components/PostCard'
 import Navbar from '@/components/Navbar'
@@ -18,7 +18,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { kategorija } = await params
   const cat = categoryLabels[kategorija as keyof typeof categoryLabels]
   if (!cat) return {}
-  return { title: cat.sr }
+  return {
+    title: cat.sr,
+    alternates: {
+      canonical: `/kategorije/${kategorija}`,
+    },
+  }
 }
 
 export default async function KategorijePage({ params }: Props) {

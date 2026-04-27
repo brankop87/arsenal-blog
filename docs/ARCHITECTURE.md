@@ -277,3 +277,21 @@ Svaka veca izmena mora da ostavi trag u dokumentaciji:
 - `MASTER_PLAN.md` -> ako se menja dugorocni smer ili sledece faze
 
 Projekat ne sme da zavisi od pamcenja iz razgovora, nego od zapisane strukture.
+
+## 12. Canonical domen i redirect sloj
+
+Produkcioni blog je standardizovan na:
+- https://www.cannonculture.com`r
+
+Pravila:
+- www je canonical domen
+- apex domen cannonculture.com mora da preusmerava na www`r
+- root metadata postavlja metadataBase`r
+- root, locale, post i category metadata postavljaju lternates.canonical`r
+- sitemap generise samo www URL-ove
+
+Razlog:
+- Search Console je prijavio Duplicate without user-selected canonical`r
+- Search Console je prijavio Page with redirect`r
+
+Ovo vise nije opcioni SEO polish nego osnovna infrastruktura projekta.

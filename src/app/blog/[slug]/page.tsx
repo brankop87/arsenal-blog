@@ -1,4 +1,4 @@
-import { getPostBySlug, getAllPosts, categoryLabels } from '@/lib/posts'
+﻿import { getPostBySlug, getAllPosts, categoryLabels } from '@/lib/posts'
 import { getCategoryTheme, getFallbackCoverBackground } from '@/lib/postTheme'
 import { notFound } from 'next/navigation'
 import Navbar from '@/components/Navbar'
@@ -23,6 +23,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: post.title,
     description: post.excerpt,
+    alternates: {
+      canonical: `/blog/${post.slug}`,
+    },
     openGraph: {
       title: post.title,
       description: post.excerpt,

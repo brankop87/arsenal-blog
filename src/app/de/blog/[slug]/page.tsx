@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+﻿import type { Metadata } from 'next'
 import LocalizedBlogPostPage from '@/components/LocalizedBlogPostPage'
 import { getAllPosts, getPostBySlug, localizePost } from '@/lib/posts'
 
@@ -17,6 +17,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: localized.title,
     description: localized.excerpt,
+    alternates: {
+      canonical: `/de/blog/${post.slug}`,
+    },
     openGraph: {
       title: localized.title,
       description: localized.excerpt,

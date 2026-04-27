@@ -220,3 +220,24 @@ Okaci mi u chat:
 
 Ja vracam gotov `.md` fajl spreman za projekat, sa naslovom, excerptom i po potrebi i engleskim `titleEn/excerptEn` slojem za portfolio prikaz.
 Po potrebi mogu odmah dodati i nemacki `titleDe/excerptDe` sloj.
+
+---
+
+## SEO i canonical domen
+
+Produkcioni canonical domen za blog je:
+
+- https://www.cannonculture.com`r
+
+To znaci:
+- www je glavna verzija domena
+- cannonculture.com treba da preusmerava na www.cannonculture.com`r
+- metadataBase i canonical URL-ovi u Next metadata sloju moraju da prate istu odluku
+- sitemap mora da generise www URL-ove
+
+Ako se domen nekad menja, obavezno zajedno promeniti:
+- src/app/layout.tsx`r
+- src/app/sitemap.ts`r
+- page metadata (lternates.canonical)
+- 
+ext.config.js redirect sloj

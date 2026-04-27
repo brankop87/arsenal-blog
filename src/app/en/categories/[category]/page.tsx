@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+﻿import type { Metadata } from 'next'
 import LocalizedCategoryPage from '@/components/LocalizedCategoryPage'
 import { localizedCategorySegments, getCategoryLabel, getCategorySegment, Category } from '@/lib/categories'
 
@@ -14,7 +14,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { category } = await params
   const resolved = localizedCategorySegments[category] as Category | undefined
   if (!resolved) return {}
-  return { title: getCategoryLabel(resolved, 'en') }
+  return {
+    title: getCategoryLabel(resolved, 'en'),
+    alternates: {
+      canonical: `/en/categories/${category}`,
+    },
+  }
 }
 
 export default async function EnglishCategoryPage({ params }: Props) {

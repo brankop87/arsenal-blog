@@ -106,3 +106,23 @@ Ovaj fajl vodi evidenciju o bitnim greskama i kako su resene.
   - potvrdena je lista `Cannon Culture Subscribers` sa `BREVO_LIST_ID = 3`
 - Status:
   - ispravljeno i produkciono potvrdeno
+
+### Problem: Search Console prijavljuje duplicate canonical i page with redirect
+- Simptom:
+  - Google Search Console je prijavio:
+    - Duplicate without user-selected canonical`r
+    - Page with redirect`r
+- Uzrok:
+  - projekat nije bio potpuno standardizovan oko jedne produkcione verzije domena
+  - sitemap je koristio apex domen, dok je live saobracaj isao i kroz www`r
+  - root metadata nije imala metadataBase`r
+  - post i category metadata nisu eksplicitno prijavljivali canonical putanje
+- Resenje:
+  - canonical produkcioni domen standardizovan na https://www.cannonculture.com`r
+  - dodat metadataBase u src/app/layout.tsx`r
+  - dodati lternates.canonical u root, locale, blog post i category metadata
+  - src/app/sitemap.ts prebacen na https://www.cannonculture.com`r
+  - 
+ext.config.js dobio redirect sa cannonculture.com na www.cannonculture.com`r
+- Status:
+  - ispravljeno u kodu; nakon deploy-a pratiti Search Console i po potrebi pokrenuti validation

@@ -91,3 +91,5 @@
 
 
 - ispravljen footer disclaimer: londonski Arsenal precizno oznacen kao Arsenal FC iz Londona, Engleska, uz tacno pravno ime The Arsenal Football Club Limited
+
+- SEO sloj standardizovan na https://www.cannonculture.com kroz metadataBase, canonical URL-ove, sitemap i apex-to-www redirect
