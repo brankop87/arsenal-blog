@@ -10,7 +10,7 @@ There is, however, another side to the story. Arsenal look tougher this year tha
 
 That is why the image after Newcastle, with Arsenal players almost collapsing to the turf in exhaustion and relief, can be read in two ways. The worrying reading is that the squad are physically near the edge. The more hopeful one is that the pressure was so heavy, and the win so badly needed, that the body simply emptied out everything it had been carrying for weeks. The truth is probably somewhere in between, and Arsenal can only hope that what we saw was more release than warning.
 
-Mikel Arteta said before this game that simply being among the last four teams in Europe is special, the first time in the club's 140-year history. It sounds good, but he also knows those words are forgotten quickly if the match itself overwhelms you. What matters more is what sits underneath the quote: Arsenal have not travelled to Madrid to admire the occasion, but to try to take it.
+Mikel Arteta did speak about the weight of the occasion, but it is worth being precise: this is not Arsenal's first time among the last four in the European Cup or Champions League, but their second consecutive semi-final and the club's fourth in the competition overall. It sounds good, but he also knows those words are forgotten quickly if the match itself overwhelms you. What matters more is what sits underneath the quote: Arsenal have not travelled to Madrid to admire the occasion, but to try to take it.
 
 The good news for anyone looking at the right side of Arsenal's attack is that Bukayo Saka is there. His return changes the tone of the whole conversation. Not because he will settle the tie alone, but because his presence immediately forces the opponent to defend wider, deeper and more carefully. Saka is one more answer on a flank he has ruled for years, and every Arsenal supporter greeted his return like a child being handed back a favourite thing they feared was gone.
 
@@ -31,3 +31,4 @@ And if you want previews and match reports like this to land with you as soon as
 Tomorrow is not simply the start of another big game. It is the beginning of the conversation about how ready this Arsenal side really are to go all the way.
 
 _Author: B._
+

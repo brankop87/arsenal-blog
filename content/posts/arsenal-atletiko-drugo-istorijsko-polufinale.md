@@ -23,7 +23,7 @@ Ipak, postoji i druga strana priče. Arsenal ove godine izgleda čvršće nego u
 
 Zato i ona slika posle Newcastle-a, gde su igrači praktično padali po travi od iscrpljenosti i olakšanja, može da se čita na dva načina. Jedan je zabrinjavajući: da je ekipa fizički na ivici. Drugi je ohrabrujući: da je pritisak bio toliko težak, a pobeda toliko potrebna, da je iz tela izašlo sve što se skupljalo nedeljama. Istina je verovatno negde između, a Arsenal se sada samo može nadati da je to bilo više pražnjenje nego znak ozbiljnog pada energije.
 
-Mikel Arteta je pred ovaj meč rekao da je samo biti među poslednja četiri tima Evrope nešto posebno, prvi put u klupskoj istoriji dugoj 140 godina. Lepo zvuči, ali i on zna da se ovakva rečenica brzo zaboravi ako te utakmica pregazi. Zato je važnije ono što se oseća ispod te izjave: Arsenal nije doputovao u Madrid da bi se divio prilici, nego da bi pokušao da je uzme.
+Mikel Arteta jeste govorio o posebnosti trenutka, ali važno je ostati precizan: ovo nije prvi Arsenalov plasman među poslednja četiri u Kupu šampiona ili Ligi šampiona, već drugo uzastopno polufinale i ukupno četvrto u istoriji ovog takmičenja za klub iz severnog Londona. Lepo zvuči, ali i on zna da se ovakva rečenica brzo zaboravi ako te utakmica pregazi. Zato je važnije ono što se oseća ispod te izjave: Arsenal nije doputovao u Madrid da bi se divio prilici, nego da bi pokušao da je uzme.
 
 Dobra vest za sve koji gledaju u desnu stranu Arsenalovog napada jeste da je Bukayo Saka tu. Njegov povratak menja ton cele priče. Ne zato što će sam rešiti dvomeč, nego zato što njegovo prisustvo odmah tera protivnika da brani šire, dublje i pažljivije. Saka je opcija više na krilu kojim godinama gospodari, i svaki Arsenalov navijač ga je dočekao kao dete omiljenu igračku koju je mislilo da je izgubilo.
 
@@ -44,3 +44,4 @@ A ako želiš da ti ovakve uvertire i izveštaji stignu čim izađu, subscribe j
 Sutra ne počinje samo još jedan veliki meč. Sutra počinje razgovor o tome koliko je ovaj Arsenal zaista spreman da ode do kraja.
 
 _Autor: B._
+

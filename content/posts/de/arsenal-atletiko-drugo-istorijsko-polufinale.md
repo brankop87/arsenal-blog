@@ -10,7 +10,7 @@ Es gibt allerdings auch eine andere Seite der Geschichte. Arsenal wirkt in diese
 
 Darum kann auch das Bild nach Newcastle, als fast alle Arsenal-Spieler erschöpft und erleichtert auf dem Rasen lagen, auf zwei Arten gelesen werden. Die besorgniserregende Lesart ist, dass die Mannschaft körperlich am Rand ist. Die hoffnungsvollere ist, dass der Druck so groß und der Sieg so nötig war, dass der Körper einfach alles herausgelassen hat, was sich wochenlang angesammelt hatte. Die Wahrheit liegt wohl irgendwo dazwischen, und Arsenal kann nur hoffen, dass es mehr Entladung als Warnsignal war.
 
-Mikel Arteta sagte vor diesem Spiel, allein unter den letzten vier Mannschaften Europas zu sein, sei etwas Besonderes, zum ersten Mal in der 140-jährigen Vereinsgeschichte. Das klingt schön, aber auch er weiß, dass solche Sätze schnell vergessen sind, wenn dich das Spiel selbst überrollt. Wichtiger ist, was unter diesem Zitat liegt: Arsenal ist nicht nach Madrid gereist, um den Anlass zu bestaunen, sondern um ihn an sich zu reißen.
+Mikel Arteta sprach zwar von der Besonderheit des Moments, doch wichtig ist die Präzision: Es ist nicht Arsenals erstes Halbfinale im Europapokal der Landesmeister oder in der Champions League, sondern das zweite in Folge und insgesamt das vierte des Klubs in diesem Wettbewerb. Das klingt schön, aber auch er weiß, dass solche Sätze schnell vergessen sind, wenn dich das Spiel selbst überrollt. Wichtiger ist, was unter diesem Zitat liegt: Arsenal ist nicht nach Madrid gereist, um den Anlass zu bestaunen, sondern um ihn an sich zu reißen.
 
 Die gute Nachricht für alle, die auf die rechte Seite von Arsenals Angriff schauen, ist: Bukayo Saka ist da. Seine Rückkehr verändert den Ton der ganzen Geschichte. Nicht weil er das Duell allein entscheiden wird, sondern weil seine Präsenz den Gegner sofort zwingt, breiter, tiefer und vorsichtiger zu verteidigen. Saka ist eine zusätzliche Waffe auf einem Flügel, den er seit Jahren beherrscht, und jeder Arsenal-Fan begrüßte seine Rückkehr wie ein Kind, das etwas Liebgewonnenes zurückbekommt.
 
@@ -31,3 +31,4 @@ Und wenn du solche Vorschauen und Spielberichte direkt nach Veröffentlichung le
 Morgen beginnt nicht nur ein weiteres großes Spiel. Morgen beginnt das Gespräch darüber, wie bereit dieses Arsenal wirklich ist, bis ganz nach vorne zu gehen.
 
 _Autor: B._
+
