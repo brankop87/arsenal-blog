@@ -97,3 +97,5 @@
 - Dodat novi preview tekst za prvo polufinale protiv Atletiko Madrida u SR/EN/DE varijanti, uz suptilan subscribe CTA i free-use cover vizual.
 
 - Ispravljena netačna formulacija u Atletiko preview-u: Arsenal nije prvi put među poslednja četiri, već igra drugo uzastopno polufinale i ukupno četvrto u Kupu šampiona/Ligi šampiona.
+
+- Dodat ispravan match report posle prvog meča protiv Atletiko Madrida u SR/EN/DE varijanti, na osnovu korisnikovog sirovog osvrta, uz ispravljen UTF-8 encoding srpskog fajla.
