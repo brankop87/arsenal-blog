@@ -48,25 +48,41 @@ export type Post = PostMeta & {
 export function getAllPosts(): PostMeta[] {
   if (!fs.existsSync(postsDir)) return []
   const files = fs.readdirSync(postsDir).filter((f) => f.endsWith('.md'))
-  const posts = files.map((filename): PostMeta => {
+  const posts = files.map((filename) => {
     const slug = filename.replace(/\.md$/, '')
-    const raw = fs.readFileSync(path.join(postsDir, filename), 'utf-8')
+    const filepath = path.join(postsDir, filename)
+    const raw = fs.readFileSync(filepath, 'utf-8')
     const { data } = matter(raw)
     return {
-      slug,
-      title: data.title ?? '',
-      excerpt: data.excerpt ?? '',
-      titleEn: data.titleEn ?? '',
-      excerptEn: data.excerptEn ?? '',
-      titleDe: data.titleDe ?? '',
-      excerptDe: data.excerptDe ?? '',
-      date: data.date ?? '',
-      category: data.category ?? 'vesti',
-      coverImage: data.coverImage ?? '',
-      featured: data.featured ?? false,
+      meta: {
+        slug,
+        title: data.title ?? '',
+        excerpt: data.excerpt ?? '',
+        titleEn: data.titleEn ?? '',
+        excerptEn: data.excerptEn ?? '',
+        titleDe: data.titleDe ?? '',
+        excerptDe: data.excerptDe ?? '',
+        date: data.date ?? '',
+        category: data.category ?? 'vesti',
+        coverImage: data.coverImage ?? '',
+        featured: data.featured ?? false,
+      } satisfies PostMeta,
+      modifiedAt: fs.statSync(filepath).mtimeMs,
     }
   })
-  return posts.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+
+  return posts
+    .sort((a, b) => {
+      const dateDiff = new Date(b.meta.date).getTime() - new Date(a.meta.date).getTime()
+      if (dateDiff !== 0) return dateDiff
+
+      if (a.meta.featured !== b.meta.featured) {
+        return Number(b.meta.featured) - Number(a.meta.featured)
+      }
+
+      return b.modifiedAt - a.modifiedAt
+    })
+    .map(({ meta }) => meta)
 }
 
 export function getPostsByCategory(cat: string): PostMeta[] {

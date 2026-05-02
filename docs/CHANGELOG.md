@@ -102,3 +102,5 @@
 
 - Dodat brzi Fulham post posle pobede od 3:0 kao kratki noćni update pred punu analizu.
 - Kreiran i ispeglan archive slug rsenal-fulham-matchday-preview u SR/EN/DE varijanti, uz bolji cover i ispravljen UTF-8 encoding srpskog teksta.
+
+- Sortiranje postova na naslovnoj pojačano je tako da kod istog datuma prednost imaju eatured tekstovi, a zatim novije izmene fajla, kako bi gotov report išao ispred starijeg preview-a.
