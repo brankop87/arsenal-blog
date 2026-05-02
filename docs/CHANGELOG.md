@@ -99,3 +99,6 @@
 - Ispravljena netačna formulacija u Atletiko preview-u: Arsenal nije prvi put među poslednja četiri, već igra drugo uzastopno polufinale i ukupno četvrto u Kupu šampiona/Ligi šampiona.
 
 - Dodat ispravan match report posle prvog meča protiv Atletiko Madrida u SR/EN/DE varijanti, na osnovu korisnikovog sirovog osvrta, uz ispravljen UTF-8 encoding srpskog fajla.
+
+- Dodat brzi Fulham post posle pobede od 3:0 kao kratki noćni update pred punu analizu.
+- Kreiran i ispeglan archive slug rsenal-fulham-matchday-preview u SR/EN/DE varijanti, uz bolji cover i ispravljen UTF-8 encoding srpskog teksta.

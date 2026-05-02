@@ -1,35 +1,24 @@
----
-title: "Arsenal protiv Fulhama — bez prava na kiks u završnici"
-excerpt: "Arsenal večeras mora da održi ritam i pritisak u ključnom delu sezone. Fulham možda nije najveće ime, ali ovakvi mečevi često odlučuju koliko si zaista spreman za kraj."
-
-titleEn: "Arsenal vs Fulham — no room for mistakes"
-excerptEn: "Arsenal must maintain momentum tonight as every point matters in the decisive final stretch of the season. Fulham may not be the biggest name, but these matches often define serious contenders."
-
-titleDe: "Arsenal gegen Fulham — kein Raum für Fehler"
-excerptDe: "Arsenal muss heute Abend Tempo und Druck aufrechterhalten. Fulham mag nicht der größte Name sein, doch genau solche Spiele entscheiden oft über den Saisonverlauf."
-
+﻿---
+title: "Arsenal pred Fulham-om: veče bez prava na opuštanje"
+excerpt: "Posle evropske napetosti protiv Atletika, Arsenal se vraća ligi i dočekuje Fulham u utakmici koja ne trpi pad koncentracije. Ovde se ne traži samo pobeda, nego i pravi odgovor ekipe koja juri trofej do poslednjih nedelja sezone."
+titleEn: "Arsenal ahead of Fulham: a night with no room to relax"
+excerptEn: "After the European tension against Atleti, Arsenal return to league duty against Fulham in a match that leaves no room for a drop in concentration. This is not only about a win, but about the right response from a team chasing a trophy deep into the run-in."
+titleDe: "Arsenal vor Fulham: ein Abend ohne Recht auf Nachlässigkeit"
+excerptDe: "Nach der europäischen Spannung gegen Atleti kehrt Arsenal in die Liga zurück und empfängt Fulham zu einem Spiel, das keinen Konzentrationsabfall verzeiht. Es geht nicht nur um einen Sieg, sondern um die richtige Antwort einer Mannschaft, die bis tief ins Saisonfinale einen Titel jagt."
 date: "2026-05-02"
-category: "utakmice"
-featured: true
+category: utakmice
+featured: false
 coverImage: "https://images.pexels.com/photos/274422/pexels-photo-274422.jpeg?auto=compress&cs=tinysrgb&w=1600"
 ---
 
-Arsenal večeras ulazi u još jedan meč koji na papiru možda ne nosi težinu evropske nokaut faze, ali u realnosti može imati ogroman značaj.
+Posle evropske tvrdoće i nervoze protiv Atletika, Arsenal se vraća Premijer ligi u utakmici koja na papiru možda ne nosi glamur polufinala, ali po težini bodova i te kako traži ozbiljnost. Fulham nije rival koji dolazi da se sam skloni sa puta, a Arsenal više nema luksuz da bilo kome poklanja dah, ritam ili bodove.
 
-U završnici sezone nema malih utakmica.
+Ovde se ne traži samo pobeda. Traži se reakcija tima koji mora da pokaže da ume da prebaci fokus sa Evrope na ligu bez pada energije i bez one aprilske stegnutosti koja je znala da pojede i bolju generaciju od ove.
 
-Fulham dolazi kao protivnik koji ume da kazni opuštanje, a upravo su ovakvi susreti često oni koji prave razliku između ozbiljnog kandidata i ekipe koja sama sebi komplikuje put.
+Prisustvo Bukaya Sake menja ton svakog Arsenalovog napada, a kada mu se doda napadač koji napada prostor bez čekanja, onda sve odmah deluje direktnije. Upravo zato će mnogo očiju opet biti na tome koliko će vezni red na vreme nalaziti Đokeresa i koliko će Arsenal imati hrabrosti da ne vrti loptu unedogled, nego da zada udarac kada se prostor otvori.
 
-Mikel Arteta će tražiti kontrolu od prvog minuta: posed, visok ritam i dovoljno konkretnosti da meč ne uđe u nepotrebnu nervozu.
+Fulham ume da kazni tim koji uđe meko ili previše siguran u sebe. Zato je ključ ove utakmice jednostavan: Arsenal mora da igra kao ekipa koja zna da joj i ovakvi mečevi grade titulu. Bez razmišljanja da će posao biti završen sam od sebe.
 
-Ključ večeri mogao bi biti brzina protoka lopte i sposobnost Arsenala da rano probije blok.
+Ako domaćin rano uhvati ritam, spoji krila sa centralom i ne ostavi rivalu da diše u miru, ovo može biti veče u kojem će Emirates opet gledati Arsenal sa spuštenom ručnom. A kada se to desi, malo ko na ostrvu izgleda prijatno preko puta.
 
-Navijači neće tražiti samo pobedu — tražiće sigurnost.
-
-Ako Arsenal želi da pošalje jasnu poruku u završnici, večeras mora izgledati kao tim koji zna šta juri.
-
-Tri boda nisu samo cilj.
-
-Ona su obaveza.
-
-Autor: B.
+_Autor: B._
