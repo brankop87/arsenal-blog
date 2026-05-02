@@ -104,3 +104,5 @@
 - Kreiran i ispeglan archive slug rsenal-fulham-matchday-preview u SR/EN/DE varijanti, uz bolji cover i ispravljen UTF-8 encoding srpskog teksta.
 
 - Sortiranje postova na naslovnoj pojačano je tako da kod istog datuma prednost imaju eatured tekstovi, a zatim novije izmene fajla, kako bi gotov report išao ispred starijeg preview-a.
+
+- Dodat puni Fulham report rsenal-fulham-najzad-pravo-poluvreme-na-emirejtsu u SR/EN/DE varijanti, kao detaljnija analiza posle kratkog noćnog update-a.
