@@ -106,3 +106,5 @@
 - Sortiranje postova na naslovnoj pojačano je tako da kod istog datuma prednost imaju eatured tekstovi, a zatim novije izmene fajla, kako bi gotov report išao ispred starijeg preview-a.
 
 - Dodat puni Fulham report rsenal-fulham-najzad-pravo-poluvreme-na-emirejtsu u SR/EN/DE varijanti, kao detaljnija analiza posle kratkog noćnog update-a.
+
+- Dodat novi pre-revans tekst 'Ponedeljak po meri Topdzija' u SR/EN/DE varijanti, kao most izmedju Fulham pobede, Cityjevog kiksa protiv Evertona i revanša sa Atletikom.
