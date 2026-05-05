@@ -8,7 +8,7 @@ Saka deserved that moment. He was decisive without overcomplicating things, inst
 
 Myles Lewis-Skelly added another important layer. He is still young and there is still plenty to learn, but the strength in his game is obvious. Next to Rice, he gives Arsenal a different kind of midfield edge, one built on duels, legs and courage. On nights like this, that matters.
 
-Arteta then did what Arteta often does and turned to the bench early enough to make everyone in the stands tense up. Saka off, Gyokeres off, new legs on. This time, though, the changes did not break the match open in the wrong direction. They brought fresh aggression and enough energy to stop Atletico from turning the night into a siege.
+Arteta then did what Arteta often does and turned to the bench early enough to make everyone in the stands tense up. Saka off, new legs on, and that familiar twist in the stomach. This time, though, one key detail changed the feeling: Gyokeres stayed on. It was the right call. The fresh legs did not break the match in the wrong direction, while Viktor remained the constant threat forcing Atletico's back line to stay tense until the end. The changes brought fresh aggression and enough energy to stop Atletico from turning the night into a siege.
 
 There is still room for criticism. Madueke had a moment where he waited for the bounce instead of attacking the ball before it dropped, and at this level that detail matters. It did not cost Arsenal, but those are exactly the clips that belong on the table in the next review.
 

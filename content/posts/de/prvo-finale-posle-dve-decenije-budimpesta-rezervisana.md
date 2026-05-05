@@ -8,7 +8,7 @@ Saka verdiente diesen Moment. Er war entschlossen, ohne zu viel zu verkomplizier
 
 Auch Myles Lewis-Skelly brachte eine wichtige zusätzliche Dimension. Er ist noch jung und hat noch viel zu lernen, aber die Härte in seinem Spiel ist klar zu sehen. Neben Rice gibt er Arsenal im Mittelfeld eine andere Art von Kante, gebaut aus Zweikämpfen, Beinen und Mut. In solchen Nächten zählt das.
 
-Dann machte Arteta das, was Arteta oft macht, und drehte früh genug an der Besetzung, damit auf den Rängen wieder dieses unangenehme Ziehen einsetzt. Saka raus, Gyokeres raus, neue Beine rein. Diesmal brachen die Wechsel das Spiel jedoch nicht auf die falsche Weise auf. Sie brachten frische Aggressivität und genug Energie, um Atletico nicht aus dem Abend eine Belagerung machen zu lassen.
+Dann machte Arteta das, was Arteta oft macht, und drehte früh genug an der Besetzung, damit auf den Rängen wieder dieses unangenehme Ziehen einsetzt. Saka raus, neue Beine rein und sofort dieses bekannte Ziehen im Magen. Diesmal lag der entscheidende Unterschied aber darin, dass Gyokeres draufblieb. Das war die richtige Entscheidung. Die frischen Beine brachen das Spiel nicht in die falsche Richtung auf, während Viktor als ständige Drohung Atleticos letzte Linie bis zum Ende unter Spannung hielt. So brachten die Wechsel frische Aggressivität und genug Energie, um aus dem Abend keine Belagerung werden zu lassen.
 
 Ganz ohne Kritik geht es trotzdem nicht. Madueke hatte eine Szene, in der er auf den Absprung wartete, statt den Ball vorher zu attackieren. Auf diesem Niveau zählt genau so ein Detail. Es kostete Arsenal nichts, aber genau solche Bilder gehören in die nächste Analyse.
 
