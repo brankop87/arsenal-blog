@@ -110,3 +110,5 @@
 - Dodat novi pre-revans tekst 'Ponedeljak po meri Topdzija' u SR/EN/DE varijanti, kao most izmedju Fulham pobede, Cityjevog kiksa protiv Evertona i revanša sa Atletikom.
 
 - Dodat veliki post-match tekst posle prolaza protiv Atletika u finale Lige šampiona, pod naslovom 'Prvo finale posle dve decenije: Budimpesta rezervisana', u SR/EN/DE varijanti.
+
+- Dodat novi West Ham report 'Opet pracka iz kolena: Trosar resava, Arsenal preziveo cekicarski haos' u SR/EN/DE varijanti.
