@@ -8,7 +8,7 @@ excerptDe: "Arsenal glänzte im London Stadium nicht, tat aber genau das, was ei
 date: "2026-05-10"
 category: utakmice
 featured: true
-coverImage: "https://images.pexels.com/photos/274422/pexels-photo-274422.jpeg?auto=compress&cs=tinysrgb&w=1600"
+coverImage: "https://images.pexels.com/photos/33826796/pexels-photo-33826796.jpeg?auto=compress&cs=tinysrgb&w=1600"
 ---
 
 Opet praćka iz kolena, opet Trosar rešava. Arsenal nije odigrao utakmicu za udžbenike, nije delovao bolje, nije sipao šanse, ali je uradio ono što trka za titulu traži od ekipe koja je na korak od nečega velikog: izdržao je, sačuvao živce i odneo meč koji je domaćinu bio potreban kao vazduh.
