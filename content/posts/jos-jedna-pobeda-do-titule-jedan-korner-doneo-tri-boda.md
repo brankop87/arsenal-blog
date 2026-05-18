@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Još jedna pobeda do titule: jedan korner doneo tri boda"
 excerpt: "Arsenal nije razbio Burnley kako je publika priželjkivala, ali je uzeo ono što mu je najvažnije: tri boda. Teško, ružno, nervozno i na momente mučno, ali sa Havertzom na pravom mestu i titulom koja je sada bliža za još jedan korak."
 titleEn: "One more win from the title: one corner brought three points"
@@ -9,7 +9,7 @@ date: "2026-05-18"
 publishedAt: "2026-05-18T22:45:00+02:00"
 category: utakmice
 featured: true
-coverImage: "https://images.pexels.com/photos/33826796/pexels-photo-33826796.jpeg?auto=compress&cs=tinysrgb&w=1600"
+coverImage: "https://images.pexels.com/photos/1884574/pexels-photo-1884574.jpeg?auto=compress&cs=tinysrgb&w=1600"
 ---
 
 Još jedna pobeda do titule. Jedan korner doneo je tri boda i Arsenal je uradio ono najvažnije, iako je sve opet izgledalo mnogo teže nego što je iko želeo. Kao za inat, baš onako kako smo najavljivali da je Siti ranije gurao svoje mečeve do minimalne pobede, tako je i Arsenal sada morao da žvaće jednu utakmicu koju je na papiru trebalo da učini mirnijom i lakšom.
