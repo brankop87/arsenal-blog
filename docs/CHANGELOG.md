@@ -112,3 +112,5 @@
 - Dodat veliki post-match tekst posle prolaza protiv Atletika u finale Lige šampiona, pod naslovom 'Prvo finale posle dve decenije: Budimpesta rezervisana', u SR/EN/DE varijanti.
 
 - Dodat novi West Ham report 'Opet pracka iz kolena: Trosar resava, Arsenal preziveo cekicarski haos' u SR/EN/DE varijanti.
+
+- Dodat novi Burnley preview 'Ponedeljak 18. i mec bez prava na milost' u SR/EN/DE varijanti, kao preview za pretposlednji premierligaski korak u trci za titulu.
