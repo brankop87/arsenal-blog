@@ -6,6 +6,7 @@ excerptEn: "Burnley may be bottom and written off, but that is exactly why match
 titleDe: "Montag, der 18., und ein Spiel ohne Platz für Gnade"
 excerptDe: "Burnley steht zwar ganz unten und wirkt abgeschrieben, doch genau deshalb können solche Spiele trügerisch sein. Arsenal ist auf dem Papier in jeder Hinsicht stärker, aber jetzt ist keine Zeit für Zögern oder Rechnen: Das Spiel muss am Hals gepackt und bis zum Ende festgehalten werden."
 date: "2026-05-18"
+publishedAt: "2026-05-18T08:00:00+02:00"
 category: utakmice
 featured: true
 coverImage: "https://images.pexels.com/photos/1884574/pexels-photo-1884574.jpeg?auto=compress&cs=tinysrgb&w=1600"

@@ -6,9 +6,10 @@ excerptEn: "Arsenal did not blow Burnley away the way the crowd had hoped, but t
 titleDe: "Noch ein Sieg bis zum Titel: Eine Ecke brachte drei Punkte"
 excerptDe: "Arsenal überrollte Burnley nicht so, wie es sich viele erhofft hatten, aber holte das Entscheidende: drei Punkte. Zäh, nervös und stellenweise unerquicklich, doch Havertz war im richtigen Moment da und der Titel ist nun einen Schritt näher."
 date: "2026-05-18"
+publishedAt: "2026-05-18T22:45:00+02:00"
 category: utakmice
 featured: true
-coverImage: "https://images.pexels.com/photos/159698/soccer-football-player-goal-keeper-159698.jpeg?auto=compress&cs=tinysrgb&w=1600"
+coverImage: "https://images.pexels.com/photos/33826796/pexels-photo-33826796.jpeg?auto=compress&cs=tinysrgb&w=1600"
 ---
 
 Još jedna pobeda do titule. Jedan korner doneo je tri boda i Arsenal je uradio ono najvažnije, iako je sve opet izgledalo mnogo teže nego što je iko želeo. Kao za inat, baš onako kako smo najavljivali da je Siti ranije gurao svoje mečeve do minimalne pobede, tako je i Arsenal sada morao da žvaće jednu utakmicu koju je na papiru trebalo da učini mirnijom i lakšom.

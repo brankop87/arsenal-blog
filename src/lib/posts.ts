@@ -36,6 +36,7 @@ export type PostMeta = {
   titleDe?: string
   excerptDe?: string
   date: string
+  publishedAt?: string
   category: Category
   coverImage: string
   featured: boolean
@@ -63,6 +64,7 @@ export function getAllPosts(): PostMeta[] {
         titleDe: data.titleDe ?? '',
         excerptDe: data.excerptDe ?? '',
         date: data.date ?? '',
+        publishedAt: data.publishedAt ?? '',
         category: data.category ?? 'vesti',
         coverImage: data.coverImage ?? '',
         featured: data.featured ?? false,
@@ -73,7 +75,9 @@ export function getAllPosts(): PostMeta[] {
 
   return posts
     .sort((a, b) => {
-      const dateDiff = new Date(b.meta.date).getTime() - new Date(a.meta.date).getTime()
+      const bPublishedAt = b.meta.publishedAt || b.meta.date
+      const aPublishedAt = a.meta.publishedAt || a.meta.date
+      const dateDiff = new Date(bPublishedAt).getTime() - new Date(aPublishedAt).getTime()
       if (dateDiff !== 0) return dateDiff
 
       if (a.meta.featured !== b.meta.featured) {
@@ -104,6 +108,7 @@ export async function getPostBySlug(slug: string): Promise<Post | null> {
     titleDe: data.titleDe ?? '',
     excerptDe: data.excerptDe ?? '',
     date: data.date ?? '',
+    publishedAt: data.publishedAt ?? '',
     category: data.category ?? 'vesti',
     coverImage: data.coverImage ?? '',
     featured: data.featured ?? false,

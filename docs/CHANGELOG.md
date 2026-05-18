@@ -116,3 +116,4 @@
 - Dodat novi Burnley preview 'Ponedeljak 18. i mec bez prava na milost' u SR/EN/DE varijanti, kao preview za pretposlednji premierligaski korak u trci za titulu.
 
 - Dodat novi Burnley post-match tekst 'Jos jedna pobeda do titule: jedan korner doneo tri boda' u SR/EN/DE varijanti.
+- Uveden `publishedAt` sort fallback za postove istog datuma, kako bi report i preview istog dana imali stabilan redosled na naslovnoj, a Burnley report dobio ispravan cover umesto prazne crne kartice.
