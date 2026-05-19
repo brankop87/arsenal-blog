@@ -9,7 +9,7 @@ date: "2026-05-19"
 publishedAt: "2026-05-19T22:15:00+02:00"
 category: utakmice
 featured: true
-coverImage: "https://images.pexels.com/photos/260447/pexels-photo-260447.jpeg?auto=compress&cs=tinysrgb&w=1600"
+coverImage: "/media/arsenal/arsenal-champions-team-2026.png"
 ---
 
 Arsenal je šampion posle 22 godine. Kakvo veče za Topdžije, kakvo slavlje i kakvo olakšanje posle svega što je ovaj tim prošao na putu do 14. titule.
