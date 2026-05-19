@@ -117,3 +117,7 @@
 
 - Dodat novi Burnley post-match tekst 'Jos jedna pobeda do titule: jedan korner doneo tri boda' u SR/EN/DE varijanti.
 - Uveden `publishedAt` sort fallback za postove istog datuma, kako bi report i preview istog dana imali stabilan redosled na naslovnoj, a Burnley report dobio ispravan cover umesto prazne crne kartice.
+
+## 2026-05-19
+- Added championship reaction post after Arsenal won the Premier League following Bournemouth's draw with Manchester City.
+
