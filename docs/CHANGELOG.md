@@ -1,7 +1,8 @@
 # Changelog
 
 ## 2026-05-24
-- Dodat novi kratki Arsenal preview tekst `najzad-samo-fudbal-poslednji-mec-bez-grca-i-racunice` u SR/EN/DE varijanti, kao rastereÄ‡en uvod u poslednji ligaÅ¡ki meÄ posle osvajanja titule.
+- Dodat novi kratki Arsenal preview tekst `najzad-samo-fudbal-poslednji-mec-bez-grca-i-racunice` u SR/EN/DE varijanti, kao rasterecen uvod u poslednji ligaski mec posle osvajanja titule.
+- Dodat novi Arsenal post-match tekst `kraj-sezone-sa-pobedom-pehar-je-najzad-kuci` u SR/EN/DE varijanti, kao zavrsni ligaski report posle pobede nad Crystal Palaceom i podizanja pehara.
 
 ## 2026-04-25
 

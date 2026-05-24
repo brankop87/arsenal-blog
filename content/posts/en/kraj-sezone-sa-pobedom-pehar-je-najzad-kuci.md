@@ -1,0 +1,15 @@
+The season ended with a win. Not the kind of win that twists your stomach and makes you measure every second against the table, but the kind that arrives as the final full stop on a huge year. From the opening minutes it was obvious there was not much competitive blood left in this one. The game felt softer, calmer and short on urgency. Realistically, it would probably have looked very different if Manchester City had not dropped the title on Tuesday, May 19, 2026 with that draw against Bournemouth when most expected them to win.
+
+That is why the match itself felt more like a closing scene than a fresh battle. Arsenal did the job, took the three points and rounded the season off with a 2-1 win over Crystal Palace. Goals from Gabriel Jesus and Noni Madueke were enough to carry it home without disturbing the celebratory rhythm of an afternoon that was always going to belong to something bigger than the game itself.
+
+Arsenal could easily have had more. Gyokeres finished just wide of the post, and shortly after that he might have picked up an assist too, only for Eze to miss the target. After a brilliant Martinelli surge, Havertz also had a moment to leave a bigger mark, but his approach mirrored much of the game itself: light, slow and a little too casual for a striker who still has to show sharper hunger in those situations. Whether that deserves forgiveness or criticism is open for debate, but one thing is clear: that kind of nonchalance cannot become a habit.
+
+Still, there is no need to pull the match apart like so many others this season. The main truth is much bigger and much better than that. Arsenal finished the campaign with a win, and then lifted the trophy after 22 years. That moment wiped away so much anxiety, doubt, dropped points and all the weeks when it felt as if this club was circling the same old pain again. It felt like old times. At last, it is home, exactly where it belongs.
+
+Arteta spoke afterwards about both emotion and relief, and you could see that long before any quote was written down. Sky also carried his message that the team showed "incredible commitment and courage", and it is hard to find a cleaner summary of the season than that. There was everything in this campaign, but the group stood up to it. By the end, the players were throwing their manager into the air while Selhurst Park watched Arsenal celebrate as champions, which may be the single best image of the day.
+
+So this really is a moment for gratitude. Thank you to the players, thank you to Arteta, and a special thank you to the medical staff, who worked with more calm and control this year than in many previous seasons. If we are being honest, that is one of the important reasons Arsenal are where they are now.
+
+But the emotional full stop has not arrived just yet. All eyes now turn to Friday, May 30, 2026. That date is getting closer, and with it comes the chance for this team to turn a great season into a historic one.
+
+Stay with us, follow along and subscribe so the most important updates arrive straight in your inbox.
