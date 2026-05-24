@@ -1,4 +1,7 @@
-﻿# Changelog
+# Changelog
+
+## 2026-05-24
+- Dodat novi kratki Arsenal preview tekst `najzad-samo-fudbal-poslednji-mec-bez-grca-i-racunice` u SR/EN/DE varijanti, kao rastereÄ‡en uvod u poslednji ligaÅ¡ki meÄ posle osvajanja titule.
 
 ## 2026-04-25
 
@@ -96,20 +99,20 @@
 
 - Dodat novi preview tekst za prvo polufinale protiv Atletiko Madrida u SR/EN/DE varijanti, uz suptilan subscribe CTA i free-use cover vizual.
 
-- Ispravljena netačna formulacija u Atletiko preview-u: Arsenal nije prvi put među poslednja četiri, već igra drugo uzastopno polufinale i ukupno četvrto u Kupu šampiona/Ligi šampiona.
+- Ispravljena netaÃ„Âna formulacija u Atletiko preview-u: Arsenal nije prvi put meÃ„â€˜u poslednja Ã„Âetiri, veÃ„â€¡ igra drugo uzastopno polufinale i ukupno Ã„Âetvrto u Kupu Ã…Â¡ampiona/Ligi Ã…Â¡ampiona.
 
-- Dodat ispravan match report posle prvog meča protiv Atletiko Madrida u SR/EN/DE varijanti, na osnovu korisnikovog sirovog osvrta, uz ispravljen UTF-8 encoding srpskog fajla.
+- Dodat ispravan match report posle prvog meÃ„Âa protiv Atletiko Madrida u SR/EN/DE varijanti, na osnovu korisnikovog sirovog osvrta, uz ispravljen UTF-8 encoding srpskog fajla.
 
-- Dodat brzi Fulham post posle pobede od 3:0 kao kratki noćni update pred punu analizu.
+- Dodat brzi Fulham post posle pobede od 3:0 kao kratki noÃ„â€¡ni update pred punu analizu.
 - Kreiran i ispeglan archive slug rsenal-fulham-matchday-preview u SR/EN/DE varijanti, uz bolji cover i ispravljen UTF-8 encoding srpskog teksta.
 
-- Sortiranje postova na naslovnoj pojačano je tako da kod istog datuma prednost imaju eatured tekstovi, a zatim novije izmene fajla, kako bi gotov report išao ispred starijeg preview-a.
+- Sortiranje postova na naslovnoj pojaÃ„Âano je tako da kod istog datuma prednost imaju eatured tekstovi, a zatim novije izmene fajla, kako bi gotov report iÃ…Â¡ao ispred starijeg preview-a.
 
-- Dodat puni Fulham report rsenal-fulham-najzad-pravo-poluvreme-na-emirejtsu u SR/EN/DE varijanti, kao detaljnija analiza posle kratkog noćnog update-a.
+- Dodat puni Fulham report rsenal-fulham-najzad-pravo-poluvreme-na-emirejtsu u SR/EN/DE varijanti, kao detaljnija analiza posle kratkog noÃ„â€¡nog update-a.
 
-- Dodat novi pre-revans tekst 'Ponedeljak po meri Topdzija' u SR/EN/DE varijanti, kao most izmedju Fulham pobede, Cityjevog kiksa protiv Evertona i revanša sa Atletikom.
+- Dodat novi pre-revans tekst 'Ponedeljak po meri Topdzija' u SR/EN/DE varijanti, kao most izmedju Fulham pobede, Cityjevog kiksa protiv Evertona i revanÃ…Â¡a sa Atletikom.
 
-- Dodat veliki post-match tekst posle prolaza protiv Atletika u finale Lige šampiona, pod naslovom 'Prvo finale posle dve decenije: Budimpesta rezervisana', u SR/EN/DE varijanti.
+- Dodat veliki post-match tekst posle prolaza protiv Atletika u finale Lige Ã…Â¡ampiona, pod naslovom 'Prvo finale posle dve decenije: Budimpesta rezervisana', u SR/EN/DE varijanti.
 
 - Dodat novi West Ham report 'Opet pracka iz kolena: Trosar resava, Arsenal preziveo cekicarski haos' u SR/EN/DE varijanti.
 
