@@ -4,6 +4,10 @@
 - Dodat novi kratki Arsenal preview tekst `najzad-samo-fudbal-poslednji-mec-bez-grca-i-racunice` u SR/EN/DE varijanti, kao rasterecen uvod u poslednji ligaski mec posle osvajanja titule.
 - Dodat novi Arsenal post-match tekst `kraj-sezone-sa-pobedom-pehar-je-najzad-kuci` u SR/EN/DE varijanti, kao zavrsni ligaski report posle pobede nad Crystal Palaceom i podizanja pehara.
 
+## 2026-05-31
+- Dodat novi Arsenal tekst `arsenal-psg-finale-penali-gorak-kraj-velike-sezone` u SR/EN/DE varijanti, kao veliki post-match osvrt posle poraza od PSG-a na penale u finalu Lige sampiona.
+- Dodat lokalni cover `public/media/arsenal/gabriel-ucl-final-heartbreak-2026.jpeg` za taj tekst, na osnovu korisnikove dostavljene slike.
+
 ## 2026-04-25
 
 ### Subscribe / Newsletter
