@@ -129,3 +129,7 @@
 ## 2026-05-19
 - Added championship reaction post after Arsenal won the Premier League following Bournemouth's draw with Manchester City.
 
+
+## 2026-09-06
+- Dodat novi Arsenal match report `arsenal-chelsea-preokret-tri-od-tri` u SR/EN/DE meta varijanti, posle pobede od 2:1 nad Chelseajem na Emirejtsu.
+- Dodat lokalni, optimizovan cover Kaija Havertza iz Wikimedia Commons, uz propisanu CC BY-SA 4.0 atribuciju u clanku.
